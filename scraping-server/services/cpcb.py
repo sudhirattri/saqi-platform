@@ -1,11 +1,13 @@
 
-from datetime import datetime
+from datetime import datetime, timedelta
 import imp
 import json
 import base64
 from . import localdb
 from config import cpcb_config
 import requests
+from datetime import datetime
+import copy
 
 def get_csv(data):
     pass
@@ -38,7 +40,7 @@ def run_job(job):
         }
         response = requests.request("POST", url, headers=headers, data=request_payload_base64)
         print(response.text)
-        
+
     elif(job['stages'][current_stage]['name']=='acquisition'):
         pass
     elif(job['stages'][current_stage]['name']=='pre_process'):
@@ -50,50 +52,32 @@ def run_job(job):
     else:
         print("Invalid current stage")
 
+        # "fromDate": "11-03-2022 T00:00:00Z",
+        # "toDate": "12-03-2022 T17:21:59Z",
 def add_job():
+    localdb.init_db()
     db = localdb.getdb()
     jobs = db.table('jobs')
-    jobs.insert({
-        "status":"A",
-        "last_run":str(datetime.now()),
-        "name" : "test job",
-        "system" : "cpcb",
-        "current_stage" : 0,
-        "stages" : [
-            {
-                "name" : "acquisition",
-                "comment" : "na",
-                "retries_left" : 5,
-                "data": {
-                    "state": "Delhi",
-                    "city": "Delhi",
-                    "station": "site_1428",
-                    "locationIRI": "Narela",
-                    "from_date" : "",
-                    "to_date" : "",
-                }
-            },
-            {
-                "name" : "pre_process",
-                "comment" : "na",
-                "retries_left" : 5,
-                "data": {
-                }
-            },
-            {
-                "name" : "mapping",
-                "comment" : "na",
-                "retries_left" : 5,
-                "data": {
-                }
-            },
-            {
-                "name" : "upload",
-                "comment" : "na",
-                "retries_left" : 5,
-                "data": {
-                }
-            },
-        ]
-    })
+
+    print("Adding cpcb jobs")
+
+    current_datetime = datetime.utcnow().strftime("%d-%m-%Y T%H:%M:%SZ")
+    last_hour_datetime = (datetime.utcnow() - timedelta(hours = 1)).strftime("%d-%m-%Y T%H:%M:%SZ")
+    
+    print(current_datetime)
+    print(last_hour_datetime)
+
+    locations = cpcb_config.locations
+    for loc in locations:
+        job_template = copy.deepcopy(cpcb_config.job_template)
+        job_template["last_run"] = str(datetime.now())
+        job_template['stages'][0]["data"]["from_date"] = current_datetime
+        job_template['stages'][0]["data"]["to_date"] = last_hour_datetime
+        job_template['stages'][0]["data"]["state"] = loc["state"]
+        job_template['stages'][0]["data"]["city"] = loc["city"]
+        job_template['stages'][0]["data"]["station"] = loc["station"]
+        job_template['stages'][0]["data"]["locationIRI"] = loc["locationIRI"]
+        jobs.insert(job_template)
+
+
 
