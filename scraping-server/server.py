@@ -5,6 +5,7 @@ from django.urls import include, re_path
 from django.conf import settings
 from django.http import HttpResponse
 import logging
+# import django_heroku
 
 # Django Config
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", __name__)
@@ -14,6 +15,9 @@ settings.configure(
     DEBUG=True,
     SECRET_KEY='owowowowowowowowowowowowowow',
     ROOT_URLCONF=__name__,
+    MIDDLEWARE = [
+        'django.middleware.common.CommonMiddleware',
+    ],
     MIDDLEWARE_CLASSES=(
         'django.middleware.common.CommonMiddleware',
     ),
@@ -99,6 +103,8 @@ urlpatterns = (
     re_path('', include('services.urls')),
     re_path('scripts',include('scripts.urls')),
 )
+
+# django_heroku.settings(locals())
 
 if __name__ == "__main__":
     from django.core.management import execute_from_command_line
