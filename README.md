@@ -1,1 +1,1 @@
-# saqi-web
+# saqi-platform
