@@ -1,1 +1,40 @@
-{"_default": {}, "jobs": {"1": {"status": "A", "last_run": "2022-03-13 20:51:01.319042", "name": "test job", "system": "cpcb", "current_stage": 0, "stages": [{"name": "acquisition", "comment": "na", "retries_left": 5, "data": {"state": "Delhi", "city": "Delhi", "station": "site_1428", "locationIRI": "Narela", "from_date": "13-03-2022 T15:21:01Z", "to_date": "13-03-2022 T14:21:01Z"}}, {"name": "pre_process", "comment": "na", "retries_left": 5, "data": {}}, {"name": "mapping", "comment": "na", "retries_left": 5, "data": {}}, {"name": "upload", "comment": "na", "retries_left": 5, "data": {}}]}}}
+{
+    "_default": {},
+    "jobs": {
+        "1": {
+            "status": "A",
+            "last_run": "2022-03-14 01:30:00.333533",
+            "name": "test job",
+            "system": "cpcb",
+            "current_stage": 0,
+            "stages": [{
+                "name": "acquisition",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {
+                    "state": "Delhi",
+                    "city": "Delhi",
+                    "station": "site_1428",
+                    "locationIRI": "Narela",
+                    "from_date": "13-03-2022 T16:00:00Z",
+                    "to_date": "13-03-2022 T20:00:00Z"
+                }
+            }, {
+                "name": "pre_process",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {}
+            }, {
+                "name": "mapping",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {}
+            }, {
+                "name": "upload",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {}
+            }]
+        }
+    }
+}
