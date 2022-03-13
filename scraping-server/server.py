@@ -1,4 +1,3 @@
-from copyreg import constructor
 import os
 import sys
 
@@ -6,10 +5,6 @@ from django.urls import include, re_path
 from django.conf import settings
 from django.http import HttpResponse
 import logging
-
-# Load routes
-import scripts
-import services
 
 # Django Config
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", __name__)
@@ -30,12 +25,12 @@ settings.configure(
     INSTALLED_APPS = [
         'django_crontab',
     ],
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    },
+    # DATABASES = {
+    #     'default': {
+    #         'ENGINE': 'django.db.backends.sqlite3',
+    #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    #     }
+    # },
     CRONJOBS = [
     ('* * * * *', 'services.scheduler.my_cron_job')
     ],
@@ -96,17 +91,14 @@ settings.configure(
     }
 )
 
-def root(request):
-    return HttpResponse('Hello World')
-
-urlpatterns = (
-    re_path(r'^$', include('services.urls')),
-    re_path(r'^scripts',include('scripts.urls')),
-)
-
 # # Initialize DBs
 logger = logging.getLogger('server')
 logger.info("base dir: " + BASE_DIR)
+
+urlpatterns = (
+    re_path('', include('services.urls')),
+    re_path('scripts',include('scripts.urls')),
+)
 
 if __name__ == "__main__":
     from django.core.management import execute_from_command_line
