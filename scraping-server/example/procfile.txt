@@ -1,1 +1,0 @@
-web: java -jar rdf-store-server/fuseki-server.java
