@@ -1,1 +1,2 @@
 web: java -jar rdf-store-server/fuseki-server.java
+web: cd ./rdf-store-server && java -jar fuseki-server.jar
