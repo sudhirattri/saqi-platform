@@ -1,10 +1,13 @@
 
 from datetime import datetime, timedelta
+from distutils.command import config
 import imp
 import json
 import base64
 from . import localdb
-from config import cpcb_config
+
+from . import cpcb_config
+
 import requests
 from datetime import datetime
 import copy
