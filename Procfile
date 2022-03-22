@@ -1,1 +1,1 @@
-web: cd ./rdf-store-server && java -jar fuseki-server.jar
+web: cd ./rdf-store-server/bin && ./startup.sh
