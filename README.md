@@ -11,9 +11,9 @@
 ### Steps to deploy
 #### Add heroku git remotes
  ```
-heroku git:remote -a https://git.heroku.com/saqi-platform.git
+heroku git:remote -a saqi-platform
 git remote rename heroku platform
-heroku git:remote -a https://git.heroku.com/saqi-rdfstore.git
+heroku git:remote -a saqi-rdfstore
 git remote rename heroku rdfstore
 ```
 
