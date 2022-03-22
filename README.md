@@ -9,4 +9,28 @@
 - Triple store is deployed in seperate jvm app using https://github.com/heroku/webapp-runner at - https://saqi-rdfstore.herokuapp.com/
 
 ### Steps to deploy
-- Add heroku remote and push respective branch (will add cmmds later)
+#### Add heroku git remotes
+ ```
+heroku git:remote -a https://git.heroku.com/saqi-platform.git
+git remote rename heroku platform
+heroku git:remote -a https://git.heroku.com/saqi-rdfstore.git
+git remote rename heroku rdfstore
+```
+
+#### Push to remote
+```
+git push -f rdfstore triple-store-proc:main
+git push -f platform main:main
+```
+
+### Deploy WAR file
+Install heroku java
+```
+heroku plugins:install java
+```
+
+upload WAR file with app name
+```
+heroku deploy:war fuseki.war -a saqi-rdfstore
+```
+
