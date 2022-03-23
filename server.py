@@ -2,6 +2,7 @@ import os
 import sys
 
 from django.urls import include, re_path
+from django.conf.urls.static import static
 from django.conf import settings
 from django.http import HttpResponse
 import logging
@@ -23,6 +24,8 @@ settings.configure(
     ),
     BASE_DIR=BASE_DIR,
     ALLOWED_HOSTS = ['*'],
+    STATIC_URL = 'static/',
+    STATIC_ROOT = 'static',
     STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
     ),
@@ -93,17 +96,16 @@ settings.configure(
             },
         },
     },
-    WSGI_APPLICATION = 'saqi-platform.wsgi.application'
 )
 
 # # Initialize DBs
 logger = logging.getLogger('server')
 logger.info("base dir: " + BASE_DIR)
 
-urlpatterns = (
+urlpatterns = [
     re_path('', include('scraping-server.services.urls')),
     re_path('scripts',include('scraping-server.scripts.urls')),
-)
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 # django_heroku.settings(locals())
 
