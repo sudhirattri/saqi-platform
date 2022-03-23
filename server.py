@@ -1,11 +1,13 @@
 import os
 import sys
 
-from django.urls import include, re_path
+from django.urls import include, re_path, path
 from django.conf.urls.static import static
 from django.conf import settings
 from django.http import HttpResponse
 import logging
+
+from django.views.generic import RedirectView
 # import django_heroku
 
 # Django Config
@@ -24,7 +26,7 @@ settings.configure(
     ),
     BASE_DIR=BASE_DIR,
     ALLOWED_HOSTS = ['*'],
-    STATIC_URL = 'static/',
+    STATIC_URL = '/',
     STATIC_ROOT = 'static',
     STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
@@ -102,10 +104,17 @@ settings.configure(
 logger = logging.getLogger('server')
 logger.info("base dir: " + BASE_DIR)
 
+def redirect_to_index(request):
+    response = redirect('/index.html')
+    return response
+
 urlpatterns = [
-    re_path('', include('scraping-server.services.urls')),
+    path('',redirect_to_index),
+    re_path('api', include('scraping-server.services.urls')),
     re_path('scripts',include('scraping-server.scripts.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+from django.shortcuts import redirect
 
 # django_heroku.settings(locals())
 
