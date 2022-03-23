@@ -8,11 +8,22 @@
 - Main branch contains scraping, cron jobs and platform interface code, deployed at this link - https://saqi-platform.herokuapp.com/
 - Triple store is deployed in seperate jvm app using https://github.com/heroku/webapp-runner at - https://saqi-rdfstore.herokuapp.com/
 
-### Steps to Build
+### Steps to Test and Run
+Run django app
+ ```
+python server.py runserver
+ ```
 Run React app locally
  ```
  npm --prefix frontend run dev
  ```
+Run fuseki server
+ ```
+./fuseki-server
+ ```
+ 
+### Steps to Build
+
 Build React app
  ```
 sh ./ssg.sh
