@@ -41,6 +41,6 @@ heroku plugins:install java
 
 upload WAR file with app name
 ```
-heroku deploy:war fuseki.war -a saqi-rdfstore
+heroku deploy:war fuseki.war -a saqi-rdfstore --includes ./fuseki_base/shiro.ini
 ```
 
