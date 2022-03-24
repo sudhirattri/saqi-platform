@@ -4,7 +4,6 @@ from distutils.command import config
 import imp
 import json
 import base64
-import turtle
 from . import localdb
 
 from . import cpcb_config
