@@ -1,4 +1,5 @@
 import os
+from pickle import TRUE
 import sys
 
 from django.urls import include, re_path, path
@@ -34,7 +35,7 @@ settings.configure(
     INSTALLED_APPS = [
         'django_crontab',
     ],
-    PROD = True,
+    PROD = TRUE,
     # DATABASES = {
     #     'default': {
     #         'ENGINE': 'django.db.backends.sqlite3',

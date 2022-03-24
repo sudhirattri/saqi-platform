@@ -144,7 +144,7 @@ def run_job(job):
         with open(copy_map_file, "w") as f:
             f.write(mapping_text)
 
-        rml_mapper_jar = os.path.join(os.path.dirname(__file__), './../mappings/rmlmapper-5.0.0-r362-all.jar')
+        rml_mapper_jar = os.path.join(os.path.dirname(__file__), './../mappings/rmlmapper-4.15.0-r361-all.jar')
         
         rdf_file_name = os.path.abspath(os.path.join(os.path.dirname(__file__), './../data/turtle/'+ csv_file_name +'.turtle'))
 
