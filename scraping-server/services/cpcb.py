@@ -107,6 +107,15 @@ def run_job(job):
             'stages':job['stages']
             },
             doc_ids=[job.doc_id])
+        response = {
+            "ran_at":str(datetime.now()),
+            "comment":"acquisition done",
+            "locationIRI":stage_data["locationIRI"],
+            "from_date": stage_data["from_date"],
+            "to_date": stage_data["to_date"],
+            "csv_file":csv_file
+        }
+        return response
 
     elif(job['stages'][current_stage]['name']=='pre_process'):
         print("In pre process")
@@ -127,6 +136,15 @@ def run_job(job):
             'stages':job['stages']
             },
             doc_ids=[job.doc_id])
+        response = {
+            "ran_at":str(datetime.now()),
+            "comment":"preprocess done",
+            "locationIRI":stage_data["locationIRI"],
+            "from_date": stage_data["from_date"],
+            "to_date": stage_data["to_date"],
+            "csv_file":csv_file
+        }
+        return response
 
     elif(job['stages'][current_stage]['name']=='mapping'):
         stage_data = job['stages'][current_stage]["data"]
@@ -171,6 +189,16 @@ def run_job(job):
             'stages':job['stages']
             },
             doc_ids=[job.doc_id])
+        response = {
+            "ran_at":str(datetime.now()),
+            "comment":"mapping done",
+            "locationIRI":stage_data["locationIRI"],
+            "from_date": stage_data["from_date"],
+            "to_date": stage_data["to_date"],
+            "csv_file":stage_data["csv_file"],
+            "turtle_file": rdf_file_name
+        }
+        return response
 
     elif(job['stages'][current_stage]['name']=='upload'):
         stage_data = job['stages'][current_stage]["data"]
@@ -190,24 +218,39 @@ def run_job(job):
             }
             print("Sending turtle payload")
             response = requests.request("POST",rdf_store_url,headers=headers, data=turtle_data)
+            response_json = json.loads(response.text)
             print(response.text)
+            if(response_json is not None and response_json["count"]>0):
+                db = localdb.getdb()
+                jobs = db.table('jobs')
+                jobs.update({
+                    'last_run': str(datetime.now()),
+                    'current_stage':str(current_stage+1),
+                    'status':'S'
+                    },
+                    doc_ids=[job.doc_id])
+            else:
+                raise Exception("Non zero triples uploaded to graph")
 
-            db = localdb.getdb()
-            jobs = db.table('jobs')
-            jobs.update({
-                'last_run': str(datetime.now()),
-                'current_stage':str(current_stage+1),
-                'status':'S'
-                },
-                doc_ids=[job.doc_id])
-
+        response = {
+            "ran_at":str(datetime.now()),
+            "comment":"upload done",
+            "rdf_store_url": rdf_store_url,
+            "turtle_file": stage_data['turtle_file'],
+            "triple_store_response":response.text
+        }
+        return response
     else:
         print("Invalid current stage")
 
         # "fromDate": "11-03-2022 T00:00:00Z",
         # "toDate": "12-03-2022 T17:21:59Z",
 def add_job():
-    # localdb.init_db()
+    response = {
+        "added_at":str(datetime.now()),
+        "comment":"added cpcb jobs",
+        "jobs" : []
+    }
     db = localdb.getdb()
     jobs = db.table('jobs')
 
@@ -233,6 +276,14 @@ def add_job():
         job_template['stages'][0]["data"]["station"] = loc["station"]
         job_template['stages'][0]["data"]["locationIRI"] = loc["locationIRI"]
         jobs.insert(job_template)
+
+        response["jobs"].append({
+            "from_date":past_datetime_str,
+            "to_date":current_datetime_str,
+            "locationIRI":loc["locationIRI"]
+        })
+
+    return response
 
 
 
