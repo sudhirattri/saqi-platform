@@ -55,3 +55,17 @@ upload WAR file with app name
 heroku deploy:war fuseki.war -a saqi-rdfstore --includes ./fuseki_base/shiro.ini
 ```
 
+### API Documentation
+- base URL - https://saqi-platform.herokuapp.com/api
+- Server status 
+```
+saqi-platform.herokuapp.com/api
+```
+- Add jobs manually
+```
+saqi-platform.herokuapp.com/api/add
+```
+- Run pending jobs
+```
+saqi-platform.herokuapp.com/api/run
+```
