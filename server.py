@@ -34,6 +34,7 @@ settings.configure(
     INSTALLED_APPS = [
         'django_crontab',
     ],
+    PROD = True,
     # DATABASES = {
     #     'default': {
     #         'ENGINE': 'django.db.backends.sqlite3',

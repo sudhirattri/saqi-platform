@@ -1,0 +1,422 @@
+@prefix : <http://mapping.example.com/> .
+@prefix aq: <http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+aq:gp_Okhla24-Mar-2022%20-%2000%3A15 a aq:GaseousPollutant;
+  aq:ammoniaConcentration "30.7";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:15" .
+
+aq:gp_Okhla24-Mar-2022%20-%2000%3A30 a aq:GaseousPollutant;
+  aq:ammoniaConcentration "33.9";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:30" .
+
+aq:gp_Okhla24-Mar-2022%20-%2000%3A45 a aq:GaseousPollutant;
+  aq:ammoniaConcentration "33.5";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:45" .
+
+aq:gp_Okhla24-Mar-2022%20-%2001%3A00 a aq:GaseousPollutant;
+  aq:ammoniaConcentration "35.1";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:00" .
+
+aq:gp_Okhla24-Mar-2022%20-%2001%3A15 a aq:GaseousPollutant;
+  aq:ammoniaConcentration "43.4";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:15" .
+
+aq:gp_Okhla24-Mar-2022%20-%2001%3A30 a aq:GaseousPollutant;
+  aq:ammoniaConcentration "50.8";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:30" .
+
+aq:gp_Okhla24-Mar-2022%20-%2001%3A45 a aq:GaseousPollutant;
+  aq:ammoniaConcentration "59.9";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:45" .
+
+aq:hc_Okhla24-Mar-2022%20-%2000%3A15 a aq:Hydrocarbon;
+  aq:benzeneConcentration "8.3";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 00:15";
+  aq:tolueneConcentration "122.0" .
+
+aq:hc_Okhla24-Mar-2022%20-%2000%3A30 a aq:Hydrocarbon;
+  aq:benzeneConcentration "7.9";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 00:30";
+  aq:tolueneConcentration "119.1" .
+
+aq:hc_Okhla24-Mar-2022%20-%2000%3A45 a aq:Hydrocarbon;
+  aq:benzeneConcentration "7.9";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 00:45";
+  aq:tolueneConcentration "120.3" .
+
+aq:hc_Okhla24-Mar-2022%20-%2001%3A00 a aq:Hydrocarbon;
+  aq:benzeneConcentration "8.0";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 01:00";
+  aq:tolueneConcentration "124.0" .
+
+aq:hc_Okhla24-Mar-2022%20-%2001%3A15 a aq:Hydrocarbon;
+  aq:benzeneConcentration "8.2";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 01:15";
+  aq:tolueneConcentration "132.0" .
+
+aq:hc_Okhla24-Mar-2022%20-%2001%3A30 a aq:Hydrocarbon;
+  aq:benzeneConcentration "8.8";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 01:30";
+  aq:tolueneConcentration "154.9" .
+
+aq:hc_Okhla24-Mar-2022%20-%2001%3A45 a aq:Hydrocarbon;
+  aq:benzeneConcentration "9.5";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 01:45";
+  aq:tolueneConcentration "175.2" .
+
+aq:mc_Okhla24-Mar-2022%20-%2000%3A15 a aq:MeteorologicalCharacterstic;
+  aq:bPressure "981.6";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:15";
+  aq:precipitation "981.6";
+  aq:relativeHumidity "51.3";
+  aq:solarRadiation "4.1" .
+
+aq:mc_Okhla24-Mar-2022%20-%2000%3A30 a aq:MeteorologicalCharacterstic;
+  aq:bPressure "981.6";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:30";
+  aq:precipitation "981.6";
+  aq:relativeHumidity "52.8";
+  aq:solarRadiation "4.1" .
+
+aq:mc_Okhla24-Mar-2022%20-%2000%3A45 a aq:MeteorologicalCharacterstic;
+  aq:bPressure "981.5";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:45";
+  aq:precipitation "981.5";
+  aq:relativeHumidity "53.5";
+  aq:solarRadiation "4.1" .
+
+aq:mc_Okhla24-Mar-2022%20-%2001%3A00 a aq:MeteorologicalCharacterstic;
+  aq:bPressure "981.2";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:00";
+  aq:precipitation "981.2";
+  aq:relativeHumidity "54.3";
+  aq:solarRadiation "4.1" .
+
+aq:mc_Okhla24-Mar-2022%20-%2001%3A15 a aq:MeteorologicalCharacterstic;
+  aq:bPressure "981.1";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:15";
+  aq:precipitation "981.1";
+  aq:relativeHumidity "55.0";
+  aq:solarRadiation "4.1" .
+
+aq:mc_Okhla24-Mar-2022%20-%2001%3A30 a aq:MeteorologicalCharacterstic;
+  aq:bPressure "980.9";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:30";
+  aq:precipitation "980.9";
+  aq:relativeHumidity "55.1";
+  aq:solarRadiation "4.2" .
+
+aq:mc_Okhla24-Mar-2022%20-%2001%3A45 a aq:MeteorologicalCharacterstic;
+  aq:bPressure "980.8";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:45";
+  aq:precipitation "980.8";
+  aq:relativeHumidity "54.6";
+  aq:solarRadiation "4.2" .
+
+aq:ooc_Okhla24-Mar-2022%20-%2000%3A15 a aq:OxideOfCarbon;
+  aq:carbonMonoOxideConcentration "1.2";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:15" .
+
+aq:ooc_Okhla24-Mar-2022%20-%2000%3A30 a aq:OxideOfCarbon;
+  aq:carbonMonoOxideConcentration "1.2";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:30" .
+
+aq:ooc_Okhla24-Mar-2022%20-%2000%3A45 a aq:OxideOfCarbon;
+  aq:carbonMonoOxideConcentration "1.1";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:45" .
+
+aq:ooc_Okhla24-Mar-2022%20-%2001%3A00 a aq:OxideOfCarbon;
+  aq:carbonMonoOxideConcentration "1.2";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:00" .
+
+aq:ooc_Okhla24-Mar-2022%20-%2001%3A15 a aq:OxideOfCarbon;
+  aq:carbonMonoOxideConcentration "1.4";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:15" .
+
+aq:ooc_Okhla24-Mar-2022%20-%2001%3A30 a aq:OxideOfCarbon;
+  aq:carbonMonoOxideConcentration "1.8";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:30" .
+
+aq:ooc_Okhla24-Mar-2022%20-%2001%3A45 a aq:OxideOfCarbon;
+  aq:carbonMonoOxideConcentration "1.6";
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:45" .
+
+aq:ooc_obs_Okhla24-Mar-2022%20-%2000%3A15 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 00:15";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:ooc_obs_Okhla24-Mar-2022%20-%2000%3A30 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 00:30";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:ooc_obs_Okhla24-Mar-2022%20-%2000%3A45 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 00:45";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:ooc_obs_Okhla24-Mar-2022%20-%2001%3A00 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 01:00";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:ooc_obs_Okhla24-Mar-2022%20-%2001%3A15 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 01:15";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:ooc_obs_Okhla24-Mar-2022%20-%2001%3A30 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 01:30";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:ooc_obs_Okhla24-Mar-2022%20-%2001%3A45 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 01:45";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:oon_Okhla24-Mar-2022%20-%2000%3A15 a aq:OxideOfNitrogen;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#oon_obs_Okhla24-Mar-2022 - 00:15";
+  aq:nitrogenDiOxideConcentration "104.1";
+  aq:nitrogenMonoOxideConcentration "257.8";
+  aq:nitrogentOxideConcentration "265.8" .
+
+aq:oon_Okhla24-Mar-2022%20-%2000%3A30 a aq:OxideOfNitrogen;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#oon_obs_Okhla24-Mar-2022 - 00:30";
+  aq:nitrogenDiOxideConcentration "101.8";
+  aq:nitrogenMonoOxideConcentration "270.6";
+  aq:nitrogentOxideConcentration "274.9" .
+
+aq:oon_Okhla24-Mar-2022%20-%2000%3A45 a aq:OxideOfNitrogen;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#oon_obs_Okhla24-Mar-2022 - 00:45";
+  aq:nitrogenDiOxideConcentration "106.7";
+  aq:nitrogenMonoOxideConcentration "263.9";
+  aq:nitrogentOxideConcentration "271.9" .
+
+aq:oon_Okhla24-Mar-2022%20-%2001%3A00 a aq:OxideOfNitrogen;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#oon_obs_Okhla24-Mar-2022 - 01:00";
+  aq:nitrogenDiOxideConcentration "99.9";
+  aq:nitrogenMonoOxideConcentration "289.6";
+  aq:nitrogentOxideConcentration "288.7" .
+
+aq:oon_Okhla24-Mar-2022%20-%2001%3A15 a aq:OxideOfNitrogen;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#oon_obs_Okhla24-Mar-2022 - 01:15";
+  aq:nitrogenDiOxideConcentration "97.2";
+  aq:nitrogenMonoOxideConcentration "361.7";
+  aq:nitrogentOxideConcentration "346.1" .
+
+aq:oon_Okhla24-Mar-2022%20-%2001%3A30 a aq:OxideOfNitrogen;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#oon_obs_Okhla24-Mar-2022 - 01:30";
+  aq:nitrogenDiOxideConcentration "89.3";
+  aq:nitrogentOxideConcentration "482.3" .
+
+aq:oon_Okhla24-Mar-2022%20-%2001%3A45 a aq:OxideOfNitrogen;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#oon_obs_Okhla24-Mar-2022 - 01:45";
+  aq:nitrogenDiOxideConcentration "115.5";
+  aq:nitrogenMonoOxideConcentration "467.9";
+  aq:nitrogentOxideConcentration "440.8" .
+
+aq:oon_obs_Okhla24-Mar-2022%20-%2000%3A15 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 00:15";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:oon_obs_Okhla24-Mar-2022%20-%2000%3A30 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 00:30";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:oon_obs_Okhla24-Mar-2022%20-%2000%3A45 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 00:45";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:oon_obs_Okhla24-Mar-2022%20-%2001%3A00 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 01:00";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:oon_obs_Okhla24-Mar-2022%20-%2001%3A15 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 01:15";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:oon_obs_Okhla24-Mar-2022%20-%2001%3A30 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 01:30";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:oon_obs_Okhla24-Mar-2022%20-%2001%3A45 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 01:45";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:oos_Okhla24-Mar-2022%20-%2000%3A15 a aq:OxideOfSulphur;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:15";
+  aq:sulphurDiOxideConcentration "16.9" .
+
+aq:oos_Okhla24-Mar-2022%20-%2000%3A30 a aq:OxideOfSulphur;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:30";
+  aq:sulphurDiOxideConcentration "17.1" .
+
+aq:oos_Okhla24-Mar-2022%20-%2000%3A45 a aq:OxideOfSulphur;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:45" .
+
+aq:oos_Okhla24-Mar-2022%20-%2001%3A00 a aq:OxideOfSulphur;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:00";
+  aq:sulphurDiOxideConcentration "14.1" .
+
+aq:oos_Okhla24-Mar-2022%20-%2001%3A15 a aq:OxideOfSulphur;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:15";
+  aq:sulphurDiOxideConcentration "12.2" .
+
+aq:oos_Okhla24-Mar-2022%20-%2001%3A30 a aq:OxideOfSulphur;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:30";
+  aq:sulphurDiOxideConcentration "13.5" .
+
+aq:oos_Okhla24-Mar-2022%20-%2001%3A45 a aq:OxideOfSulphur;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:45";
+  aq:sulphurDiOxideConcentration "14.2" .
+
+aq:pm_Okhla24-Mar-2022%20-%2000%3A15 a aq:ParticulateMatter;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 00:15";
+  aq:particulateMatter10Concentration "384.0";
+  aq:particulateMatter2_5Concentration "117.0" .
+
+aq:pm_Okhla24-Mar-2022%20-%2000%3A30 a aq:ParticulateMatter;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 00:30";
+  aq:particulateMatter10Concentration "384.0";
+  aq:particulateMatter2_5Concentration "117.0" .
+
+aq:pm_Okhla24-Mar-2022%20-%2000%3A45 a aq:ParticulateMatter;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 00:45";
+  aq:particulateMatter10Concentration "384.0";
+  aq:particulateMatter2_5Concentration "117.0" .
+
+aq:pm_Okhla24-Mar-2022%20-%2001%3A00 a aq:ParticulateMatter;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 01:00";
+  aq:particulateMatter10Concentration "444.0";
+  aq:particulateMatter2_5Concentration "141.0" .
+
+aq:pm_Okhla24-Mar-2022%20-%2001%3A15 a aq:ParticulateMatter;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 01:15";
+  aq:particulateMatter10Concentration "444.0";
+  aq:particulateMatter2_5Concentration "141.0" .
+
+aq:pm_Okhla24-Mar-2022%20-%2001%3A30 a aq:ParticulateMatter;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 01:30";
+  aq:particulateMatter10Concentration "444.0";
+  aq:particulateMatter2_5Concentration "141.0" .
+
+aq:pm_Okhla24-Mar-2022%20-%2001%3A45 a aq:ParticulateMatter;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Okhla24-Mar-2022 - 01:45";
+  aq:particulateMatter10Concentration "444.0";
+  aq:particulateMatter2_5Concentration "141.0" .
+
+aq:pm_obs_Okhla24-Mar-2022%20-%2000%3A15 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 00:15";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:pm_obs_Okhla24-Mar-2022%20-%2000%3A30 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 00:30";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:pm_obs_Okhla24-Mar-2022%20-%2000%3A45 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 00:45";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:pm_obs_Okhla24-Mar-2022%20-%2001%3A00 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 01:00";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:pm_obs_Okhla24-Mar-2022%20-%2001%3A15 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 01:15";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:pm_obs_Okhla24-Mar-2022%20-%2001%3A30 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 01:30";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:pm_obs_Okhla24-Mar-2022%20-%2001%3A45 a aq:Observation;
+  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Okhla";
+  aq:atTime "24-Mar-2022 - 01:45";
+  aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
+
+aq:sp_Okhla24-Mar-2022%20-%2000%3A15 a aq:SecondaryPollutant;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:15";
+  aq:ozoneConcentration "4.3" .
+
+aq:sp_Okhla24-Mar-2022%20-%2000%3A30 a aq:SecondaryPollutant;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:30";
+  aq:ozoneConcentration "4.9" .
+
+aq:sp_Okhla24-Mar-2022%20-%2000%3A45 a aq:SecondaryPollutant;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:45";
+  aq:ozoneConcentration "3.9" .
+
+aq:sp_Okhla24-Mar-2022%20-%2001%3A00 a aq:SecondaryPollutant;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:00";
+  aq:ozoneConcentration "4.4" .
+
+aq:sp_Okhla24-Mar-2022%20-%2001%3A15 a aq:SecondaryPollutant;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:15" .
+
+aq:sp_Okhla24-Mar-2022%20-%2001%3A30 a aq:SecondaryPollutant;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:30" .
+
+aq:sp_Okhla24-Mar-2022%20-%2001%3A45 a aq:SecondaryPollutant;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:45" .
+
+aq:wc_Okhla24-Mar-2022%20-%2000%3A15 a aq:WindCharacterstic;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:15";
+  aq:windDirection "110.9";
+  aq:windSpeed "0.3" .
+
+aq:wc_Okhla24-Mar-2022%20-%2000%3A30 a aq:WindCharacterstic;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:30";
+  aq:windDirection "110.7";
+  aq:windSpeed "0.3" .
+
+aq:wc_Okhla24-Mar-2022%20-%2000%3A45 a aq:WindCharacterstic;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 00:45";
+  aq:windDirection "110.8";
+  aq:windSpeed "0.3" .
+
+aq:wc_Okhla24-Mar-2022%20-%2001%3A00 a aq:WindCharacterstic;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:00";
+  aq:windDirection "110.7";
+  aq:windSpeed "0.3" .
+
+aq:wc_Okhla24-Mar-2022%20-%2001%3A15 a aq:WindCharacterstic;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:15";
+  aq:windDirection "110.6";
+  aq:windSpeed "0.3" .
+
+aq:wc_Okhla24-Mar-2022%20-%2001%3A30 a aq:WindCharacterstic;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:30";
+  aq:windDirection "110.6";
+  aq:windSpeed "0.5" .
+
+aq:wc_Okhla24-Mar-2022%20-%2001%3A45 a aq:WindCharacterstic;
+  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Okhla24-Mar-2022 - 01:45";
+  aq:windDirection "110.6";
+  aq:windSpeed "0.4" .

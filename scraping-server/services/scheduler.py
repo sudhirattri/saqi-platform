@@ -16,9 +16,10 @@ def run_pending_jobs(request):
     db = localdb.getdb()
     jobs = db.table('jobs')
     Job = Query()
-    pending_jobs = jobs.search(Job.status == 'A' or Job.status == 'I')
+    pending_jobs = jobs.search(Job.status == 'A' and Job.status == 'I')
+    print(pending_jobs)
     for job in pending_jobs:
         if(job["system"]=='cpcb'):
             cpcb.run_job(job)
-
+    print("Ran all crons")
     return HttpResponse("ran all crons")
