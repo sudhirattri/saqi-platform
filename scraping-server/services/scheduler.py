@@ -3,12 +3,15 @@ from datetime import datetime
 from django.http import HttpResponse
 from tinydb import TinyDB, Query
 from . import cpcb
+from . import ezio
 from . import localdb
 import json
 
 def add_job(request):
     try:
-        data = cpcb.add_job()
+        data = []
+        # data.append(cpcb.add_job())
+        data.append(ezio.add_job())
         response = {
             'status' : "Success .. OK",
             'exceptions' : None,

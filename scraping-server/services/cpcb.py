@@ -142,7 +142,7 @@ def run_job(job):
             "locationIRI":stage_data["locationIRI"],
             "from_date": stage_data["from_date"],
             "to_date": stage_data["to_date"],
-            "csv_file":csv_file
+            "csv_file":stage_data["csv_file"]
         }
         return response
 
