@@ -1,0 +1,431 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.kracr.iiitd.edu.in/Ontology/RouteOntology#"
+     xml:base="http://www.kracr.iiitd.edu.in/Ontology/RouteOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.kracr.iiitd.edu.in/Ontology/RouteOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#aqiNearMeStage2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#aqiNearMeStage2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#routeTo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AqiNearMe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage2"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#aqiViewerPage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#aqiViewerPage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#routeTo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#ViewAQIReadings"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AqiViewer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#belongsToSocialCohort -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#belongsToSocialCohort">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SocialCohort"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#getRecommendations -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#getRecommendations">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#routeTo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#WhatCanBeDone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#livesAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#livesAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SpatialLocation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#localPerceptionPage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#localPerceptionPage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#routeTo"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#LocalPerceptionNearMe"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PollutionSourcesMapPage"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#LocalPerceptionPage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#pollutionSourcesPage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#pollutionSourcesPage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#routeTo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PollutionSourcesNearMe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PollutionSourcesMapPage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#quizPage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#quizPage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#routeTo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PlayInteractiveQuiz"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#QuizPage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#routeTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#routeTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#viewAqiFaqs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#viewAqiFaqs">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#routeTo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AqiFaqs"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AqiFaqsPage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Address">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SocialCohort -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SocialCohort">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#associatedWithInstitution -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#associatedWithInstitution">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Academy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Academy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SocialCohort"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AqiFaqs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AqiFaqs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AqiFaqsPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AqiFaqsPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Page"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AqiNearMe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AqiNearMe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AqiViewer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AqiViewer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Page"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#JarodhaKalan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#JarodhaKalan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SpatialLocation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#LocalPerceptionNearMe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#LocalPerceptionNearMe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#LocalPerceptionPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#LocalPerceptionPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Page"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#MotherOfYoungKid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#MotherOfYoungKid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SocialCohort"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Najafgarh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Najafgarh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SpatialLocation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#NangliDairy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#NangliDairy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SpatialLocation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Page -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Page"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PlayInteractiveQuiz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PlayInteractiveQuiz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PollutionSourcesMapPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PollutionSourcesMapPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Page"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PollutionSourcesNearMe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PollutionSourcesNearMe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#QuizPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#QuizPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Page"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#RecommendationsPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#RecommendationsPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Page"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SanjayColony -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SanjayColony">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SpatialLocation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#ShaheenBagh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#ShaheenBagh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SpatialLocation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Shopkeeper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Shopkeeper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SocialCohort"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SocialCohort -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SocialCohort"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SocialWorker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SocialWorker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SocialCohort"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SpatialLocation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SpatialLocation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SocialCohort"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Teacher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Teacher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SocialCohort"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Tekhand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#Tekhand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#SpatialLocation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#ViewAQIReadings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#ViewAQIReadings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#WhatCanBeDone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#WhatCanBeDone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#PromptStage3"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AQINearMe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saadf/ontologies/2022/3/untitled-ontology-125#AQINearMe"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
