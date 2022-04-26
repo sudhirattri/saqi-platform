@@ -1,0 +1,604 @@
+{
+  "documents": [{
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:16:31Z",
+    "fields": {
+      "temp": {
+        "doubleValue": 25.57
+      },
+      "pm1_0": {
+        "integerValue": "146"
+      },
+      "humid": {
+        "doubleValue": 51.37
+      },
+      "pm2_5": {
+        "integerValue": "236"
+      },
+      "pm10": {
+        "integerValue": "263"
+      },
+      "createdAt": {
+        "integerValue": "1638015391763"
+      },
+      "ps": {
+        "doubleValue": 988.37
+      },
+      "rtc": {
+        "integerValue": "1638015377"
+      }
+    },
+    "createTime": "2021-11-27T12:16:31.817088Z",
+    "updateTime": "2021-11-27T12:16:31.817088Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:16:52Z",
+    "fields": {
+      "rtc": {
+        "integerValue": "1638015408"
+      },
+      "pm10": {
+        "integerValue": "236"
+      },
+      "createdAt": {
+        "integerValue": "1638015412245"
+      },
+      "ps": {
+        "doubleValue": 988.36
+      },
+      "temp": {
+        "doubleValue": 25.62
+      },
+      "pm1_0": {
+        "integerValue": "135"
+      },
+      "pm2_5": {
+        "integerValue": "215"
+      },
+      "humid": {
+        "doubleValue": 51.06
+      }
+    },
+    "createTime": "2021-11-27T12:16:52.293899Z",
+    "updateTime": "2021-11-27T12:16:52.293899Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:17:21Z",
+    "fields": {
+      "temp": {
+        "doubleValue": 25.59
+      },
+      "pm10": {
+        "integerValue": "253"
+      },
+      "createdAt": {
+        "integerValue": "1638015441792"
+      },
+      "ps": {
+        "doubleValue": 988.36
+      },
+      "rtc": {
+        "integerValue": "1638015439"
+      },
+      "humid": {
+        "doubleValue": 51.15
+      },
+      "pm1_0": {
+        "integerValue": "138"
+      },
+      "pm2_5": {
+        "integerValue": "226"
+      }
+    },
+    "createTime": "2021-11-27T12:17:21.840624Z",
+    "updateTime": "2021-11-27T12:17:21.840624Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:17:52Z",
+    "fields": {
+      "temp": {
+        "doubleValue": 25.59
+      },
+      "pm1_0": {
+        "integerValue": "140"
+      },
+      "humid": {
+        "doubleValue": 51.11
+      },
+      "rtc": {
+        "integerValue": "1638015470"
+      },
+      "ps": {
+        "doubleValue": 988.36
+      },
+      "pm10": {
+        "integerValue": "253"
+      },
+      "pm2_5": {
+        "integerValue": "232"
+      },
+      "createdAt": {
+        "integerValue": "1638015472532"
+      }
+    },
+    "createTime": "2021-11-27T12:17:52.578579Z",
+    "updateTime": "2021-11-27T12:17:52.578579Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:18:22Z",
+    "fields": {
+      "humid": {
+        "doubleValue": 51.15
+      },
+      "createdAt": {
+        "integerValue": "1638015502813"
+      },
+      "ps": {
+        "doubleValue": 988.37
+      },
+      "rtc": {
+        "integerValue": "1638015500"
+      },
+      "temp": {
+        "doubleValue": 25.6
+      },
+      "pm1_0": {
+        "integerValue": "137"
+      },
+      "pm10": {
+        "integerValue": "256"
+      },
+      "pm2_5": {
+        "integerValue": "227"
+      }
+    },
+    "createTime": "2021-11-27T12:18:22.851684Z",
+    "updateTime": "2021-11-27T12:18:22.851684Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:56:01Z",
+    "fields": {
+      "createdAt": {
+        "integerValue": "1638017761933"
+      },
+      "ps": {
+        "doubleValue": 988.86
+      },
+      "pm2_5": {
+        "integerValue": "237"
+      },
+      "pm1_0": {
+        "integerValue": "146"
+      },
+      "rtc": {
+        "integerValue": "1638017748"
+      },
+      "pm10": {
+        "integerValue": "259"
+      },
+      "humid": {
+        "doubleValue": 45.88
+      },
+      "temp": {
+        "doubleValue": 27.57
+      }
+    },
+    "createTime": "2021-11-27T12:56:01.969222Z",
+    "updateTime": "2021-11-27T12:56:01.969222Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:56:22Z",
+    "fields": {
+      "rtc": {
+        "integerValue": "1638017779"
+      },
+      "pm10": {
+        "integerValue": "248"
+      },
+      "ps": {
+        "doubleValue": 988.85
+      },
+      "temp": {
+        "doubleValue": 27.44
+      },
+      "pm2_5": {
+        "integerValue": "223"
+      },
+      "createdAt": {
+        "integerValue": "1638017782471"
+      },
+      "pm1_0": {
+        "integerValue": "136"
+      },
+      "humid": {
+        "doubleValue": 46.18
+      }
+    },
+    "createTime": "2021-11-27T12:56:22.503329Z",
+    "updateTime": "2021-11-27T12:56:22.503329Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:56:51Z",
+    "fields": {
+      "pm1_0": {
+        "integerValue": "131"
+      },
+      "rtc": {
+        "integerValue": "1638017809"
+      },
+      "pm10": {
+        "integerValue": "248"
+      },
+      "createdAt": {
+        "integerValue": "1638017811157"
+      },
+      "humid": {
+        "doubleValue": 46.48
+      },
+      "temp": {
+        "doubleValue": 27.32
+      },
+      "ps": {
+        "doubleValue": 988.85
+      },
+      "pm2_5": {
+        "integerValue": "220"
+      }
+    },
+    "createTime": "2021-11-27T12:56:51.191241Z",
+    "updateTime": "2021-11-27T12:56:51.191241Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:57:21Z",
+    "fields": {
+      "pm2_5": {
+        "integerValue": "223"
+      },
+      "ps": {
+        "doubleValue": 988.85
+      },
+      "pm10": {
+        "integerValue": "251"
+      },
+      "humid": {
+        "doubleValue": 46.82
+      },
+      "rtc": {
+        "integerValue": "1638017839"
+      },
+      "temp": {
+        "doubleValue": 27.19
+      },
+      "pm1_0": {
+        "integerValue": "136"
+      },
+      "createdAt": {
+        "integerValue": "1638017841319"
+      }
+    },
+    "createTime": "2021-11-27T12:57:21.346470Z",
+    "updateTime": "2021-11-27T12:57:21.346470Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:57:52Z",
+    "fields": {
+      "createdAt": {
+        "integerValue": "1638017872095"
+      },
+      "pm1_0": {
+        "integerValue": "138"
+      },
+      "pm2_5": {
+        "integerValue": "227"
+      },
+      "temp": {
+        "doubleValue": 27.07
+      },
+      "rtc": {
+        "integerValue": "1638017870"
+      },
+      "ps": {
+        "doubleValue": 988.84
+      },
+      "pm10": {
+        "integerValue": "251"
+      },
+      "humid": {
+        "doubleValue": 47.13
+      }
+    },
+    "createTime": "2021-11-27T12:57:52.147288Z",
+    "updateTime": "2021-11-27T12:57:52.147288Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:58:22Z",
+    "fields": {
+      "rtc": {
+        "integerValue": "1638017900"
+      },
+      "createdAt": {
+        "integerValue": "1638017902403"
+      },
+      "pm1_0": {
+        "integerValue": "138"
+      },
+      "pm2_5": {
+        "integerValue": "228"
+      },
+      "ps": {
+        "doubleValue": 988.85
+      },
+      "humid": {
+        "doubleValue": 47.4
+      },
+      "pm10": {
+        "integerValue": "252"
+      },
+      "temp": {
+        "doubleValue": 26.96
+      }
+    },
+    "createTime": "2021-11-27T12:58:22.439052Z",
+    "updateTime": "2021-11-27T12:58:22.439052Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:58:53Z",
+    "fields": {
+      "temp": {
+        "doubleValue": 26.87
+      },
+      "pm1_0": {
+        "integerValue": "136"
+      },
+      "ps": {
+        "doubleValue": 988.87
+      },
+      "rtc": {
+        "integerValue": "1638017931"
+      },
+      "pm2_5": {
+        "integerValue": "219"
+      },
+      "createdAt": {
+        "integerValue": "1638017933118"
+      },
+      "humid": {
+        "doubleValue": 47.65
+      },
+      "pm10": {
+        "integerValue": "245"
+      }
+    },
+    "createTime": "2021-11-27T12:58:53.164899Z",
+    "updateTime": "2021-11-27T12:58:53.164899Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:59:23Z",
+    "fields": {
+      "rtc": {
+        "integerValue": "1638017961"
+      },
+      "pm2_5": {
+        "integerValue": "233"
+      },
+      "createdAt": {
+        "integerValue": "1638017963222"
+      },
+      "humid": {
+        "doubleValue": 47.87
+      },
+      "temp": {
+        "doubleValue": 26.79
+      },
+      "pm1_0": {
+        "integerValue": "142"
+      },
+      "ps": {
+        "doubleValue": 988.89
+      },
+      "pm10": {
+        "integerValue": "260"
+      }
+    },
+    "createTime": "2021-11-27T12:59:23.282853Z",
+    "updateTime": "2021-11-27T12:59:23.282853Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T12:59:53Z",
+    "fields": {
+      "temp": {
+        "doubleValue": 26.71
+      },
+      "pm2_5": {
+        "integerValue": "231"
+      },
+      "createdAt": {
+        "integerValue": "1638017993229"
+      },
+      "rtc": {
+        "integerValue": "1638017991"
+      },
+      "ps": {
+        "doubleValue": 988.9
+      },
+      "pm10": {
+        "integerValue": "254"
+      },
+      "humid": {
+        "doubleValue": 48.08
+      },
+      "pm1_0": {
+        "integerValue": "142"
+      }
+    },
+    "createTime": "2021-11-27T12:59:53.280675Z",
+    "updateTime": "2021-11-27T12:59:53.280675Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T13:00:23Z",
+    "fields": {
+      "rtc": {
+        "integerValue": "1638018021"
+      },
+      "ps": {
+        "doubleValue": 988.89
+      },
+      "pm10": {
+        "integerValue": "258"
+      },
+      "createdAt": {
+        "integerValue": "1638018023459"
+      },
+      "pm2_5": {
+        "integerValue": "231"
+      },
+      "pm1_0": {
+        "integerValue": "140"
+      },
+      "temp": {
+        "doubleValue": 26.63
+      },
+      "humid": {
+        "doubleValue": 48.28
+      }
+    },
+    "createTime": "2021-11-27T13:00:23.491478Z",
+    "updateTime": "2021-11-27T13:00:23.491478Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T13:00:54Z",
+    "fields": {
+      "createdAt": {
+        "integerValue": "1638018054173"
+      },
+      "temp": {
+        "doubleValue": 26.56
+      },
+      "rtc": {
+        "integerValue": "1638018052"
+      },
+      "pm10": {
+        "integerValue": "262"
+      },
+      "pm2_5": {
+        "integerValue": "237"
+      },
+      "ps": {
+        "doubleValue": 988.89
+      },
+      "humid": {
+        "doubleValue": 48.48
+      },
+      "pm1_0": {
+        "integerValue": "146"
+      }
+    },
+    "createTime": "2021-11-27T13:00:54.211503Z",
+    "updateTime": "2021-11-27T13:00:54.211503Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T13:04:15Z",
+    "fields": {
+      "temp": {
+        "doubleValue": 26.29
+      },
+      "createdAt": {
+        "integerValue": "1638018255651"
+      },
+      "rtc": {
+        "integerValue": "1638018235"
+      },
+      "ps": {
+        "doubleValue": 988.93
+      },
+      "pm10": {
+        "integerValue": "258"
+      },
+      "pm1_0": {
+        "integerValue": "138"
+      },
+      "pm2_5": {
+        "integerValue": "231"
+      },
+      "humid": {
+        "doubleValue": 49.7
+      }
+    },
+    "createTime": "2021-11-27T13:04:15.676766Z",
+    "updateTime": "2021-11-27T13:04:15.676766Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T13:04:33Z",
+    "fields": {
+      "ps": {
+        "doubleValue": 988.92
+      },
+      "pm1_0": {
+        "integerValue": "138"
+      },
+      "humid": {
+        "doubleValue": 49.42
+      },
+      "createdAt": {
+        "integerValue": "1638018273799"
+      },
+      "pm10": {
+        "integerValue": "250"
+      },
+      "pm2_5": {
+        "integerValue": "228"
+      },
+      "temp": {
+        "doubleValue": 26.28
+      },
+      "rtc": {
+        "integerValue": "1638018265"
+      }
+    },
+    "createTime": "2021-11-27T13:04:33.821251Z",
+    "updateTime": "2021-11-27T13:04:33.821251Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T13:04:57Z",
+    "fields": {
+      "ps": {
+        "doubleValue": 988.92
+      },
+      "pm1_0": {
+        "integerValue": "141"
+      },
+      "createdAt": {
+        "integerValue": "1638018297763"
+      },
+      "pm10": {
+        "integerValue": "256"
+      },
+      "humid": {
+        "doubleValue": 49.44
+      },
+      "rtc": {
+        "integerValue": "1638018296"
+      },
+      "pm2_5": {
+        "integerValue": "233"
+      },
+      "temp": {
+        "doubleValue": 26.25
+      }
+    },
+    "createTime": "2021-11-27T13:04:57.804668Z",
+    "updateTime": "2021-11-27T13:04:57.804668Z"
+  }, {
+    "name": "projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data/2021-11-27T13:05:27Z",
+    "fields": {
+      "pm1_0": {
+        "integerValue": "144"
+      },
+      "rtc": {
+        "integerValue": "1638018326"
+      },
+      "createdAt": {
+        "integerValue": "1638018327860"
+      },
+      "ps": {
+        "doubleValue": 988.95
+      },
+      "temp": {
+        "doubleValue": 26.21
+      },
+      "pm2_5": {
+        "integerValue": "241"
+      },
+      "humid": {
+        "doubleValue": 49.43
+      },
+      "pm10": {
+        "integerValue": "272"
+      }
+    },
+    "createTime": "2021-11-27T13:05:27.884956Z",
+    "updateTime": "2021-11-27T13:05:27.884956Z"
+  }],
+  "nextPageToken": "AFTOeJzLCBy8qQkj2hp1TVpO-vTIvnGLeRhMuHg-d8zjmQRMJpY6KOyZHrlF5brIo4I-tcr0y1GiSJe564rP-n_rJ-RhVKTDI8CFneQhHA0M2OCT0grOOivp8hxA4c58jTpWW0yabOIG2D4tnm4yx2U4QpDY4wSGrj4GGNzewK1MiyM"
+}

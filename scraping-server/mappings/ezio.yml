@@ -1,0 +1,70 @@
+prefixes:
+  aq: "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#"
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+mappings:
+  # Particulate Matter
+  pm:
+    sources:
+      - access: _filename
+        referenceFormulation: csv
+    s: aq:pm__locname$(createTime)
+    po:
+      - p: a
+        o: aq:ParticulateMatter
+      - p: aq:particulateMatter10Concentration
+        o: $(pm10)
+      - p: aq:particulateMatter2_5Concentration
+        o: $(pm2_5)
+      - p: aq:particulateMatter1_0Concentration
+        o: $(pm1_0)
+      - p: aq:hasObservation
+        o: aq:pm_obs__locname$(createTime)
+  obspm:
+    sources:
+      - access: _filename
+        referenceFormulation: csv
+    s: aq:pm_obs__locname$(createTime)
+    po:
+      - p: a
+        o: aq:Observation
+      - p: aq:atTime
+        o: $(createTime)
+      - p: aq:atPlace
+        o: aq:_locname
+      - p: aq:dataSource
+        o: 
+          value: Eziostat
+          datatype: rdfs:Literal
+  # Meterological Characteristics
+  mc:
+    sources:
+      - access: _filename
+        referenceFormulation: csv
+    s: aq:mc__locname$(createTime)
+    po:
+      - p: a
+        o: aq:MeteorologicalCharacterstic
+      - p: aq:ambientTemperature
+        o: $(temp)
+      - p: aq:bPressure
+        o: $(ps)
+      - p: aq:relativeHumidity
+        o: $(humid)
+      - p: aq:hasObservation
+        o: aq:ooc_obs__locname$(createTime)
+  omc:
+    sources:
+      - access: _filename
+        referenceFormulation: csv
+    s: aq:ooc_obs__locname$(createTime)
+    po:
+      - p: a
+        o: aq:Observation
+      - p: aq:atPlace
+        o: aq:_locname
+      - p: aq:atTime
+        o: $(createTime)
+      - p: aq:dataSource
+        o: 
+          value: Central Pollution Control Board
+          datatype: rdfs:Literal

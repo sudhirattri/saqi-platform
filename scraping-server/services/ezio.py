@@ -4,6 +4,8 @@ from distutils.command import config
 import imp
 import json
 import base64
+
+from regex import D
 from . import localdb
 
 from . import ezio_config
@@ -25,6 +27,9 @@ CAAQMS_URL = "https://app.cpcbccr.com/caaqms/fetch_table_data"
 def get_csv(data):
     pass
 
+def gt_first_key(dic):
+    return next(iter((dic.items())))[1]
+    
 def run_job(job):
     current_stage  = int(job['current_stage'])
     if(current_stage >= len(job['stages'])):
@@ -34,61 +39,39 @@ def run_job(job):
 
         stage_data = job['stages'][current_stage]["data"]
 
-        request_payload_dict = copy.deepcopy(cpcb_config.request_template)
+        
+        url = "https://firestore.googleapis.com/v1/projects/eziostat/databases/(default)/documents/devices/"+stage_data["mac_id"]+"/data"
+        payload={}
 
-        request_payload_dict["filtersToApply"]["state"] = stage_data["state"]
-        request_payload_dict["filtersToApply"]["city"] = stage_data["city"]
-        request_payload_dict["filtersToApply"]["station"] = stage_data["station"]
-        request_payload_dict["filtersToApply"]["fromDate"] = stage_data["from_date"]
-        request_payload_dict["filtersToApply"]["toDate"] = stage_data["to_date"]
-
-        payload_json = json.dumps(request_payload_dict) 
-        # print(payload_json)
-        # print("payload : ",payload_json)
-        request_payload_base64 = base64.b64encode(payload_json.encode("ascii"))
-        # print("payload base64 :[",request_payload_base64,']')
         headers = {
-            'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
-            'accept': 'application/json, text/plain, */*',
-            'content-type': 'text/plain',
-            'sec-ch-ua-mobile': '?0',
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36',
-            'sec-ch-ua-platform': '"Windows"',
-            'origin': 'https://app.cpcbccr.com',
-            'sec-fetch-site': 'same-origin',
-            'sec-fetch-mode': 'cors',
-            'sec-fetch-dest': 'empty',
-            'referer': 'https://app.cpcbccr.com/ccr/',
-            'accept-encoding': 'gzip, deflate, br',
-            'accept-language': 'en-US,en;q=0.9,hi;q=0.8'
-        }
+            'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImM2NzNkM2M5NDdhZWIxOGI2NGU1OGUzZWRlMzI1NWZiZjU3NTI4NWIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiU3VkaGlyIEF0dHJpIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hLS9BT2gxNEdnaUhPWjUyLVpOMzJmX0FIQzJ2SE1ZeHQwSjNGQUE2V1FHakthdWFnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2V6aW9zdGF0IiwiYXVkIjoiZXppb3N0YXQiLCJhdXRoX3RpbWUiOjE2NDY0ODIwNDEsInVzZXJfaWQiOiI3d21ITEtDUXh1aFdVbEd1dUpFSXVBNjFSaGcxIiwic3ViIjoiN3dtSExLQ1F4dWhXVWxHdXVKRUl1QTYxUmhnMSIsImlhdCI6MTY1MDg4NzQ5MSwiZXhwIjoxNjUwODkxMDkxLCJlbWFpbCI6InN1ZGhpcjE4MjY3QGlpaXRkLmFjLmluIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTY4MTUzNzc4NTA1OTQ5NDYyMDgiXSwiZW1haWwiOlsic3VkaGlyMTgyNjdAaWlpdGQuYWMuaW4iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.O22COXVlNxOrZouxp8IWl6xJqnurZsHDma0J_1u0mp6zLRqMp_mFJSDAN-w4I31_buUPvaC587h8c227FIYsjLmn5cRl5pv4lruyiTntsyqrnhgpFlRrYtwSWWNDWYqz4wQnyQOHeiRZrkbUTATpuyVQ0ntLDMCmPw-zubeT-iszSts2S693lxrL_LujohQNuZMtLk4b3ilYjJU1HZR_PywMjXOYNqbdoNdwMiWbCFRRjUTS7PNwHUMBjDzwpQ2nkTEnqIPU9_vdIbgKNV7Dw61O91OO_GmyzL9qj7IU-Q6Dnp7zqXm8rBTOoQSQV7h3FxEFcYV5OnJZMof6pZGYMg'
+            }
+
         print("Sending payload")
-        response = json.loads((requests.request("POST", CAAQMS_URL, headers=headers, data=request_payload_base64)).text)
-        print("response: ",response)
-        # response = json.load(open(os.path.join(os.path.dirname(__file__), './../example/api_response.json') , 'r'))
+        # response = json.loads(requests.request("GET", url, headers=headers, data=payload).text)
+        response = json.load(open(os.path.join(os.path.dirname(__file__), './../example/ezio_example_response.json') , 'r'))
         # print(response)
 
         unique_id = str(job["unique_id"])
 
         csv_file = os.path.join(os.path.dirname(__file__), './../data/csv/'+ unique_id +'.csv')
-        file_handle = open(csv_file , 'w')
+        file_handle = open(csv_file , 'w',newline='', encoding='utf-8')
         writer = csv.writer(file_handle)
 
-        # csv_header = copy.deepcopy(cpcb_config.csv_header)
-        header = response["data"]["tabularData"]["header"]
-        csv_header = [col["value"] for col in header]
-        
-        header_keys = [col["key"] for col in header]
+        csv_header = copy.deepcopy(ezio_config.csv_header)
 
-        writer.writerow(csv_header)
+        writer.writerow(csv_header+["createTime"])
 
-        if(response is not None and response["status"]=='success'):
-            table_rows = response["data"]["tabularData"]["bodyContent"]
+        header_keys = csv_header 
+
+        if(response is not None and len(response["documents"])>=0):
+            table_rows = response["documents"]
             for row_index in range(len(table_rows)):
-                row = [table_rows[row_index][key] for key in header_keys]
+                row = [gt_first_key(table_rows[row_index]["fields"][key]) for key in header_keys]
+                row.append(table_rows[row_index]["createTime"])
                 writer.writerow(row)
         
-        # print(job.doc_id)
+        print(job.doc_id)
 
         db = localdb.getdb()
         jobs = db.table('jobs')
@@ -97,7 +80,8 @@ def run_job(job):
             "locationIRI": stage_data["locationIRI"],
             "from_date": stage_data["from_date"],
             "to_date": stage_data["to_date"],
-            "csv_file":csv_file
+            "csv_file":csv_file,
+            "mac_id":stage_data["mac_id"]
         }
         job['stages'][current_stage+1] = next_stage
         jobs.update({
@@ -107,13 +91,15 @@ def run_job(job):
             'stages':job['stages']
             },
             doc_ids=[job.doc_id])
+
         response = {
             "ran_at":str(datetime.now()),
             "comment":"acquisition done",
             "locationIRI":stage_data["locationIRI"],
             "from_date": stage_data["from_date"],
             "to_date": stage_data["to_date"],
-            "csv_file":csv_file
+            "csv_file":csv_file,
+            "mac_id":stage_data["mac_id"]
         }
         return response
 
@@ -127,7 +113,8 @@ def run_job(job):
             "locationIRI": stage_data["locationIRI"],
             "from_date": stage_data["from_date"],
             "to_date": stage_data["to_date"],
-            "csv_file": stage_data["csv_file"]
+            "csv_file": stage_data["csv_file"],
+            "mac_id":stage_data["mac_id"]
         }
         job['stages'][current_stage+1] = next_stage
         jobs.update({
@@ -142,7 +129,8 @@ def run_job(job):
             "locationIRI":stage_data["locationIRI"],
             "from_date": stage_data["from_date"],
             "to_date": stage_data["to_date"],
-            "csv_file":stage_data["csv_file"]
+            "csv_file":stage_data["csv_file"],
+            "mac_id":stage_data["mac_id"]
         }
         return response
 
@@ -151,7 +139,7 @@ def run_job(job):
         csv_file_name = stage_data["csv_file"].split('/')[-1]
         # print(csv_file_name)
         
-        mapping_file = os.path.join(os.path.dirname(__file__), './../mappings/cpcb.rml.ttl')
+        mapping_file = os.path.join(os.path.dirname(__file__), './../mappings/ezio.rml.ttl')
         mapping_text = ''
         with open(mapping_file) as f:
             mapping_text=f.read().replace('_locname', stage_data["locationIRI"])
@@ -271,9 +259,7 @@ def add_job():
         job_template["unique_id"] = str(int(round(current_datetime.timestamp()))) + "_" + str(loc["locationIRI"]);
         job_template['stages'][0]["data"]["from_date"] = past_datetime_str
         job_template['stages'][0]["data"]["to_date"] = current_datetime_str
-        job_template['stages'][0]["data"]["state"] = loc["state"]
-        job_template['stages'][0]["data"]["city"] = loc["city"]
-        job_template['stages'][0]["data"]["station"] = loc["station"]
+        job_template['stages'][0]["data"]["mac_id"] = loc["mac_id"]
         job_template['stages'][0]["data"]["locationIRI"] = loc["locationIRI"]
         jobs.insert(job_template)
 

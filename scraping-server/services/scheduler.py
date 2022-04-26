@@ -43,6 +43,8 @@ def run_pending_jobs(request):
         for job in pending_jobs:
             if(job["system"]=='cpcb'):
                 data.append(cpcb.run_job(job))
+            elif(job["system"]=='eziostat'):
+                data.append(ezio.run_job(job))
 
         response = {
             'status' : "Success .. OK",

@@ -1,175 +1,39 @@
 locations = [
     {
-        "state": "Delhi",
-        "city": "Delhi",
-        "station": "site_1428",
-        "locationIRI": "Okhla"
-    }
+        "name": "Sanjay Colony",
+        "mac_id": "84:cc:a8:36:b1:04",
+        "locationIRI": "Sanjay_Colony"
+    },
+    # {
+    #     "name": "Jharoda Kalan",
+    #     "mac_id": "84:cc:a8:36:b0:e4",
+    #     "locationIRI": "Jharoda_Kalan"
+    # }
+]
+# GET https://firestore.googleapis.com/v1/projects/eziostat/databases/(default)/documents/devices/84:cc:a8:36:b1:04/data HTTP/1.1
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImM2NzNkM2M5NDdhZWIxOGI2NGU1OGUzZWRlMzI1NWZiZjU3NTI4NWIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiU3VkaGlyIEF0dHJpIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hLS9BT2gxNEdnaUhPWjUyLVpOMzJmX0FIQzJ2SE1ZeHQwSjNGQUE2V1FHakthdWFnPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2V6aW9zdGF0IiwiYXVkIjoiZXppb3N0YXQiLCJhdXRoX3RpbWUiOjE2NDY0ODIwNDEsInVzZXJfaWQiOiI3d21ITEtDUXh1aFdVbEd1dUpFSXVBNjFSaGcxIiwic3ViIjoiN3dtSExLQ1F4dWhXVWxHdXVKRUl1QTYxUmhnMSIsImlhdCI6MTY1MDg4NzQ5MSwiZXhwIjoxNjUwODkxMDkxLCJlbWFpbCI6InN1ZGhpcjE4MjY3QGlpaXRkLmFjLmluIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTY4MTUzNzc4NTA1OTQ5NDYyMDgiXSwiZW1haWwiOlsic3VkaGlyMTgyNjdAaWlpdGQuYWMuaW4iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.O22COXVlNxOrZouxp8IWl6xJqnurZsHDma0J_1u0mp6zLRqMp_mFJSDAN-w4I31_buUPvaC587h8c227FIYsjLmn5cRl5pv4lruyiTntsyqrnhgpFlRrYtwSWWNDWYqz4wQnyQOHeiRZrkbUTATpuyVQ0ntLDMCmPw-zubeT-iszSts2S693lxrL_LujohQNuZMtLk4b3ilYjJU1HZR_PywMjXOYNqbdoNdwMiWbCFRRjUTS7PNwHUMBjDzwpQ2nkTEnqIPU9_vdIbgKNV7Dw61O91OO_GmyzL9qj7IU-Q6Dnp7zqXm8rBTOoQSQV7h3FxEFcYV5OnJZMof6pZGYMg
+request_template={
+    
+}
+
+csv_header = [
+    "temp",
+    "pm1_0",
+    "humid",
+    "pm2_5",
+    "pm10",
+    "ps",
+    "rtc",
 ]
 
-request_template={
-    "draw": 1,
-    "columns": [
-        {
-            "data": 0,
-            "name": "",
-            "searchable": True,
-            "orderable": False,
-            "search": { 
-                "value": "",
-                "regex": False
-            }
-        }
-    ],
-    "order": [],
-    "start": 0,
-    "length": 30,
-    "search": {
-        "value": "",
-        "regex": False
-    },
-    "filtersToApply": {
-        "state": "Delhi",
-        "city": "Delhi",
-        "station": "site_1428",
-        "parameter_list": [
-            {
-                "id": 0,
-                "itemName": "PM2.5",
-                "itemValue": "parameter_193"
-            },
-            {
-                "id": 1,
-                "itemName": "PM10",
-                "itemValue": "parameter_215"
-            },
-            {
-                "id": 2,
-                "itemName": "NO",
-                "itemValue": "parameter_226"
-            },
-            {
-                "id": 3,
-                "itemName": "NO2",
-                "itemValue": "parameter_194"
-            }, 
-            {
-                "id": 4,
-                "itemName": "NOx",
-                "itemValue": "parameter_225"
-            }, 
-            {
-                "id": 5,
-                "itemName": "NH3",
-                "itemValue": "parameter_311"
-            }, 
-            {
-                "id": 6,
-                "itemName": "SO2",
-                "itemValue": "parameter_312"
-            }, 
-            {
-                "id": 7,
-                "itemName": "CO",
-                "itemValue": "parameter_203"
-            }, 
-            {
-                "id": 8,
-                "itemName": "Ozone",
-                "itemValue": "parameter_222"
-            }, 
-            {
-                "id": 9,
-                "itemName": "Benzene",
-                "itemValue": "parameter_202"
-            }, 
-            {
-                "id": 10,
-                "itemName": "Toluene",
-                "itemValue": "parameter_232"
-            }, 
-            {
-                "id": 12,
-                "itemName": "Temp",
-                "itemValue": "parameter_198"
-            }, 
-            {
-                "id": 13,
-                "itemName": "RH",
-                "itemValue": "parameter_235"
-            }, 
-            {
-                "id": 14,
-                "itemName": "WS",
-                "itemValue": "parameter_233"
-            }, 
-            {
-                "id": 15,
-                "itemName": "WD",
-                "itemValue": "parameter_234"
-            }, 
-            {
-                "id": 16,
-                "itemName": "SR",
-                "itemValue": "parameter_237"
-            },
-            {
-                "id": 17,
-                "itemName": "BP",
-                "itemValue": "parameter_238"
-            },
-        ],
-        "criteria": "15 Minute",
-        "reportFormat": "Tabular",
-        "fromDate": "23-03-2022 T18:00:00Z",
-        "toDate": "23-03-2022 T23:40:59Z",
-        "parameter": [
-            "parameter_193",
-            "parameter_215",
-            "parameter_226",
-            "parameter_194", 
-            "parameter_225",
-            "parameter_311",
-            "parameter_312",
-            "parameter_203",
-            "parameter_222",
-            "parameter_202",
-            "parameter_232",
-            "parameter_198",
-            "parameter_235",
-            "parameter_233",
-            "parameter_234",
-            "parameter_237",
-            "parameter_238",
-        ],
-        "parameterNames": [
-            "PM2.5",
-            "PM10",
-            "NO",
-            "NO2",
-            "NOx",
-            "NH3",
-            "SO2",
-            "CO",
-            "Ozone",
-            "Benzene",
-            "Toluene",
-            "Temp",
-            "RH",
-            "WS",
-            "WD",
-            "SR",
-            "BP",
-        ]
-    },
-    "pagination": 1
-}
+example_request = ""
 
 job_template = {
     "status":"A",
     "last_run": '',
     "name" : "test job",
-    "system" : "cpcb",
+    "system" : "eziostat",
     "current_stage" : 0,
     "unique_id" : "null",
     "stages" : [
@@ -178,12 +42,6 @@ job_template = {
             "comment" : "na",
             "retries_left" : 5,
             "data": {
-                "state": "Delhi",
-                "city": "Delhi",
-                "station": "site_1428",
-                "locationIRI": "Narela",
-                "from_date" : '',
-                "to_date" : '',
             }
         },
         {
@@ -209,25 +67,3 @@ job_template = {
         },
     ]
 }
-
-csv_header = [
-    "From Date"
-    "To Date"
-    "PM2.5 (ug/m3)"
-    "PM10 (ug/m3)"
-    "NO (ug/m3)"
-    "NO2 (ug/m3)"
-    "NOx (ppb)"
-    "NH3 (ug/m3)"
-    "SO2 (ug/m3)"
-    "CO (mg/m3)"
-    "Ozone (ug/m3)"
-    "Benzene (ug/m3)"
-    "Toluene (ug/m3)"
-    "Temp (degree C)"
-    "RH (%)"
-    "WS (m/s)"
-    "WD (degree)"
-    "SR (W/mt2)"
-    "BP (mmHg)"
-]

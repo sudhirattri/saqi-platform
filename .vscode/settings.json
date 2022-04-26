@@ -1,0 +1,13 @@
+{
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/tmp": true,
+        "**/static": true,
+        "**/blog": true,
+        "**/tep": true,
+        "**/temp": true,
+        "**/graphs": true,
+    },
+}
