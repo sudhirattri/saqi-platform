@@ -53,27 +53,27 @@ export default function SpatialLocationScreen(props) {
                             <Typography sx={{padding:2}} fontWeight={5} variant="h4" color="inherit" noWrap>{getTranslated(props.userLanguage,'AskLocation')}</Typography>
                         </Box>
                         <Box sx={{ flexGrow:3, display: 'flex', justifyContent: 'center',flexDirection:'column', alignItems: 'center' }}>
-                                <Button onClick={() => goToNextPage('JarodhaKalan')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw"}}>
+                                <Button onClick={() => goToNextPage('JarodhaKalan')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw", "padding":"30px"}}>
                                     <Typography variant="h6">{getTranslated(props.userLanguage,'JarodhaKalan')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('Najafgarh')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw"}}>
+                                <Button onClick={() => goToNextPage('Najafgarh')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw", "padding":"30px"}}>
                                     <Typography variant="h6">{getTranslated(props.userLanguage,'Najafgarh')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('NangliDairy')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw"}}>
+                                <Button onClick={() => goToNextPage('NangliDairy')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw", "padding":"30px"}}>
                                     <Typography variant="h6">{getTranslated(props.userLanguage,'NangliDairy')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('SanjayColony')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw"}}>
+                                <Button onClick={() => goToNextPage('SanjayColony')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw", "padding":"30px"}}>
                                     <Typography variant="h6">{getTranslated(props.userLanguage,'SanjayColony')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('ShaheenBagh')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw"}}>
+                                <Button onClick={() => goToNextPage('ShaheenBagh')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw", "padding":"30px"}}>
                                     <Typography variant="h6">{getTranslated(props.userLanguage,'ShaheenBagh')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('Tekhand')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw"}}>
+                                <Button onClick={() => goToNextPage('Tekhand')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw", "padding":"30px"}}>
                                     <Typography variant="h6">{getTranslated(props.userLanguage,'Tekhand')}</Typography>
                                 </Button>
 

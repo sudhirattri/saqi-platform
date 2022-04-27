@@ -8,7 +8,7 @@ const eng = {
     "ShaheenBagh":"Shaheen Bagh",
     "Tekhand":"Tekhand",
 
-    "AskCohort":"Tell me about yourself please",
+    "AskCohort":"Tell about yourself",
 
     "Academy":"Academy",
     "MotherOfYoungKid":"Mother of Young kid(s)",
