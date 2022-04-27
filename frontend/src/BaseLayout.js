@@ -1,37 +1,26 @@
 import React from 'react';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-import Container from '@mui/material/Container';
-import ParticlesBg from 'particles-bg'
-
-import LanguageScreen from './components/LanguageScreen';
-
-const theme = createTheme({
-    typography: {
-        fontFamily: [
-          '-apple-system',
-          'BlinkMacSystemFont',
-          '"Segoe UI"',
-          'Roboto',
-          '"Helvetica Neue"',
-          'Arial',
-          'sans-serif',
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-        ].join(','),
-      },
-}); 
+import { Link } from "react-router-dom";
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import { useState, createContext } from "react";
 
 export default function BaseLayout(props) {
     return (
-        <ThemeProvider theme={theme}>
-            <CssBaseline />
-            <Container component="main" maxWidth="sm" sx={{ mb: 0 }} style={{"height":"100vh"}}>
-                <LanguageScreen></LanguageScreen>
-            </Container>
-            <ParticlesBg num={5} type="square" bg={true} />
-        </ThemeProvider>
-
+        <React.Fragment>
+            <Box sx={{ display: 'flex', justifyContent: 'center' , flexDirection:'column', width:'1.0', height:'100vh'}}>
+                <Link to="/lang" style={{alignSelf:"center"}}>
+                    <Button sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minWidth":"50vw"}}>
+                        <Typography variant="h5">Lang</Typography>
+                    </Button>
+                </Link>
+                <br></br>
+                <Link to="/splash" style={{alignSelf:"center"}}>
+                    <Button sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minWidth":"50vw"}}>
+                        <Typography variant="h5">splash</Typography>
+                    </Button>
+                </Link>
+            </Box>
+        </React.Fragment>
     );
 }
