@@ -19,7 +19,12 @@ const eng = {
 
     "Next":"Next",
 
-    "WhatAQI":"AQI क्या है?"
+    "WhatAQI":"AQI क्या है?",
+    "test":"test bla bla",
+
+    "prompt1":"prompt1",
+    "prompt2":"prompt2",
+    "prompt3":"prompt3",
 }
 const hin = {
     "AskLocation":"आप कहाँ रहते हैं",
@@ -42,7 +47,12 @@ const hin = {
 
     "Next":"आगे",
 
-    "WhatAQI":"AQI क्या है?"
+    "WhatAQI":"AQI क्या है?",
+    "test":"test bla bla",
+
+    "prompt1":"prompt1",
+    "prompt2":"prompt2",
+    "prompt3":"prompt3",
 }
 export default function getTranslated(lang, searchKey){
     // console.log("Translation called: ",lang, searchKey)

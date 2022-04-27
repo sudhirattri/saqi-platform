@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import { Link } from "react-router-dom";
+import { Link , useNavigate} from "react-router-dom";
 
 import getTranslated from '../constants';
-import MasterPrompt from './../components/MasterPrompt';
+import MasterPrompt from '../components/MasterPrompt';
 
 import { TransitionGroup } from 'react-transition-group'
 import { Transition } from 'react-transition-group';
@@ -26,11 +26,12 @@ exiting:  { opacity: 0 ,transform: "scale(0.7)"},
 exited:  { opacity: 0 ,transform: "scale(0.7)"},
 };
 
-export default function PromptScreen(props) {
+export default function SelectPromptScreen(props) {
+    const navigate = useNavigate();
     const [inProp, setInProp] = useState(false);
 
     function goToNextPage(){
-        console.log("next button pressed")
+        console.log("next chosen")
         // props.setUserLanguage(language)
         // navigate('/spatial', {replace: true});
     }
@@ -53,12 +54,15 @@ export default function PromptScreen(props) {
                             <Link to={'/'}><b style={{color:"black"}}>SAQI</b></Link>
                             </Typography>
                         </Box>
-                        <Box sx={{  flexGrow:5,  display: 'flex', justifyContent: 'center', flexDirection:'column',alignItems: 'center', textAlign: 'center' }}>
-                            <MasterPrompt sx={{flexGrow:4   }} title="title"></MasterPrompt>
-                        </Box>
-                        <Box sx={{ flexGrow:1, display: 'flex', justifyContent: 'center',flexDirection:'column', alignItems: 'center' }}>
-                            <Button onClick={() => goToNextPage()}  size="small" variant="outlined" style={{"margin":"10px","height":"3rem","minWidth":"50vw"}}>
-                                <Typography variant="h6">{getTranslated(props.userLanguage,'Next')}</Typography>
+                        <Box sx={{ flexGrow:4, display: 'flex', justifyContent: 'space-around',flexDirection:'column', alignItems: 'center' }}>
+                            <Button onClick={() => goToNextPage()}  size="small" variant="outlined" style={{"margin":"10px","height":"3rem","minWidth":"90vw", minHeight:"20vh"}}>
+                                <Typography variant="h6">{getTranslated(props.userLanguage,'prompt1')}</Typography>
+                            </Button>
+                            <Button onClick={() => goToNextPage()}  size="small" variant="outlined" style={{"margin":"10px","height":"3rem","minWidth":"90vw", minHeight:"20vh"}}>
+                                <Typography variant="h6">{getTranslated(props.userLanguage,'prompt2')}</Typography>
+                            </Button>
+                            <Button onClick={() => goToNextPage()}  size="small" variant="outlined" style={{"margin":"10px","height":"3rem","minWidth":"90vw", minHeight:"20vh"}}>
+                                <Typography variant="h6">{getTranslated(props.userLanguage,'prompt3')}</Typography>
                             </Button>
                         </Box>
                     </Box>

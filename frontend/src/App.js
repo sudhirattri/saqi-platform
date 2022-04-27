@@ -17,7 +17,8 @@ import LanguageScreen from './pages/LanguageScreen';
 import SplashScreen from './pages/SplashScreen';
 import SpatialLocationScreen from './pages/SpatialLocationScreen';
 import SocialCohortScreen from './pages/SocialCohortScreen';
-import PromptScreen from './pages/PromptScreen';
+import PromptDisplayScreen from './pages/PromptDisplayScreen';
+import SelectPromptScreen from './pages/SelectPromptScreen';
 
 const theme = createTheme({
   typography: {
@@ -83,7 +84,11 @@ function App() {
                   spatialLocation={spatialLocation} 
                   socialCohort={socialCohort} 
                   setSocialCohort={setSocialCohort}/>} />
-                <Route path="prompt" element={<PromptScreen 
+                <Route path="prompt" element={<PromptDisplayScreen 
+                  userLanguage={userLanguage} 
+                  spatialLocation={spatialLocation} 
+                  socialCohort={socialCohort} />} />
+                <Route path="choose" element={<SelectPromptScreen 
                   userLanguage={userLanguage} 
                   spatialLocation={spatialLocation} 
                   socialCohort={socialCohort} />} />
