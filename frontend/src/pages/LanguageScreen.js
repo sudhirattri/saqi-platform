@@ -44,7 +44,7 @@ export default function LanguageScreen(props) {
                     <Box sx={{ display: 'flex', justifyContent: 'space-around' , flexDirection:'column', width:'1.0', height:'100vh'}}>
                         <Box sx={{  flexGrow:2,  display: 'flex', justifyContent: 'center', flexDirection:'column',alignItems: 'center', textAlign: 'center' }}>
                             <Typography variant="h4" color="inherit" noWrap>
-                                <b>SAQI</b>
+                                <Link to={'/'}><b style={{color:"black"}}>SAQI</b></Link>
                             </Typography>
                             <Typography sx={{padding:2}} fontWeight={5} variant="h4" color="inherit" noWrap>Choose Language <br/> भाषा चुनें</Typography>
                         </Box>

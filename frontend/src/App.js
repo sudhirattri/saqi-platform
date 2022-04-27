@@ -55,7 +55,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container component="main" maxWidth="sm" sx={{ mb: 0, backgroundColor:"rgba(255,255,255,0.5)" }} style={{"height":"100vh"}}>
+      <Container component="main" maxWidth="sm" sx={{ mb: 0, backgroundColor:"rgba(255,255,255,0.8)" }} style={{"height":"100vh"}}>
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<SplashScreen 

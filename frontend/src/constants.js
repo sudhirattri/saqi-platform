@@ -15,7 +15,11 @@ const eng = {
     "Shopkeeper":"Shopkeeper",
     "SocialWorker":"Social Worker",
     "Student":"Student",
-    "Teacher":"Teacher"
+    "Teacher":"Teacher",
+
+    "Next":"Next",
+
+    "WhatAQI":"AQI क्या है?"
 }
 const hin = {
     "AskLocation":"आप कहाँ रहते हैं",
@@ -34,7 +38,11 @@ const hin = {
     "Shopkeeper":"दुकानदार",
     "SocialWorker":"समाज सेवक",
     "Student":"छात्र",
-    "Teacher":"शिक्षक"
+    "Teacher":"शिक्षक",
+
+    "Next":"आगे",
+
+    "WhatAQI":"AQI क्या है?"
 }
 export default function getTranslated(lang, searchKey){
     // console.log("Translation called: ",lang, searchKey)
