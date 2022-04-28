@@ -1,0 +1,24 @@
+[
+  {
+    "Id": 1,
+    "Location": "Shaheen Bagh",
+    "PM1_0": "36,39,855",
+    "PM10": "61,695",
+    "PM2_5": "31,877",
+    "Temperature": "59,153",
+    "Humidity": "532",
+    "Latitude": 28.5540811,
+    "Longitude": 77.2950394
+  },
+  {
+    "Id": 2,
+    "Location": "Tekhand",
+    "PM1_0": "36,39,855",
+    "PM10": "61,695",
+    "PM2_5": "31,877",
+    "Temperature": "59,153",
+    "Humidity": "532",
+    "Latitude": 28.5225513,
+    "Longitude": 77.2857801
+  }
+]
