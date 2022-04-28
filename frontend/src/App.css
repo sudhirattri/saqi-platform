@@ -77,3 +77,23 @@ a{
 Button{
   color: rgb(53, 53, 53) !important;
 }
+
+.button-choice{
+   margin: 20px !important;
+   height: 3rem !important;
+   min-width: 30vw !important;
+   padding: 30px !important;
+   box-shadow: 1px 5px 8px #888888 !important;
+   border: 1px solid #888888 !important;
+}
+
+.button-prompt{
+  margin: 10px 50px 10px 50px !important;
+  /* height: 10rem !important; */
+  /* min-width: 90vw !important; */
+  height: 100% !important;
+  width: 100% !important;
+  padding: 30px !important;
+  box-shadow: 1px 1px 1px #888888 !important;
+  border: 1px solid #888888 !important;
+}

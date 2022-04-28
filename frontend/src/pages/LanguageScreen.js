@@ -5,6 +5,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 
+import getTranslated from '../constants';
+
 import { Transition } from 'react-transition-group';
 const duration = 300;
 
@@ -23,6 +25,8 @@ const transitionStyles = {
 export default function LanguageScreen(props) {
     const navigate = useNavigate();
     function goToNextPage(language){
+        props.cancel_speech()
+        props.add_line_to_queue(getTranslated(language,'lang'),language)
         props.setUserLanguage(language)
         navigate('/spatial', {replace: true});
     }
@@ -31,6 +35,8 @@ export default function LanguageScreen(props) {
 
     useEffect(()=>{
         setInProp(true)
+        props.add_line_to_queue(getTranslated('eng','ChooseLanguage'),'eng')
+        props.add_line_to_queue(getTranslated('hin','ChooseLanguage'),'hin')
       },[])
 
     return (
@@ -46,15 +52,15 @@ export default function LanguageScreen(props) {
                             <Typography variant="h4" color="inherit" noWrap>
                                 <Link to={'/'}><b style={{color:"black"}}>SAQI</b></Link>
                             </Typography>
-                            <Typography sx={{padding:2}} fontWeight={5} variant="h4" color="inherit" noWrap>Choose Language <br/> भाषा चुनें</Typography>
+                            <Typography sx={{padding:2}} fontWeight={600} variant="h4" color="inherit" noWrap>Choose Language<br/>भाषा चुनें</Typography>
                         </Box>
                         <Box sx={{ flexGrow:3, display: 'flex', justifyContent: 'center',flexDirection:'column', alignItems: 'center' }}>
-                            <Button onClick={() => goToNextPage('eng')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minWidth":"50vw"}}>
-                                <Typography variant="h6">English</Typography>
+                            <Button onClick={() => goToNextPage('eng')}  size="medium" variant="text" className='button-choice'>
+                                <Typography variant="button" fontSize={18}>English</Typography>
                             </Button>
 
-                            <Button onClick={() => goToNextPage('hin')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minWidth":"50vw"}}>
-                                <Typography variant="h5">हिन्दी</Typography>
+                            <Button onClick={() => goToNextPage('hin')}  size="medium" variant="text" className='button-choice'>
+                                <Typography variant="button" fontSize={22}>हिन्दी</Typography>
                             </Button>
                         </Box>
                     </Box>

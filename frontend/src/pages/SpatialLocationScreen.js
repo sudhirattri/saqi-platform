@@ -27,6 +27,13 @@ const transitionStyles = {
 export default function SpatialLocationScreen(props) {
     const navigate = useNavigate();
     function goToNextPage(location){
+        props.cancel_speech()
+        if(props.userLanguage==='hin'){
+            props.add_line_to_queue(getTranslated(props.userLanguage,'AcknowledgeLocation')+getTranslated(props.userLanguage,location)+"हैं",props.userLanguage)
+        }
+        else{
+            props.add_line_to_queue(getTranslated(props.userLanguage,'AcknowledgeLocation')+getTranslated(props.userLanguage,location),props.userLanguage)
+        }
         props.setSpatialLocation(location)
         navigate('/social', {replace: true});
     }
@@ -35,6 +42,7 @@ export default function SpatialLocationScreen(props) {
 
     useEffect(()=>{
         setInProp(true)
+        props.add_line_to_queue(getTranslated(props.userLanguage,'AskLocation'),props.userLanguage)
       },[])
 
     return (
@@ -46,35 +54,35 @@ export default function SpatialLocationScreen(props) {
                     ...transitionStyles[state]
                 }}>
                     <Box sx={{ display: 'flex', justifyContent: 'space-around' , flexDirection:'column', width:'1.0', height:'100vh'}}>
-                        <Box sx={{  flexGrow:2,  display: 'flex', justifyContent: 'center', flexDirection:'column',alignItems: 'center', textAlign: 'center' }}>
+                        <Box sx={{  flexGrow:1,  display: 'flex', justifyContent: 'center', flexDirection:'column',alignItems: 'center', textAlign: 'center' }}>
                             <Typography variant="h4" color="inherit" noWrap>
                                 <Link to={'/'}><b style={{color:"black"}}>SAQI</b></Link>
                             </Typography>
-                            <Typography sx={{padding:2}} fontWeight={5} variant="h4" color="inherit" noWrap>{getTranslated(props.userLanguage,'AskLocation')}</Typography>
+                            <Typography sx={{padding:2}} fontWeight={600} variant="h4" color="inherit" noWrap>{getTranslated(props.userLanguage,'AskLocation')}</Typography>
                         </Box>
                         <Box sx={{ flexGrow:3, display: 'flex', justifyContent: 'center',flexDirection:'column', alignItems: 'center' }}>
-                                <Button onClick={() => goToNextPage('JarodhaKalan')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw", "padding":"30px"}}>
-                                    <Typography variant="h6">{getTranslated(props.userLanguage,'JarodhaKalan')}</Typography>
+                                <Button onClick={() => goToNextPage('JarodhaKalan')}  size="medium" variant="text" className='button-choice'>
+                                    <Typography variant="button" fontSize={18}>{getTranslated(props.userLanguage,'JarodhaKalan')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('Najafgarh')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw", "padding":"30px"}}>
-                                    <Typography variant="h6">{getTranslated(props.userLanguage,'Najafgarh')}</Typography>
+                                <Button onClick={() => goToNextPage('Najafgarh')}  size="medium" variant="text" className='button-choice'>
+                                    <Typography variant="button" fontSize={18}>{getTranslated(props.userLanguage,'Najafgarh')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('NangliDairy')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw", "padding":"30px"}}>
-                                    <Typography variant="h6">{getTranslated(props.userLanguage,'NangliDairy')}</Typography>
+                                <Button onClick={() => goToNextPage('NangliDairy')}  size="medium" variant="text" className='button-choice'>
+                                    <Typography variant="button" fontSize={18}>{getTranslated(props.userLanguage,'NangliDairy')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('SanjayColony')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw", "padding":"30px"}}>
-                                    <Typography variant="h6">{getTranslated(props.userLanguage,'SanjayColony')}</Typography>
+                                <Button onClick={() => goToNextPage('SanjayColony')}  size="medium" variant="text" className='button-choice'>
+                                    <Typography variant="button" fontSize={18}>{getTranslated(props.userLanguage,'SanjayColony')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('ShaheenBagh')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw", "padding":"30px"}}>
-                                    <Typography variant="h6">{getTranslated(props.userLanguage,'ShaheenBagh')}</Typography>
+                                <Button onClick={() => goToNextPage('ShaheenBagh')}  size="medium" variant="text" className='button-choice'>
+                                    <Typography variant="button" fontSize={18}>{getTranslated(props.userLanguage,'ShaheenBagh')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('Tekhand')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"50vw", "padding":"30px"}}>
-                                    <Typography variant="h6">{getTranslated(props.userLanguage,'Tekhand')}</Typography>
+                                <Button onClick={() => goToNextPage('Tekhand')}  size="medium" variant="text" className='button-choice'>
+                                    <Typography variant="button" fontSize={18}>{getTranslated(props.userLanguage,'Tekhand')}</Typography>
                                 </Button>
 
                         </Box>

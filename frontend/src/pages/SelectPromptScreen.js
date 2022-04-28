@@ -53,16 +53,18 @@ export default function SelectPromptScreen(props) {
                             <Typography variant="h4" color="inherit" noWrap>
                             <Link to={'/'}><b style={{color:"black"}}>SAQI</b></Link>
                             </Typography>
+                            <br/>
+                            <Typography fontSize={25}>{getTranslated(props.userLanguage,'nextPromptTitle')}</Typography>
                         </Box>
                         <Box sx={{ flexGrow:4, display: 'flex', justifyContent: 'space-around',flexDirection:'column', alignItems: 'center' }}>
-                            <Button onClick={() => goToNextPage()}  size="small" variant="outlined" style={{"margin":"10px","height":"3rem","minWidth":"90vw", minHeight:"20vh"}}>
-                                <Typography variant="h6">{getTranslated(props.userLanguage,'prompt1')}</Typography>
+                            <Button onClick={() => goToNextPage()}  size="small" variant="outlined" className='button-prompt'>
+                                <Typography fontSize={20}>{getTranslated(props.userLanguage,'prompt1')}</Typography>
                             </Button>
-                            <Button onClick={() => goToNextPage()}  size="small" variant="outlined" style={{"margin":"10px","height":"3rem","minWidth":"90vw", minHeight:"20vh"}}>
-                                <Typography variant="h6">{getTranslated(props.userLanguage,'prompt2')}</Typography>
+                            <Button onClick={() => goToNextPage()}  size="small" variant="outlined" className='button-prompt'>
+                                <Typography fontSize={20}>{getTranslated(props.userLanguage,'prompt2')}</Typography>
                             </Button>
-                            <Button onClick={() => goToNextPage()}  size="small" variant="outlined" style={{"margin":"10px","height":"3rem","minWidth":"90vw", minHeight:"20vh"}}>
-                                <Typography variant="h6">{getTranslated(props.userLanguage,'prompt3')}</Typography>
+                            <Button onClick={() => goToNextPage()}  size="small" variant="outlined" className='button-prompt'>
+                                <Typography fontSize={20}>{getTranslated(props.userLanguage,'prompt3')}</Typography>
                             </Button>
                         </Box>
                     </Box>

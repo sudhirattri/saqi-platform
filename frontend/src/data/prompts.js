@@ -8,7 +8,7 @@ export const data =  {
             "answer_hin":"AQI क्या है का answer"
         }
     ],
-    // Use placeholders for location e.g. "_location"
+    // Use placeholders for location e.g.   "_location"
     'AQINearMe':
     {
         "sparql_query":"query",

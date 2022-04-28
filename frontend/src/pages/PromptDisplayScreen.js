@@ -38,7 +38,7 @@ export default function PromptDisplayScreen(props) {
 
     useEffect(()=>{
         setInProp(true)
-      },[])
+    },[])
 
     return (
         <React.Fragment>
@@ -55,11 +55,19 @@ export default function PromptDisplayScreen(props) {
                             </Typography>
                         </Box>
                         <Box sx={{  flexGrow:5,  display: 'flex', justifyContent: 'center', flexDirection:'column',alignItems: 'center', textAlign: 'center' }}>
-                            <MasterPrompt sx={{flexGrow:4   }} title="title"></MasterPrompt>
+                            <MasterPrompt sx={{flexGrow:4   }} 
+                                userLanguage={props.userLanguage} 
+                                spatialLocation={props.spatialLocation} 
+                                socialCohort={props.socialCohort}
+                                add_line_to_queue={props.add_line_to_queue}
+                                cancel_speech={props.cancel}
+                                title={getTranslated(props.userLanguage,'TestQuestion')}
+                                bodyText={getTranslated(props.userLanguage,'TestAnswer')}
+                            ></MasterPrompt>
                         </Box>
                         <Box sx={{ flexGrow:1, display: 'flex', justifyContent: 'center',flexDirection:'column', alignItems: 'center' }}>
-                            <Button onClick={() => goToNextPage()}  size="small" variant="outlined" style={{"margin":"10px","height":"3rem","minWidth":"50vw"}}>
-                                <Typography variant="h6">{getTranslated(props.userLanguage,'Next')}</Typography>
+                            <Button onClick={() => goToNextPage()}  size="small" className='button-choice'>
+                                <Typography fontSize={16} fontWeight={600} variant="button">{getTranslated(props.userLanguage,'Next')}</Typography>
                             </Button>
                         </Box>
                     </Box>

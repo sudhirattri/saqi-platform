@@ -1,0 +1,8 @@
+com/saqi/twa/LauncherActivity.java
+ com.saqi.twa.LauncherActivity
+com/saqi/twa/Application.java
+ com.saqi.twa.Application
+com/saqi/twa/DelegationService.java
+ com.saqi.twa.DelegationService
+com/saqi/twa/BuildConfig.java
+ com.saqi.twa.BuildConfig

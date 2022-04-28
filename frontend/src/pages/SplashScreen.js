@@ -3,6 +3,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { Link } from "react-router-dom";
 
+import getTranslated from '../constants';
+
 import { TransitionGroup } from 'react-transition-group'
 import { Transition } from 'react-transition-group';
 const duration = 300;
@@ -26,6 +28,7 @@ export default function SplashScreen(props) {
 
     useEffect(()=>{
         setInProp(true)
+        props.add_line_to_queue(getTranslated(props.userLanguage,'SplashMessage'),props.userLanguage)
       },[])
 
     return (

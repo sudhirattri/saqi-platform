@@ -27,6 +27,21 @@ const transitionStyles = {
 export default function SocialCohortScreen(props) {
     const navigate = useNavigate();
     function goToNextPage(social){
+        props.cancel_speech()
+        if(props.userLanguage==='hin'){
+            if(social=="Academy"){
+                props.add_line_to_queue(getTranslated(props.userLanguage,'AcknowledgeCohort3'),props.userLanguage)    
+            }
+            else if(social=="MotherOfYoungKid"){
+                props.add_line_to_queue(getTranslated(props.userLanguage,'AcknowledgeCohort2'),props.userLanguage)
+            }
+            else{
+                props.add_line_to_queue(getTranslated(props.userLanguage,'AcknowledgeCohort1')+getTranslated(props.userLanguage,social)+"हैं",props.userLanguage)
+            }
+        }
+        else{
+            props.add_line_to_queue(getTranslated(props.userLanguage,'AcknowledgeCohort')+getTranslated(props.userLanguage,social),props.userLanguage)
+        }
         props.setSocialCohort(social)
         navigate('/prompt', {replace: true});
     }
@@ -35,6 +50,7 @@ export default function SocialCohortScreen(props) {
 
     useEffect(()=>{
         setInProp(true)
+        props.add_line_to_queue(getTranslated(props.userLanguage,'AskCohort'),props.userLanguage)
       },[])
 
     return (
@@ -46,35 +62,35 @@ export default function SocialCohortScreen(props) {
                     ...transitionStyles[state]
                 }}>
                     <Box sx={{ display: 'flex', justifyContent: 'space-around' , flexDirection:'column', width:'1.0', height:'100vh'}}>
-                        <Box sx={{  flexGrow:2,  display: 'flex', justifyContent: 'center', flexDirection:'column',alignItems: 'center', textAlign: 'center' }}>
+                        <Box sx={{  flexGrow:1,  display: 'flex', justifyContent: 'center', flexDirection:'column',alignItems: 'center', textAlign: 'center' }}>
                             <Typography variant="h4" color="inherit" noWrap>
                                 <Link to={'/'}><b style={{color:"black"}}>SAQI</b></Link>
                             </Typography>
-                            <Typography sx={{padding:2}} fontWeight={5} variant="h4" color="inherit" noWrap>{getTranslated(props.userLanguage,'AskCohort')}</Typography>
+                            <Typography sx={{padding:2}} fontWeight={600} variant="h4" color="inherit" noWrap>{getTranslated(props.userLanguage,'AskCohort')}</Typography>
                         </Box>
                         <Box sx={{ flexGrow:3, display: 'flex', justifyContent: 'center',flexDirection:'column', alignItems: 'center' }}>
-                                <Button onClick={() => goToNextPage('Academy')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"40vw", "padding":"30px"}}>
-                                    <Typography variant="h6">{getTranslated(props.userLanguage,'Academy')}</Typography>
+                                <Button onClick={() => goToNextPage('Academy')}  size="medium" variant="text" size="medium" variant="text" className='button-choice'>
+                                    <Typography variant="button" fontSize={18}>{getTranslated(props.userLanguage,'Academy')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('MotherOfYoungKid')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"40vw", "padding":"30px"}}>
-                                    <Typography variant="h6">{getTranslated(props.userLanguage,'MotherOfYoungKid')}</Typography>
+                                <Button onClick={() => goToNextPage('MotherOfYoungKid')}  size="medium" variant="text" className='button-choice'>
+                                    <Typography variant="button" fontSize={18}>{getTranslated(props.userLanguage,'MotherOfYoungKid')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('Shopkeeper')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"40vw", "padding":"30px"}}>
-                                    <Typography variant="h6">{getTranslated(props.userLanguage,'Shopkeeper')}</Typography>
+                                <Button onClick={() => goToNextPage('Shopkeeper')}  size="medium" variant="text" className='button-choice'>
+                                    <Typography variant="button" fontSize={18}>{getTranslated(props.userLanguage,'Shopkeeper')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('SocialWorker')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"40vw", "padding":"30px"}}>
-                                    <Typography variant="h6">{getTranslated(props.userLanguage,'SocialWorker')}</Typography>
+                                <Button onClick={() => goToNextPage('SocialWorker')}  size="medium" variant="text" className='button-choice'>
+                                    <Typography variant="button" fontSize={18}>{getTranslated(props.userLanguage,'SocialWorker')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('Student')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"40vw", "padding":"30px"}}>
-                                    <Typography variant="h6">{getTranslated(props.userLanguage,'Student')}</Typography>
+                                <Button onClick={() => goToNextPage('Student')}  size="medium" variant="text" className='button-choice'>
+                                    <Typography variant="button" fontSize={18}>{getTranslated(props.userLanguage,'Student')}</Typography>
                                 </Button>
 
-                                <Button onClick={() => goToNextPage('Teacher')} sx={{boxShadow: 5}} size="medium" variant="text" style={{"margin":"20px","height":"4rem","minwidth":"40vw", "padding":"30px"}}>
-                                    <Typography variant="h6">{getTranslated(props.userLanguage,'Teacher')}</Typography>
+                                <Button onClick={() => goToNextPage('Teacher')}  size="medium" variant="text" className='button-choice'>
+                                    <Typography variant="button" fontSize={18}>{getTranslated(props.userLanguage,'Teacher')}</Typography>
                                 </Button>
 
                         </Box>

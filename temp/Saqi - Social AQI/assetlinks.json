@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "com.saqi.twa",
+                     "sha256_cert_fingerprints": ["BE:40:A7:84:5C:EE:E6:11:71:36:00:71:22:AD:8D:B0:A8:67:CD:96:2C:A6:B9:E5:CC:EB:1C:04:AE:BF:96:0C"] }
+      }
+]
