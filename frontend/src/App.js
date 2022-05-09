@@ -31,9 +31,10 @@ import LanguageScreen from './pages/LanguageScreen';
 import SplashScreen from './pages/SplashScreen';
 import SpatialLocationScreen from './pages/SpatialLocationScreen';
 import SocialCohortScreen from './pages/SocialCohortScreen';
-import PromptDisplayScreen from './pages/PromptDisplayScreen';
-import SelectPromptScreen from './pages/SelectPromptScreen';
+import PromptsBase from './pages/PromptsBase';
+
 import getTranslated from './constants';
+
 import { Button } from '@mui/material';
 
 const theme = createTheme({
@@ -200,7 +201,7 @@ function App() {
                   cancel_speech={cancel}
                   />} 
                 />
-                <Route path="prompt" element={<PromptDisplayScreen 
+                <Route path="prompts/*" element={<PromptsBase 
                   userLanguage={userLanguage} 
                   spatialLocation={spatialLocation} 
                   socialCohort={socialCohort} 
@@ -208,14 +209,14 @@ function App() {
                   cancel_speech={cancel}
                   />} 
                 />
-                <Route path="choose" element={<SelectPromptScreen 
+                {/* <Route path="choose" element={<SelectPromptScreen 
                   userLanguage={userLanguage} 
                   spatialLocation={spatialLocation} 
                   socialCohort={socialCohort} 
                   add_line_to_queue={add_line_to_queue}
                   cancel_speech={cancel}
                   />} 
-                />
+                /> */}
             </Routes>
         </BrowserRouter>
       </Container>
@@ -232,9 +233,8 @@ function App() {
       </Box>
       )}
 
-      <Box style={{position:'fixed', top:'10px', right:'10px'}}>
+      <Box style={{position:'fixed', top:'20px', right:'20px'}}>
         <FormControl sx={{ m: 1, minWidth: 20 }} variant="standard" size="small">
-          {/* <InputLabel id="demo-select-small">lang</InputLabel> */}
           <Select
             labelId="demo-select-small"
             id="demo-select-small"

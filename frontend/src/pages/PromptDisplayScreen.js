@@ -33,11 +33,15 @@ export default function PromptDisplayScreen(props) {
     function goToNextPage(){
         console.log("next button pressed")
         // props.setUserLanguage(language)
-        navigate('/choose', {replace: true});
+        navigate('/prompts/select', {replace: true});
     }
 
     useEffect(()=>{
         setInProp(true)
+        props.cancel_speech()
+        console.log("sound prompt")
+        props.add_line_to_queue((props.userLanguage=='hin')?(props.displayPrompt['question_hin']):(props.displayPrompt['question']))
+        props.add_line_to_queue((props.userLanguage=='hin')?(props.displayPrompt['answer_hin']):(props.displayPrompt['answer']))
     },[])
 
     return (
@@ -61,8 +65,8 @@ export default function PromptDisplayScreen(props) {
                                 socialCohort={props.socialCohort}
                                 add_line_to_queue={props.add_line_to_queue}
                                 cancel_speech={props.cancel}
-                                title={getTranslated(props.userLanguage,'TestQuestion')}
-                                bodyText={getTranslated(props.userLanguage,'TestAnswer')}
+                                title={(props.userLanguage=='hin')?(props.displayPrompt['question_hin']):(props.displayPrompt['question'])}
+                                bodyText={(props.userLanguage=='hin')?(props.displayPrompt['answer_hin']):(props.displayPrompt['answer'])}
                             ></MasterPrompt>
                         </Box>
                         <Box sx={{ flexGrow:1, display: 'flex', justifyContent: 'center',flexDirection:'column', alignItems: 'center' }}>

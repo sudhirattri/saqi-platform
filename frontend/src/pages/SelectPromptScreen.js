@@ -6,9 +6,14 @@ import { Link , useNavigate} from "react-router-dom";
 import getTranslated from '../constants';
 import MasterPrompt from '../components/MasterPrompt';
 
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+
 import { TransitionGroup } from 'react-transition-group'
 import { Transition } from 'react-transition-group';
+import Zoom from '@mui/material/Zoom';
 import { Button } from '@mui/material';
+import {data} from '../data/prompts';
 const duration = 300;
 
 
@@ -29,15 +34,18 @@ exited:  { opacity: 0 ,transform: "scale(0.7)"},
 export default function SelectPromptScreen(props) {
     const navigate = useNavigate();
     const [inProp, setInProp] = useState(false);
-
-    function goToNextPage(){
-        console.log("next chosen")
-        // props.setUserLanguage(language)
-        // navigate('/spatial', {replace: true});
+    const [zoomIn, setZoomIn] = React.useState(false);
+    
+    function goToNextPage(selected){
+        props.register_choice(selected)
+        navigate('/prompts/show', {replace: true});
     }
 
     useEffect(()=>{
+        props.cancel_speech()
+        props.add_line_to_queue(getTranslated(props.userLanguage,'nextPromptTitle'),props.userLanguage)
         setInProp(true)
+        setZoomIn(true)
       },[])
 
     return (
@@ -57,7 +65,35 @@ export default function SelectPromptScreen(props) {
                             <Typography fontSize={25}>{getTranslated(props.userLanguage,'nextPromptTitle')}</Typography>
                         </Box>
                         <Box sx={{ flexGrow:4, display: 'flex', justifyContent: 'space-around',flexDirection:'column', alignItems: 'center' }}>
-                            <Button onClick={() => goToNextPage()}  size="small" variant="outlined" className='button-prompt'>
+
+                        {props.currentPrompts.map((item,index) => {
+                            const currentPrompt = data[item['type']][item['name']];
+                            return (
+                            <React.Fragment key={index}>
+                                <Zoom in={zoomIn} style={{ transitionDelay: Math.min(5000,(index*500)).toString()+'ms' }}>
+                                    <Box display="flex" flexDirection="row" justifyContent="space-around"
+                                        style={{ margin:"0px",padding:"0",width:"100%",backgroundColor:"transparent"}}
+                                    >
+                                        {/* <Typography xs={2} gutterBottom variant="h5" component="h2" marginTop={2}>
+                                        {index+1}
+                                        </Typography>
+                                        <Card style={{"width":"90%", "margin-bottom":"10px"}}>
+                                        <CardContent>
+                                            <Typography gutterBottom variant="h6" component="h2">
+                                                {(props.userLanguage=='hin')?(currentPrompt['question_hin']):(currentPrompt['question'])}
+                                            </Typography>
+                                        </CardContent>
+                                        </Card> */}
+                                        <Button onClick={() => goToNextPage(currentPrompt)}  size="small" variant="outlined" className='button-prompt'>
+                                            <Typography fontSize={20}>{(props.userLanguage=='hin')?(currentPrompt['question_hin']):(currentPrompt['question'])}</Typography>
+                                        </Button>
+                                    </Box>
+                                </Zoom>
+                                {/* <Divider variant="inset" component="li"/> */}
+                            </React.Fragment>
+                            );
+                        })}
+                            {/* <Button onClick={() => goToNextPage()}  size="small" variant="outlined" className='button-prompt'>
                                 <Typography fontSize={20}>{getTranslated(props.userLanguage,'prompt1')}</Typography>
                             </Button>
                             <Button onClick={() => goToNextPage()}  size="small" variant="outlined" className='button-prompt'>
@@ -65,7 +101,7 @@ export default function SelectPromptScreen(props) {
                             </Button>
                             <Button onClick={() => goToNextPage()}  size="small" variant="outlined" className='button-prompt'>
                                 <Typography fontSize={20}>{getTranslated(props.userLanguage,'prompt3')}</Typography>
-                            </Button>
+                            </Button> */}
                         </Box>
                     </Box>
                 </div>

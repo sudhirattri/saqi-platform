@@ -43,7 +43,7 @@ export default function SocialCohortScreen(props) {
             props.add_line_to_queue(getTranslated(props.userLanguage,'AcknowledgeCohort')+getTranslated(props.userLanguage,social),props.userLanguage)
         }
         props.setSocialCohort(social)
-        navigate('/prompt', {replace: true});
+        navigate('/prompts', {replace: true});
     }
 
     const [inProp, setInProp] = useState(false);
@@ -69,7 +69,7 @@ export default function SocialCohortScreen(props) {
                             <Typography sx={{padding:2}} fontWeight={600} variant="h4" color="inherit" noWrap>{getTranslated(props.userLanguage,'AskCohort')}</Typography>
                         </Box>
                         <Box sx={{ flexGrow:3, display: 'flex', justifyContent: 'center',flexDirection:'column', alignItems: 'center' }}>
-                                <Button onClick={() => goToNextPage('Academy')}  size="medium" variant="text" size="medium" variant="text" className='button-choice'>
+                                <Button onClick={() => goToNextPage('Academy')}  size="medium" variant="text" className='button-choice'>
                                     <Typography variant="button" fontSize={18}>{getTranslated(props.userLanguage,'Academy')}</Typography>
                                 </Button>
 
