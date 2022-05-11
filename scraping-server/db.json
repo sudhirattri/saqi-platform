@@ -1,1 +1,149 @@
-{"_default": {}, "jobs": {"1": {"status": "S", "last_run": "2022-03-24 02:40:52.344256", "name": "test job", "system": "cpcb", "current_stage": "4", "unique_id": "1648067400_Okhla", "stages": [{"name": "acquisition", "comment": "na", "retries_left": 5, "data": {"state": "Delhi", "city": "Delhi", "station": "site_1428", "locationIRI": "Okhla", "from_date": "24-03-2022 T00:00:00Z", "to_date": "24-03-2022 T02:00:00Z"}}, {"name": "pre_process", "comment": "na", "retries_left": 5, "data": {"locationIRI": "Okhla", "from_date": "24-03-2022 T00:00:00Z", "to_date": "24-03-2022 T02:00:00Z", "csv_file": "/mnt/e/btp/saqi-platform/scraping-server/services/./../data/csv/1648067400_Okhla.csv"}}, {"name": "mapping", "comment": "na", "retries_left": 5, "data": {"locationIRI": "Okhla", "from_date": "24-03-2022 T00:00:00Z", "to_date": "24-03-2022 T02:00:00Z", "csv_file": "/mnt/e/btp/saqi-platform/scraping-server/services/./../data/csv/1648067400_Okhla.csv"}}, {"name": "upload", "comment": "na", "retries_left": 5, "data": {"turtle_file": "/mnt/e/btp/saqi-platform/scraping-server/data/turtle/1648067400_Okhla.csv.turtle"}}]}, "2": {"status": "S", "last_run": "2022-03-24 17:22:52.341142", "name": "test job", "system": "cpcb", "current_stage": "4", "unique_id": "1648117801_Okhla", "stages": [{"name": "acquisition", "comment": "na", "retries_left": 3, "data": {"state": "Delhi", "city": "Delhi", "station": "site_1428", "locationIRI": "Okhla", "from_date": "24-03-2022 T14:00:00Z", "to_date": "24-03-2022 T16:00:00Z"}}, {"name": "pre_process", "comment": "na", "retries_left": 5, "data": {"locationIRI": "Okhla", "from_date": "24-03-2022 T14:00:00Z", "to_date": "24-03-2022 T16:00:00Z", "csv_file": "/mnt/e/btp/saqi-platform/scraping-server/services/./../data/csv/1648117801_Okhla.csv"}}, {"name": "mapping", "comment": "na", "retries_left": 5, "data": {"locationIRI": "Okhla", "from_date": "24-03-2022 T14:00:00Z", "to_date": "24-03-2022 T16:00:00Z", "csv_file": "/mnt/e/btp/saqi-platform/scraping-server/services/./../data/csv/1648117801_Okhla.csv"}}, {"name": "upload", "comment": "na", "retries_left": 5, "data": {"turtle_file": "/mnt/e/btp/saqi-platform/scraping-server/data/turtle/1648117801_Okhla.csv.turtle"}}]}, "3": {"status": "S", "last_run": "2022-04-25 23:10:00.856328", "name": "test job", "system": "eziostat", "current_stage": "4", "unique_id": "1650904201_Sanjay_Colony", "stages": [{"name": "acquisition", "comment": "na", "retries_left": 5, "data": {"from_date": "25-04-2022 T20:00:00Z", "to_date": "25-04-2022 T22:00:00Z", "mac_id": "84:cc:a8:36:b1:04", "locationIRI": "Sanjay_Colony"}}, {"name": "pre_process", "comment": "na", "retries_left": 5, "data": {"locationIRI": "Sanjay_Colony", "from_date": "25-04-2022 T20:00:00Z", "to_date": "25-04-2022 T22:00:00Z", "csv_file": "E:\\btp\\saqi-platform\\scraping-server\\services\\./../data/csv/1650904201_Sanjay_Colony.csv", "mac_id": "84:cc:a8:36:b1:04"}}, {"name": "mapping", "comment": "na", "retries_left": 5, "data": {"locationIRI": "Sanjay_Colony", "from_date": "25-04-2022 T20:00:00Z", "to_date": "25-04-2022 T22:00:00Z", "csv_file": "E:\\btp\\saqi-platform\\scraping-server\\services\\./../data/csv/1650904201_Sanjay_Colony.csv", "mac_id": "84:cc:a8:36:b1:04"}}, {"name": "upload", "comment": "na", "retries_left": 5, "data": {"turtle_file": "E:\\btp\\saqi-platform\\scraping-server\\data\\turtle\\1650904201_Sanjay_Colony.csv.turtle"}}]}}}
+{
+    "_default": {},
+    "jobs": {
+        "1": {
+            "status": "S",
+            "last_run": "2022-03-24 02:40:52.344256",
+            "name": "test job",
+            "system": "cpcb",
+            "current_stage": "4",
+            "unique_id": "1648067400_Okhla",
+            "stages": [{
+                "name": "acquisition",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {
+                    "state": "Delhi",
+                    "city": "Delhi",
+                    "station": "site_1428",
+                    "locationIRI": "Okhla",
+                    "from_date": "24-03-2022 T00:00:00Z",
+                    "to_date": "24-03-2022 T02:00:00Z"
+                }
+            }, {
+                "name": "pre_process",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {
+                    "locationIRI": "Okhla",
+                    "from_date": "24-03-2022 T00:00:00Z",
+                    "to_date": "24-03-2022 T02:00:00Z",
+                    "csv_file": "/mnt/e/btp/saqi-platform/scraping-server/services/./../data/csv/1648067400_Okhla.csv"
+                }
+            }, {
+                "name": "mapping",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {
+                    "locationIRI": "Okhla",
+                    "from_date": "24-03-2022 T00:00:00Z",
+                    "to_date": "24-03-2022 T02:00:00Z",
+                    "csv_file": "/mnt/e/btp/saqi-platform/scraping-server/services/./../data/csv/1648067400_Okhla.csv"
+                }
+            }, {
+                "name": "upload",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {
+                    "turtle_file": "/mnt/e/btp/saqi-platform/scraping-server/data/turtle/1648067400_Okhla.csv.turtle"
+                }
+            }]
+        },
+        "2": {
+            "status": "S",
+            "last_run": "2022-03-24 17:22:52.341142",
+            "name": "test job",
+            "system": "cpcb",
+            "current_stage": "4",
+            "unique_id": "1648117801_Okhla",
+            "stages": [{
+                "name": "acquisition",
+                "comment": "na",
+                "retries_left": 3,
+                "data": {
+                    "state": "Delhi",
+                    "city": "Delhi",
+                    "station": "site_1428",
+                    "locationIRI": "Okhla",
+                    "from_date": "24-03-2022 T14:00:00Z",
+                    "to_date": "24-03-2022 T16:00:00Z"
+                }
+            }, {
+                "name": "pre_process",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {
+                    "locationIRI": "Okhla",
+                    "from_date": "24-03-2022 T14:00:00Z",
+                    "to_date": "24-03-2022 T16:00:00Z",
+                    "csv_file": "/mnt/e/btp/saqi-platform/scraping-server/services/./../data/csv/1648117801_Okhla.csv"
+                }
+            }, {
+                "name": "mapping",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {
+                    "locationIRI": "Okhla",
+                    "from_date": "24-03-2022 T14:00:00Z",
+                    "to_date": "24-03-2022 T16:00:00Z",
+                    "csv_file": "/mnt/e/btp/saqi-platform/scraping-server/services/./../data/csv/1648117801_Okhla.csv"
+                }
+            }, {
+                "name": "upload",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {
+                    "turtle_file": "/mnt/e/btp/saqi-platform/scraping-server/data/turtle/1648117801_Okhla.csv.turtle"
+                }
+            }]
+        },
+        "3": {
+            "status": "S",
+            "last_run": "2022-04-25 23:10:00.856328",
+            "name": "test job",
+            "system": "eziostat",
+            "current_stage": "4",
+            "unique_id": "1650904201_Sanjay_Colony",
+            "stages": [{
+                "name": "acquisition",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {
+                    "from_date": "25-04-2022 T20:00:00Z",
+                    "to_date": "25-04-2022 T22:00:00Z",
+                    "mac_id": "84:cc:a8:36:b1:04",
+                    "locationIRI": "Sanjay_Colony"
+                }
+            }, {
+                "name": "pre_process",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {
+                    "locationIRI": "Sanjay_Colony",
+                    "from_date": "25-04-2022 T20:00:00Z",
+                    "to_date": "25-04-2022 T22:00:00Z",
+                    "csv_file": "E:\\btp\\saqi-platform\\scraping-server\\services\\./../data/csv/1650904201_Sanjay_Colony.csv",
+                    "mac_id": "84:cc:a8:36:b1:04"
+                }
+            }, {
+                "name": "mapping",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {
+                    "locationIRI": "Sanjay_Colony",
+                    "from_date": "25-04-2022 T20:00:00Z",
+                    "to_date": "25-04-2022 T22:00:00Z",
+                    "csv_file": "E:\\btp\\saqi-platform\\scraping-server\\services\\./../data/csv/1650904201_Sanjay_Colony.csv",
+                    "mac_id": "84:cc:a8:36:b1:04"
+                }
+            }, {
+                "name": "upload",
+                "comment": "na",
+                "retries_left": 5,
+                "data": {
+                    "turtle_file": "E:\\btp\\saqi-platform\\scraping-server\\data\\turtle\\1650904201_Sanjay_Colony.csv.turtle"
+                }
+            }]
+        }
+    }
+}

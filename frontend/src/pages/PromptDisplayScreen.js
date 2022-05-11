@@ -40,8 +40,8 @@ export default function PromptDisplayScreen(props) {
         setInProp(true)
         props.cancel_speech()
         console.log("sound prompt")
-        props.add_line_to_queue((props.userLanguage=='hin')?(props.displayPrompt['question_hin']):(props.displayPrompt['question']))
-        props.add_line_to_queue((props.userLanguage=='hin')?(props.displayPrompt['answer_hin']):(props.displayPrompt['answer']))
+        props.add_line_to_queue(((props.userLanguage=='hin')?(props.displayPrompt['question_hin']):(props.displayPrompt['question'])),props.userLanguage)
+        props.add_line_to_queue(((props.userLanguage=='hin')?(props.displayPrompt['answer_hin']):(props.displayPrompt['answer'])),props.userLanguage)
     },[])
 
     return (

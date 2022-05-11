@@ -14,13 +14,13 @@ export default function MasterPrompt(props) {
     // });
 
     useEffect(()=>{
-        props.add_line_to_queue(getTranslated(props.userLanguage,props.title),props.userLanguage)
+        // props.add_line_to_queue(getTranslated(props.userLanguage,props.title),props.userLanguage)
     },[])
 
     return (
         <React.Fragment>
             <Box sx={{  flexGrow:1,  display: 'flex', justifyContent: 'center', flexDirection:'column',alignItems: 'center', textAlign: 'center' }}>
-                <Typography sx={{padding:2}} fontWeight={600} variant="h5" color="inherit" noWrap><b>{props.title}</b></Typography>
+                <Typography sx={{padding:2}} fontWeight={600} variant="h5" color="inherit" ><b>{props.title}</b></Typography>
             </Box>
             <Box sx={{ maxWidth:"50vh", flexGrow:4,  display: 'flex', justifyContent: 'center', flexDirection:'column',alignItems: 'center', textAlign: 'center' }}>
                 <Slide duration={300} right>    
