@@ -1,0 +1,76 @@
+prefixes:
+  aq: "https://kracr.iiitd.edu.in/ontology/SAQIOntology"
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+mappings:
+  aqLiteracy:
+    sources:
+      - access: _filename
+        referenceFormulation: csv
+    s: aq:aqi_literacy__locname$(Id)
+    po:
+      - [
+          aq:hasAirPollutionGraphicLiteracy,
+          $(Have you ever seen the screens displaying air quality as severe/poor/good in different colors in different parts of the city do you understand the language?),
+        ]
+      - [aq:frequencyToCheckAQI, $(How frequently do you check air quality?)]
+      - [
+          aq:hasParticulateMatterLiteracy,
+          $(Have you ever heard the terms PM 2.5 and PM10?),
+        ]
+      - [aq:hasAQIColorLiteracy, $(What does the red color in AQI mean?)]
+      - [aq:hasAQILiteracy, $(Do you know about the Air Quality Index?)]
+
+  aqPerception:
+    sources:
+      - access: _filename
+        referenceFormulation: csv
+    s: aq:aq_Perception__locname$(Id)
+    po:
+      - [
+          aq:peopleVotedOnAirPollutionIssues,
+          $(Did the local representative talk about and benefitted from air related issues in previous election?),
+        ]
+      - [
+          aq:howIsYourLocalityComparedToOtherAreas,
+          $(How polluted do you think is the area where you live in comparison to the rest of Delhi-NCR?),
+        ]
+      - [
+          aq:shouldPollutionIssuesBeRaisedInMCDElections,
+          $(Should the issues around pollution be politicized in municipal elections?),
+        ]
+      - [
+          aq:airQualityChangeIn3Years,
+          $(What are your thoughts on the change in air quality in your city over the last 3-4 years?),
+        ]
+      - [
+          aq:workplaceUpdatesAboutPollution,
+          $(Does your workplace give updates about air pollution?),
+        ]
+      - [
+          aq:delhiGovtWorkPerception,
+          $(Do you think the Delhi Government is taking adequate steps to improve air quality in your city?),
+        ]
+      - [aq:localAirQualityRating, $(How will you rate your local air quality?)]
+
+  person:
+    sources:
+      - access: _filename
+        referenceFormulation: csv
+    s: aq:person__locname$(Id)
+    po:
+      - [a, aq:Person]
+      - [aq:isPartOfSocialCohort, $(Social Cohort)]
+      - [aq:whenDoYouTalkAboutAirQuality, $(If yes_when?)]
+      - [aq:worksFromHome, $(WorksFromHome)]
+      - [aq:usesAirPurifier, $(UsesAirPurifier)]
+      - [aq:wearsMask, $(WearsMask)]
+      - [
+          aq:talkAboutAirQualityWithOtherPeople,
+          $(Do you talk about air pollution at home/workplace/with friends?),
+        ]
+      - [
+          aq:accessibilityOfAQData,
+          $(How accessible is the real-time air quality data of your area?),
+        ]
+      - [aq:hasAirPollutionLiteracy, aq:aqi_literacy__locname$(Id)]
+      - [aq:hasIndividualPerception, aq:aq_Perception__locname$(Id)]
