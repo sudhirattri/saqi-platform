@@ -28,27 +28,27 @@ process_command = 'java -jar '+rml_mapper_jar+' -s turtle -m "'+copy_map_file + 
 print("Running java process")
 print(process_command)
 
-# process = subprocess.run(process_command,capture_output=True,shell=True)
+process = subprocess.run(process_command,capture_output=True,shell=True)
 
-rdf_store_url = os.environ.get('RDF_STORE_URL')
+# rdf_store_url = os.environ.get('RDF_STORE_URL')
 
-if(PRODUCTION_READY):
-    rdf_store_url = 'https://saqi-rdfstore.herokuapp.com/aq-store/data?default'
-else:
-    rdf_store_url = 'http://localhost:3030/aq-store/data?default'
+# if(PRODUCTION_READY):
+#     rdf_store_url = 'https://saqi-rdfstore.herokuapp.com/aq-store/data?default'
+# else:
+#     rdf_store_url = 'http://localhost:3030/aq-store/data?default'
 
-turtle_file = rdf_file_name
-with open(turtle_file) as f:
-    turtle_data=f.read()
-    headers = {
-    "Content-Type": "text/turtle;charset=utf-8"
-    }
-    print("Sending turtle payload")
-    response = requests.request("POST",rdf_store_url,headers=headers, data=turtle_data.encode('utf-8'))
-    print(response)
-    response_json = json.loads(response.text)
-    print(response.text)
-    if(response_json is not None and response_json["count"]>0):
-        print("Job Successful", response_json)
-    else:
-        raise Exception("Non zero triples uploaded to graph")
+# turtle_file = rdf_file_name
+# with open(turtle_file) as f:
+#     turtle_data=f.read()
+#     headers = {
+#     "Content-Type": "text/turtle;charset=utf-8"
+#     }
+#     print("Sending turtle payload")
+#     response = requests.request("POST",rdf_store_url,headers=headers, data=turtle_data.encode('utf-8'))
+#     print(response)
+#     response_json = json.loads(response.text)
+#     print(response.text)
+#     if(response_json is not None and response_json["count"]>0):
+#         print("Job Successful", response_json)
+#     else:
+#         raise Exception("Non zero triples uploaded to graph")

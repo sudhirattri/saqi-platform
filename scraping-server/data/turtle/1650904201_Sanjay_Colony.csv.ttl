@@ -16,439 +16,442 @@
 aq:mc_Sanjay_Colony2021-11-27T12%3A16%3A31.817088Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "25.57";
   aq:bPressure "988.37";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:16:31.817088Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A16%3A31.817088Z;
   aq:relativeHumidity "51.37" .
 
 aq:mc_Sanjay_Colony2021-11-27T12%3A16%3A52.293899Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "25.62";
   aq:bPressure "988.36";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:16:52.293899Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A16%3A52.293899Z;
   aq:relativeHumidity "51.06" .
 
 aq:mc_Sanjay_Colony2021-11-27T12%3A17%3A21.840624Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "25.59";
   aq:bPressure "988.36";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:17:21.840624Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A17%3A21.840624Z;
   aq:relativeHumidity "51.15" .
 
 aq:mc_Sanjay_Colony2021-11-27T12%3A17%3A52.578579Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "25.59";
   aq:bPressure "988.36";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:17:52.578579Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A17%3A52.578579Z;
   aq:relativeHumidity "51.11" .
 
 aq:mc_Sanjay_Colony2021-11-27T12%3A18%3A22.851684Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "25.6";
   aq:bPressure "988.37";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:18:22.851684Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A18%3A22.851684Z;
   aq:relativeHumidity "51.15" .
 
 aq:mc_Sanjay_Colony2021-11-27T12%3A56%3A01.969222Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "27.57";
   aq:bPressure "988.86";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:56:01.969222Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A56%3A01.969222Z;
   aq:relativeHumidity "45.88" .
 
 aq:mc_Sanjay_Colony2021-11-27T12%3A56%3A22.503329Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "27.44";
   aq:bPressure "988.85";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:56:22.503329Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A56%3A22.503329Z;
   aq:relativeHumidity "46.18" .
 
 aq:mc_Sanjay_Colony2021-11-27T12%3A56%3A51.191241Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "27.32";
   aq:bPressure "988.85";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:56:51.191241Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A56%3A51.191241Z;
   aq:relativeHumidity "46.48" .
 
 aq:mc_Sanjay_Colony2021-11-27T12%3A57%3A21.346470Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "27.19";
   aq:bPressure "988.85";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:57:21.346470Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A57%3A21.346470Z;
   aq:relativeHumidity "46.82" .
 
 aq:mc_Sanjay_Colony2021-11-27T12%3A57%3A52.147288Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "27.07";
   aq:bPressure "988.84";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:57:52.147288Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A57%3A52.147288Z;
   aq:relativeHumidity "47.13" .
 
 aq:mc_Sanjay_Colony2021-11-27T12%3A58%3A22.439052Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "26.96";
   aq:bPressure "988.85";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:58:22.439052Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A58%3A22.439052Z;
   aq:relativeHumidity "47.4" .
 
 aq:mc_Sanjay_Colony2021-11-27T12%3A58%3A53.164899Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "26.87";
   aq:bPressure "988.87";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:58:53.164899Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A58%3A53.164899Z;
   aq:relativeHumidity "47.65" .
 
 aq:mc_Sanjay_Colony2021-11-27T12%3A59%3A23.282853Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "26.79";
   aq:bPressure "988.89";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:59:23.282853Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A59%3A23.282853Z;
   aq:relativeHumidity "47.87" .
 
 aq:mc_Sanjay_Colony2021-11-27T12%3A59%3A53.280675Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "26.71";
   aq:bPressure "988.9";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T12:59:53.280675Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A59%3A53.280675Z;
   aq:relativeHumidity "48.08" .
 
 aq:mc_Sanjay_Colony2021-11-27T13%3A00%3A23.491478Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "26.63";
   aq:bPressure "988.89";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T13:00:23.491478Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T13%3A00%3A23.491478Z;
   aq:relativeHumidity "48.28" .
 
 aq:mc_Sanjay_Colony2021-11-27T13%3A00%3A54.211503Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "26.56";
   aq:bPressure "988.89";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T13:00:54.211503Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T13%3A00%3A54.211503Z;
   aq:relativeHumidity "48.48" .
 
 aq:mc_Sanjay_Colony2021-11-27T13%3A04%3A15.676766Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "26.29";
   aq:bPressure "988.93";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T13:04:15.676766Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T13%3A04%3A15.676766Z;
   aq:relativeHumidity "49.7" .
 
 aq:mc_Sanjay_Colony2021-11-27T13%3A04%3A33.821251Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "26.28";
   aq:bPressure "988.92";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T13:04:33.821251Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T13%3A04%3A33.821251Z;
   aq:relativeHumidity "49.42" .
 
 aq:mc_Sanjay_Colony2021-11-27T13%3A04%3A57.804668Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "26.25";
   aq:bPressure "988.92";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T13:04:57.804668Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T13%3A04%3A57.804668Z;
   aq:relativeHumidity "49.44" .
 
 aq:mc_Sanjay_Colony2021-11-27T13%3A05%3A27.884956Z a aq:MeteorologicalCharacterstic;
   aq:ambientTemperature "26.21";
   aq:bPressure "988.95";
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs_Sanjay_Colony2021-11-27T13:05:27.884956Z";
+  aq:hasObservation aq:ooc_obs_Sanjay_Colony2021-11-27T13%3A05%3A27.884956Z;
   aq:relativeHumidity "49.43" .
 
+aq:Sanjay_Colony a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A16%3A31.817088Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:16:31.817088Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A16%3A52.293899Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:16:52.293899Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A17%3A21.840624Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:17:21.840624Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A17%3A52.578579Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:17:52.578579Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A18%3A22.851684Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:18:22.851684Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A56%3A01.969222Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:56:01.969222Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A56%3A22.503329Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:56:22.503329Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A56%3A51.191241Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:56:51.191241Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A57%3A21.346470Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:57:21.346470Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A57%3A52.147288Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:57:52.147288Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A58%3A22.439052Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:58:22.439052Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A58%3A53.164899Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:58:53.164899Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A59%3A23.282853Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:59:23.282853Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T12%3A59%3A53.280675Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:59:53.280675Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T13%3A00%3A23.491478Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T13:00:23.491478Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T13%3A00%3A54.211503Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T13:00:54.211503Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T13%3A04%3A15.676766Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T13:04:15.676766Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T13%3A04%3A33.821251Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T13:04:33.821251Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T13%3A04%3A57.804668Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T13:04:57.804668Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:ooc_obs_Sanjay_Colony2021-11-27T13%3A05%3A27.884956Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T13:05:27.884956Z";
   aq:dataSource "Central Pollution Control Board"^^rdfs:Literal .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A16%3A31.817088Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:16:31.817088Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A16%3A31.817088Z;
   aq:particulateMatter10Concentration "263";
   aq:particulateMatter1_0Concentration "146";
   aq:particulateMatter2_5Concentration "236" .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A16%3A52.293899Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:16:52.293899Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A16%3A52.293899Z;
   aq:particulateMatter10Concentration "236";
   aq:particulateMatter1_0Concentration "135";
   aq:particulateMatter2_5Concentration "215" .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A17%3A21.840624Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:17:21.840624Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A17%3A21.840624Z;
   aq:particulateMatter10Concentration "253";
   aq:particulateMatter1_0Concentration "138";
   aq:particulateMatter2_5Concentration "226" .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A17%3A52.578579Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:17:52.578579Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A17%3A52.578579Z;
   aq:particulateMatter10Concentration "253";
   aq:particulateMatter1_0Concentration "140";
   aq:particulateMatter2_5Concentration "232" .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A18%3A22.851684Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:18:22.851684Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A18%3A22.851684Z;
   aq:particulateMatter10Concentration "256";
   aq:particulateMatter1_0Concentration "137";
   aq:particulateMatter2_5Concentration "227" .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A56%3A01.969222Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:56:01.969222Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A56%3A01.969222Z;
   aq:particulateMatter10Concentration "259";
   aq:particulateMatter1_0Concentration "146";
   aq:particulateMatter2_5Concentration "237" .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A56%3A22.503329Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:56:22.503329Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A56%3A22.503329Z;
   aq:particulateMatter10Concentration "248";
   aq:particulateMatter1_0Concentration "136";
   aq:particulateMatter2_5Concentration "223" .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A56%3A51.191241Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:56:51.191241Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A56%3A51.191241Z;
   aq:particulateMatter10Concentration "248";
   aq:particulateMatter1_0Concentration "131";
   aq:particulateMatter2_5Concentration "220" .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A57%3A21.346470Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:57:21.346470Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A57%3A21.346470Z;
   aq:particulateMatter10Concentration "251";
   aq:particulateMatter1_0Concentration "136";
   aq:particulateMatter2_5Concentration "223" .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A57%3A52.147288Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:57:52.147288Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A57%3A52.147288Z;
   aq:particulateMatter10Concentration "251";
   aq:particulateMatter1_0Concentration "138";
   aq:particulateMatter2_5Concentration "227" .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A58%3A22.439052Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:58:22.439052Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A58%3A22.439052Z;
   aq:particulateMatter10Concentration "252";
   aq:particulateMatter1_0Concentration "138";
   aq:particulateMatter2_5Concentration "228" .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A58%3A53.164899Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:58:53.164899Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A58%3A53.164899Z;
   aq:particulateMatter10Concentration "245";
   aq:particulateMatter1_0Concentration "136";
   aq:particulateMatter2_5Concentration "219" .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A59%3A23.282853Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:59:23.282853Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A59%3A23.282853Z;
   aq:particulateMatter10Concentration "260";
   aq:particulateMatter1_0Concentration "142";
   aq:particulateMatter2_5Concentration "233" .
 
 aq:pm_Sanjay_Colony2021-11-27T12%3A59%3A53.280675Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T12:59:53.280675Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T12%3A59%3A53.280675Z;
   aq:particulateMatter10Concentration "254";
   aq:particulateMatter1_0Concentration "142";
   aq:particulateMatter2_5Concentration "231" .
 
 aq:pm_Sanjay_Colony2021-11-27T13%3A00%3A23.491478Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T13:00:23.491478Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T13%3A00%3A23.491478Z;
   aq:particulateMatter10Concentration "258";
   aq:particulateMatter1_0Concentration "140";
   aq:particulateMatter2_5Concentration "231" .
 
 aq:pm_Sanjay_Colony2021-11-27T13%3A00%3A54.211503Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T13:00:54.211503Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T13%3A00%3A54.211503Z;
   aq:particulateMatter10Concentration "262";
   aq:particulateMatter1_0Concentration "146";
   aq:particulateMatter2_5Concentration "237" .
 
 aq:pm_Sanjay_Colony2021-11-27T13%3A04%3A15.676766Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T13:04:15.676766Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T13%3A04%3A15.676766Z;
   aq:particulateMatter10Concentration "258";
   aq:particulateMatter1_0Concentration "138";
   aq:particulateMatter2_5Concentration "231" .
 
 aq:pm_Sanjay_Colony2021-11-27T13%3A04%3A33.821251Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T13:04:33.821251Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T13%3A04%3A33.821251Z;
   aq:particulateMatter10Concentration "250";
   aq:particulateMatter1_0Concentration "138";
   aq:particulateMatter2_5Concentration "228" .
 
 aq:pm_Sanjay_Colony2021-11-27T13%3A04%3A57.804668Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T13:04:57.804668Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T13%3A04%3A57.804668Z;
   aq:particulateMatter10Concentration "256";
   aq:particulateMatter1_0Concentration "141";
   aq:particulateMatter2_5Concentration "233" .
 
 aq:pm_Sanjay_Colony2021-11-27T13%3A05%3A27.884956Z a aq:ParticulateMatter;
-  aq:hasObservation "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#pm_obs_Sanjay_Colony2021-11-27T13:05:27.884956Z";
+  aq:hasObservation aq:pm_obs_Sanjay_Colony2021-11-27T13%3A05%3A27.884956Z;
   aq:particulateMatter10Concentration "272";
   aq:particulateMatter1_0Concentration "144";
   aq:particulateMatter2_5Concentration "241" .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A16%3A31.817088Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:16:31.817088Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A16%3A52.293899Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:16:52.293899Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A17%3A21.840624Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:17:21.840624Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A17%3A52.578579Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:17:52.578579Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A18%3A22.851684Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:18:22.851684Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A56%3A01.969222Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:56:01.969222Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A56%3A22.503329Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:56:22.503329Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A56%3A51.191241Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:56:51.191241Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A57%3A21.346470Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:57:21.346470Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A57%3A52.147288Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:57:52.147288Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A58%3A22.439052Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:58:22.439052Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A58%3A53.164899Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:58:53.164899Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A59%3A23.282853Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:59:23.282853Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T12%3A59%3A53.280675Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T12:59:53.280675Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T13%3A00%3A23.491478Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T13:00:23.491478Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T13%3A00%3A54.211503Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T13:00:54.211503Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T13%3A04%3A15.676766Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T13:04:15.676766Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T13%3A04%3A33.821251Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T13:04:33.821251Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T13%3A04%3A57.804668Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T13:04:57.804668Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .
 
 aq:pm_obs_Sanjay_Colony2021-11-27T13%3A05%3A27.884956Z a aq:Observation;
-  aq:atPlace "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Sanjay_Colony";
+  aq:atPlace aq:Sanjay_Colony;
   aq:atTime "2021-11-27T13:05:27.884956Z";
   aq:dataSource "Eziostat"^^rdfs:Literal .

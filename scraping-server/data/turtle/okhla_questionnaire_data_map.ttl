@@ -1,0 +1,1464 @@
+@prefix : <http://mapping.example.com/> .
+@prefix aq: <https://kracr.iiitd.edu.in/ontology/SAQIOntology#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+aq:aq_Perception_OkhlaOkhla_Person_1 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Very Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "Yes" .
+
+aq:aq_Perception_OkhlaOkhla_Person_10 aq:airQualityChangeIn3Years "Air quality has improved";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Less Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "Yes" .
+
+aq:aq_Perception_OkhlaOkhla_Person_11 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_12 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_13 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_14 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "There are no adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_15 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_16 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_17 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "There are no adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_18 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "There are no adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_19 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Very Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "Yes" .
+
+aq:aq_Perception_OkhlaOkhla_Person_2 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "No";
+  aq:workplaceUpdatesAboutPollution "Yes" .
+
+aq:aq_Perception_OkhlaOkhla_Person_20 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_21 aq:airQualityChangeIn3Years "No change";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_22 aq:airQualityChangeIn3Years "Air quality has improved";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Very Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Maybe";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_23 aq:airQualityChangeIn3Years "No change";
+  aq:delhiGovtWorkPerception "There are no adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_24 aq:airQualityChangeIn3Years "Air quality has improved";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_25 aq:airQualityChangeIn3Years "Air quality has improved";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_26 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "There are adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "Yes" .
+
+aq:aq_Perception_OkhlaOkhla_Person_27 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "There are adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "Yes" .
+
+aq:aq_Perception_OkhlaOkhla_Person_28 aq:airQualityChangeIn3Years "No change";
+  aq:delhiGovtWorkPerception "There are adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Good";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_29 aq:airQualityChangeIn3Years "Air quality has improved";
+  aq:delhiGovtWorkPerception "There are adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Good";
+  aq:peopleVotedOnAirPollutionIssues "Yes, the issue was highlighted and people voted on it";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Maybe";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_3 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "There are no adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "Less Polluted";
+  aq:localAirQualityRating "Good";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_30 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Very Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "Yes" .
+
+aq:aq_Perception_OkhlaOkhla_Person_31 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_32 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "There are no adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_33 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Very Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_34 aq:airQualityChangeIn3Years "Air quality has improved";
+  aq:delhiGovtWorkPerception "There are adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "Less Polluted";
+  aq:localAirQualityRating "Very Good";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "No";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_35 aq:airQualityChangeIn3Years "Air quality has improved";
+  aq:delhiGovtWorkPerception "There are adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "Less Polluted";
+  aq:localAirQualityRating "Very Good";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "No";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_36 aq:airQualityChangeIn3Years "No change";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Moderately Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_37 aq:airQualityChangeIn3Years "No change";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Moderately Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_38 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Moderately Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_39 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_4 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "No";
+  aq:workplaceUpdatesAboutPollution "Yes" .
+
+aq:aq_Perception_OkhlaOkhla_Person_40 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_41 aq:airQualityChangeIn3Years "No change";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Maybe";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_42 aq:airQualityChangeIn3Years "No change";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Maybe";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_43 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_44 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Very Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "No";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_45 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "No";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_46 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "No";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_47 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "There are no adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Maybe";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_48 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "There are no adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Maybe";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_49 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "There are adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Very Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_5 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "There are no adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "Maybe" .
+
+aq:aq_Perception_OkhlaOkhla_Person_50 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "There are no adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "More Polluted";
+  aq:localAirQualityRating "Very Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_6 aq:airQualityChangeIn3Years "No change";
+  aq:delhiGovtWorkPerception "There are no adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Maybe";
+  aq:workplaceUpdatesAboutPollution "Yes" .
+
+aq:aq_Perception_OkhlaOkhla_Person_7 aq:airQualityChangeIn3Years "No change";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Very Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "No" .
+
+aq:aq_Perception_OkhlaOkhla_Person_8 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "There are adequate measures taken";
+  aq:howIsYourLocalityComparedToOtherAreas "Equally Polluted";
+  aq:localAirQualityRating "Very Bad";
+  aq:peopleVotedOnAirPollutionIssues "No, there was no such conversation around";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "Maybe" .
+
+aq:aq_Perception_OkhlaOkhla_Person_9 aq:airQualityChangeIn3Years "Air quality has worsened";
+  aq:delhiGovtWorkPerception "Interested, but more can be done";
+  aq:howIsYourLocalityComparedToOtherAreas "Less Polluted";
+  aq:localAirQualityRating "Fair";
+  aq:peopleVotedOnAirPollutionIssues "Yes, the issue was highlighted and people voted on it";
+  aq:shouldPollutionIssuesBeRaisedInMCDElections "Yes";
+  aq:workplaceUpdatesAboutPollution "Yes" .
+
+aq:aq_place_OkhlaOkhla_Person_1 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_10 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_11 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_12 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_13 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_14 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_15 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_16 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_17 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_18 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_19 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_2 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_20 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_21 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_22 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_23 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_24 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_25 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_26 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_27 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_28 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_29 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_3 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_30 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_31 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_32 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_33 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_34 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_35 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_36 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_37 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_38 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_39 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_4 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_40 a aq:Place;
+  aq:hasName "Sanjay Colony" .
+
+aq:aq_place_OkhlaOkhla_Person_41 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_42 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_43 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_44 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_45 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_46 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_47 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_48 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_49 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_5 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_50 a aq:Place;
+  aq:hasName "Tekhand " .
+
+aq:aq_place_OkhlaOkhla_Person_6 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_7 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_8 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aq_place_OkhlaOkhla_Person_9 a aq:Place;
+  aq:hasName "Shaheen Bagh" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_1 aq:frequencyToCheckAQI "Often";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_10 aq:frequencyToCheckAQI "Daily";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_11 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_12 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_13 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_14 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_15 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_16 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_17 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_18 aq:frequencyToCheckAQI "Often";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_19 aq:frequencyToCheckAQI "Often";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_2 aq:frequencyToCheckAQI "Weekly";
+  aq:hasAQIColorLiteracy "Poor";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_20 aq:frequencyToCheckAQI "Often";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_21 aq:frequencyToCheckAQI "Often";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_22 aq:frequencyToCheckAQI "Often";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_23 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_24 aq:frequencyToCheckAQI "Daily";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_25 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_26 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_27 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_28 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_29 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_3 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_30 aq:frequencyToCheckAQI "Often";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_31 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_32 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_33 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_34 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_35 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_36 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_37 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_38 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_39 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_4 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_40 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_41 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_42 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_43 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Poor";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_44 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_45 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_46 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_47 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_48 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_49 aq:frequencyToCheckAQI "Often";
+  aq:hasAQIColorLiteracy "Poor";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_5 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Poor";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_50 aq:frequencyToCheckAQI "Often";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_6 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "No";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_7 aq:frequencyToCheckAQI "Don’t check";
+  aq:hasAQIColorLiteracy "Severe";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, and understand the graphics";
+  aq:hasParticulateMatterLiteracy "No" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_8 aq:frequencyToCheckAQI "Rarely";
+  aq:hasAQIColorLiteracy "Don't Know";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Never seen any such boards";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:aqi_literacy_OkhlaOkhla_Person_9 aq:frequencyToCheckAQI "Daily";
+  aq:hasAQIColorLiteracy "Poor";
+  aq:hasAQILiteracy "Yes";
+  aq:hasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics";
+  aq:hasParticulateMatterLiteracy "Yes" .
+
+aq:person_OkhlaOkhla_Person_1 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_1;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_1;
+  aq:isPartOfSocialCohort "Student";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_1;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "Yes";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months, When there’s an awareness programme";
+  aq:worksFromHome "Yes" .
+
+aq:person_OkhlaOkhla_Person_10 a aq:Person;
+  aq:accessibilityOfAQData "Slightly accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_10;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_10;
+  aq:isPartOfSocialCohort "Student";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_10;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "On regular basis";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_11 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_11;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_11;
+  aq:isPartOfSocialCohort "Teacher ";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_11;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_12 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_12;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_12;
+  aq:isPartOfSocialCohort "Teacher ";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_12;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_13 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_13;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_13;
+  aq:isPartOfSocialCohort "Teacher ";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_13;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_14 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_14;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_14;
+  aq:isPartOfSocialCohort "Teacher ";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_14;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_15 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_15;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_15;
+  aq:isPartOfSocialCohort "Teacher ";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_15;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_16 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_16;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_16;
+  aq:isPartOfSocialCohort "Teacher ";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_16;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_17 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_17;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_17;
+  aq:isPartOfSocialCohort "Teacher ";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_17;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_18 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_18;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_18;
+  aq:isPartOfSocialCohort "Teacher ";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_18;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "On regular basis";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_19 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_19;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_19;
+  aq:isPartOfSocialCohort "Teacher ";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_19;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "On regular basis";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_2 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_2;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_2;
+  aq:isPartOfSocialCohort "Student";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_2;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "On regular basis";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_20 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_20;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_20;
+  aq:isPartOfSocialCohort "Teacher ";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_20;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "On regular basis";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_21 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_21;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_21;
+  aq:isPartOfSocialCohort "Social worker";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_21;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "On regular basis";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_22 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_22;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_22;
+  aq:isPartOfSocialCohort "Social worker";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_22;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_23 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_23;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_23;
+  aq:isPartOfSocialCohort "Social worker";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_23;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "No";
+  aq:whenDoYouTalkAboutAirQuality "On regular basis";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_24 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_24;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_24;
+  aq:isPartOfSocialCohort "Social worker";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_24;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_25 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_25;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_25;
+  aq:isPartOfSocialCohort "Social worker";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_25;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_26 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_26;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_26;
+  aq:isPartOfSocialCohort "Social worker";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_26;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_27 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_27;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_27;
+  aq:isPartOfSocialCohort "Social worker";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_27;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_28 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_28;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_28;
+  aq:isPartOfSocialCohort "Social worker";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_28;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_29 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_29;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_29;
+  aq:isPartOfSocialCohort "Social worker";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_29;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "No";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_3 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_3;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_3;
+  aq:isPartOfSocialCohort "Student";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_3;
+  aq:talkAboutAirQualityWithOtherPeople "No";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "Yes" .
+
+aq:person_OkhlaOkhla_Person_30 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_30;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_30;
+  aq:isPartOfSocialCohort "Social worker";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_30;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "On regular basis";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_31 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_31;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_31;
+  aq:isPartOfSocialCohort "Mother of Young Kids";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_31;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_32 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_32;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_32;
+  aq:isPartOfSocialCohort "Mother of Young Kids";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_32;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_33 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_33;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_33;
+  aq:isPartOfSocialCohort "Mother of Young Kids";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_33;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_34 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_34;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_34;
+  aq:isPartOfSocialCohort "Mother of Young Kids";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_34;
+  aq:talkAboutAirQualityWithOtherPeople "No";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_35 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_35;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_35;
+  aq:isPartOfSocialCohort "Mother of Young Kids";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_35;
+  aq:talkAboutAirQualityWithOtherPeople "No";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_36 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_36;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_36;
+  aq:isPartOfSocialCohort "Mother of Young Kids";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_36;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_37 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_37;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_37;
+  aq:isPartOfSocialCohort "Mother of Young Kids";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_37;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_38 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_38;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_38;
+  aq:isPartOfSocialCohort "Mother of Young Kids";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_38;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_39 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_39;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_39;
+  aq:isPartOfSocialCohort "Mother of Young Kids";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_39;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_4 a aq:Person;
+  aq:accessibilityOfAQData "Slightly accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_4;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_4;
+  aq:isPartOfSocialCohort "Student";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_4;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "Yes";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "On regular basis";
+  aq:worksFromHome "Yes" .
+
+aq:person_OkhlaOkhla_Person_40 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_40;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_40;
+  aq:isPartOfSocialCohort "Mother of Young Kids";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_40;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_41 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_41;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_41;
+  aq:isPartOfSocialCohort "local Shopkeepers and vendors";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_41;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_42 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_42;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_42;
+  aq:isPartOfSocialCohort "local Shopkeepers and vendors";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_42;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_43 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_43;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_43;
+  aq:isPartOfSocialCohort "local Shopkeepers and vendors";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_43;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_44 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_44;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_44;
+  aq:isPartOfSocialCohort "local Shopkeepers and vendors";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_44;
+  aq:talkAboutAirQualityWithOtherPeople "No";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_45 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_45;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_45;
+  aq:isPartOfSocialCohort "local Shopkeepers and vendors";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_45;
+  aq:talkAboutAirQualityWithOtherPeople "No";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_46 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_46;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_46;
+  aq:isPartOfSocialCohort "local Shopkeepers and vendors";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_46;
+  aq:talkAboutAirQualityWithOtherPeople "No";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_47 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_47;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_47;
+  aq:isPartOfSocialCohort "local Shopkeepers and vendors";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_47;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_48 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_48;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_48;
+  aq:isPartOfSocialCohort "local Shopkeepers and vendors";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_48;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_49 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_49;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_49;
+  aq:isPartOfSocialCohort "local Shopkeepers and vendors";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_49;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_5 a aq:Person;
+  aq:accessibilityOfAQData "Slightly accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_5;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_5;
+  aq:isPartOfSocialCohort "Student";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_5;
+  aq:talkAboutAirQualityWithOtherPeople "Maybe";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, When there’s an awareness programme";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_50 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_50;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_50;
+  aq:isPartOfSocialCohort "local Shopkeepers and vendors";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_50;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_6 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_6;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_6;
+  aq:isPartOfSocialCohort "Student";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_6;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "Yes";
+  aq:wearsMask "No";
+  aq:whenDoYouTalkAboutAirQuality "When there’s an awareness programme";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_7 a aq:Person;
+  aq:accessibilityOfAQData "Not accessible at all";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_7;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_7;
+  aq:isPartOfSocialCohort "Student";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_7;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "On regular basis";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_8 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_8;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_8;
+  aq:isPartOfSocialCohort "Student";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_8;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "During the peak winter months";
+  aq:worksFromHome "No" .
+
+aq:person_OkhlaOkhla_Person_9 a aq:Person;
+  aq:accessibilityOfAQData "Very accessible";
+  aq:hasAirPollutionLiteracy aq:aqi_literacy_OkhlaOkhla_Person_9;
+  aq:hasIndividualPerception aq:aq_Perception_OkhlaOkhla_Person_9;
+  aq:isPartOfSocialCohort "Student";
+  aq:livesIn aq:aq_place_OkhlaOkhla_Person_9;
+  aq:talkAboutAirQualityWithOtherPeople "Yes";
+  aq:usesAirPurifier "No";
+  aq:wearsMask "Yes";
+  aq:whenDoYouTalkAboutAirQuality "On regular basis";
+  aq:worksFromHome "No" .

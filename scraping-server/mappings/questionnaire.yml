@@ -1,5 +1,5 @@
 prefixes:
-  aq: "https://kracr.iiitd.edu.in/ontology/SAQIOntology"
+  aq: "https://kracr.iiitd.edu.in/ontology/SAQIOntology#"
   grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
 mappings:
   aqLiteracy:
@@ -72,5 +72,24 @@ mappings:
           aq:accessibilityOfAQData,
           $(How accessible is the real-time air quality data of your area?),
         ]
-      - [aq:hasAirPollutionLiteracy, aq:aqi_literacy__locname$(Id)]
-      - [aq:hasIndividualPerception, aq:aq_Perception__locname$(Id)]
+      - p: aq:livesIn
+        o:
+          value: aq:aq_place__locname$(Id)
+          type: iri
+      - p: aq:hasAirPollutionLiteracy
+        o:
+          value: aq:aqi_literacy__locname$(Id)
+          type: iri
+      - p: aq:hasIndividualPerception
+        o:
+          value: aq:aq_Perception__locname$(Id)
+          type: iri
+
+  place:
+    sources:
+      - access: _filename
+        referenceFormulation: csv
+    s: aq:aq_place__locname$(Id)
+    po:
+      - [a, aq:Place]
+      - [aq:hasName, $(Place where interview conducted)]

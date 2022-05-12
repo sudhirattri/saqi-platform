@@ -1,20 +1,19 @@
 import { React, useState } from "react";
-import "./App.css";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { Icon } from "leaflet";
-import aqiData from "../data.json";
+import aqiData from "../data/aqiAtPlaces.json";
 import icon1 from "../marker.png";
 const markerIcon = new Icon({
   iconUrl: icon1,
   iconSize: [25, 25],
 });
 
-export default function AQIViewer() {
+export default function AQIViewer(props) {
   const [aqiAtPlace, setaqiAtPlace] = useState(null);
   return (
     <MapContainer
       center={[20.593683, 78.962883]}
-      zoom={5}
+      zoom={10}
       scrollWheelZoom={true}
     >
       <TileLayer
