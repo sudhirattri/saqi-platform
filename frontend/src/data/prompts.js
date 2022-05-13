@@ -287,6 +287,10 @@ export const data =  {
     // Use placeholders for location e.g.   "_location"
     'AQINearMe':
     {
+        "name":"AQINearMe",
+        "question":"What is the AQI near me?",
+        "question_hin":"मेरे घर के पास एक्यूआई क्या है?",
+        "type":"AQINearMe",
         "sparql_query":"query",
         "endpoint":"url"
     },
@@ -320,16 +324,17 @@ export const data =  {
         "endpoint":"url"
     },
     // View AQI Readings
-    'WhatCanBeDone':
-    [
-        {
-            "name":"Reccommendations",
-            "answer":"Visit office nearby",
-            "answer_hin":"visit office nearby",
-            "special_jump":{
-                "type":"LocalPerceptionNearMe",
-                "name":"councillor's office list"
-            }
+    'recommendation':
+    {
+        "question":"What should I do?",
+        "question_hin":"मुझे क्या करना चाहिए?",
+        "name":"recommendation",
+        "type":"recommendation",
+        "answer":"Visit office nearby",
+        "answer_hin":"visit office nearby",
+        "special_jump":{
+            "type":"LocalPerceptionNearMe",
+            "name":"councillor's office list"
         }
-    ]
+    }
 }

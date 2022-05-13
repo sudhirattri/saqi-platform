@@ -4,6 +4,8 @@ import {data} from '../data/prompts';
 
 import PromptDisplayScreen from './PromptDisplayScreen';
 import SelectPromptScreen from './SelectPromptScreen';
+import AQIViewer from './AqiViewer';
+import RecommendationDisplayScreen from './RecommendationDisplayScreen';
 
 import {
     Routes,
@@ -24,7 +26,16 @@ export default function PromptsBase(props) {
     function register_choice(prompt){
         console.log("registered",prompt)
         setDisplayPrompt(prompt)
-        let allPrompts = Object.keys(data['AQIFaqs']) 
+        let allPrompts = Object.keys(data['AQIFaqs']).concat([
+            {
+                'type':'AQINearMe',
+                'name':'AQINearMe'
+            },
+            {
+                'type':'recommendation',
+                'name':'recommendation',
+            }
+        ])
         let newChoices = []
         let numPrompts = 2+getRandomInt(3)
         for (let i = 0; i < numPrompts; i++) {
@@ -52,9 +63,13 @@ export default function PromptsBase(props) {
                 'name':'WhatAQI'
             },
             {
-                'type':'AQIFaqs',
-                'name':'HealthRisks'
+                'type':'AQINearMe',
+                'name':'AQINearMe'
             },
+            {
+                'type':'recommendation',
+                'name':'recommendation',
+            }
         ])
       },[])
 
@@ -82,6 +97,24 @@ export default function PromptsBase(props) {
                     />} 
                 />
                 <Route path="/show" element={<PromptDisplayScreen 
+                    userLanguage={props.userLanguage} 
+                    spatialLocation={props.spatialLocation} 
+                    socialCohort={props.socialCohort}
+                    add_line_to_queue={props.add_line_to_queue}
+                    cancel_speech={props.cancel_speech}
+                    displayPrompt={displayPrompt}
+                  />} 
+                />
+                <Route path="/aqiViewer" element={<AQIViewer 
+                    userLanguage={props.userLanguage} 
+                    spatialLocation={props.spatialLocation} 
+                    socialCohort={props.socialCohort}
+                    add_line_to_queue={props.add_line_to_queue}
+                    cancel_speech={props.cancel_speech}
+                    displayPrompt={displayPrompt}
+                  />} 
+                />
+                <Route path="/recommendation" element={<RecommendationDisplayScreen 
                     userLanguage={props.userLanguage} 
                     spatialLocation={props.spatialLocation} 
                     socialCohort={props.socialCohort}

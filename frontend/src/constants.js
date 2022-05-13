@@ -36,9 +36,16 @@ const eng = {
     "lang":"english",
 
     "SplashMessage":"Hello",
-    "ChooseLanguage":"Choose Language"
+    "ChooseLanguage":"Choose Language",
+
+    "recommendation":"More recommendations",
+    "question_recommendation":"What should I do?",
+
 }
 const hin = {
+    "question_recommendation":"मुझे क्या करना चाहिए?",
+    "recommendation":"मुझे और सलाह दो",
+
     "AskLocation":"आप कहाँ रहते हैं",
 
     "JarodhaKalan":"झरोदा कलां",
@@ -63,7 +70,7 @@ const hin = {
     "AcknowledgeCohort2":"आप छोटे बच्चों की माँ हैं",
     "AcknowledgeCohort3":"आप अकादमी से जुड़े हुए हैं",
 
-    "Next":"और दिखाइए",
+    "Next":"कुछ और दिखाइए",
 
     "WhatAQI":"AQI क्या है?",
     "TestQuestion":"AQI क्या है?",

@@ -38,7 +38,19 @@ export default function SelectPromptScreen(props) {
     
     function goToNextPage(selected){
         props.register_choice(selected)
-        navigate('/prompts/show', {replace: true});
+        console.log("next selected:", selected)
+        if(selected['type']==='AQIFaqs'){
+            navigate('/prompts/show', {replace: true});
+        }
+        else if(selected['type']==='AQINearMe'){
+            navigate('/prompts/aqiViewer', {replace: true});
+        }
+        else if(selected['type']==='recommendation'){
+            navigate('/prompts/recommendation', {replace: true});
+        }
+        else{
+            navigate('/prompts/show', {replace: true});
+        }
     }
 
     useEffect(()=>{
@@ -46,6 +58,7 @@ export default function SelectPromptScreen(props) {
         props.add_line_to_queue(getTranslated(props.userLanguage,'nextPromptTitle'),props.userLanguage)
         setInProp(true)
         setZoomIn(true)
+        console.log("props",props)
       },[])
 
     return (
@@ -67,7 +80,16 @@ export default function SelectPromptScreen(props) {
                         <Box sx={{ flexGrow:4, display: 'flex', justifyContent: 'space-around',flexDirection:'column', alignItems: 'center' }}>
 
                         {props.currentPrompts.map((item,index) => {
-                            const currentPrompt = data[item['type']][item['name']];
+                            let currentPrompt = {}
+                            if(item['type']==='AQIFaqs'){
+                                currentPrompt = data[item['type']][item['name']];
+                            }
+                            else if(item['type']==='AQINearMe'){
+                                currentPrompt = data['AQINearMe'];
+                            }
+                            else if(item['type']==='recommendation'){
+                                currentPrompt = data['recommendation'];
+                            }
                             return (
                             <React.Fragment key={index}>
                                 <Zoom in={zoomIn} style={{ transitionDelay: Math.min(5000,(index*500)).toString()+'ms' }}>
@@ -85,7 +107,7 @@ export default function SelectPromptScreen(props) {
                                         </CardContent>
                                         </Card> */}
                                         <Button onClick={() => goToNextPage(currentPrompt)}  size="small" variant="outlined" className='button-prompt'>
-                                            <Typography fontSize={20}>{(props.userLanguage=='hin')?(currentPrompt['question_hin']):(currentPrompt['question'])}</Typography>
+                                            <Typography fontSize={20}>{(props.userLanguage==='hin')?(currentPrompt['question_hin']):(currentPrompt['question'])}</Typography>
                                         </Button>
                                     </Box>
                                 </Zoom>
