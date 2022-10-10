@@ -12,9 +12,9 @@ mappings:
       - p: a
         o: aq:ParticulateMatter
       - p: aq:particulateMatter10Concentration
-        o: $(PM10 (ug/m3\))
+        o: $(PM10)
       - p: aq:particulateMatter2_5Concentration
-        o: $(PM2.5 (ug/m3\))
+        o: $(PM2.5)
       - p: aq:hasObservation
         o: aq:pm_obs__locname$(To Date)
   obspm:
@@ -43,11 +43,11 @@ mappings:
       - p: a
         o: aq:OxideOfNitrogen
       - p: aq:nitrogenDiOxideConcentration
-        o: $(NO2 (ug/m3\))
+        o: $(NO2)
       - p: aq:nitrogenMonoOxideConcentration
-        o: $(NO (ug/m3\))
+        o: $(NO)
       - p: aq:nitrogentOxideConcentration
-        o: $(NOx (ppb\))
+        o: $(NOx)
       - p: aq:hasObservation
         o: aq:oon_obs__locname$(To Date)
   ooon:
@@ -77,7 +77,7 @@ mappings:
       - p: a
         o: aq:OxideOfCarbon
       - p: aq:carbonMonoOxideConcentration
-        o: $(CO (mg/m3\))
+        o: $(CO)
       - p: aq:hasObservation
         o: aq:ooc_obs__locname$(To Date)
   oooc:
@@ -107,7 +107,7 @@ mappings:
       - p: a
         o: aq:OxideOfSulphur
       - p: aq:sulphurDiOxideConcentration
-        o: $(SO2 (ug/m3\))
+        o: $(SO2)
       - p: aq:hasObservation
         o: aq:ooc_obs__locname$(To Date)
   ooos:
@@ -137,7 +137,7 @@ mappings:
       - p: a
         o: aq:GaseousPollutant
       - p: aq:ammoniaConcentration
-        o: $(NH3 (ug/m3\))
+        o: $(NH3)
       - p: aq:hasObservation
         o: aq:ooc_obs__locname$(To Date)
   ogp:
@@ -167,7 +167,7 @@ mappings:
       - p: a
         o: aq:SecondaryPollutant
       - p: aq:ozoneConcentration
-        o: $(Ozone (ug/m3\))
+        o: $(Ozone)
       - p: aq:hasObservation
         o: aq:ooc_obs__locname$(To Date)
   osp:
@@ -197,9 +197,9 @@ mappings:
       - p: a
         o: aq:Hydrocarbon
       - p: aq:benzeneConcentration
-        o: $(Benzene (ug/m3\))
+        o: $(Benzene)
       - p: aq:tolueneConcentration
-        o: $(Toluene (ug/m3\))
+        o: $(Toluene)
       - p: aq:hasObservation
         o: aq:pm_obs__locname$(To Date)
   ohc:
@@ -228,16 +228,14 @@ mappings:
     po:
       - p: a
         o: aq:MeteorologicalCharacterstic
-      - p: aq:ambientTemperature
-        o: $(Temp (degree C\))
       - p: aq:bPressure
-        o: $(BP (mmHg\))
+        o: $(BP)
       - p: aq:precipitation
-        o: $(BP (mmHg\))
+        o: $(BP)
       - p: aq:relativeHumidity
-        o: $(RH (%\))
+        o: $(RH)
       - p: aq:solarRadiation
-        o: $(SR (W/mt2\))
+        o: $(SR)
       - p: aq:hasObservation
         o: aq:ooc_obs__locname$(To Date)
   omc:
@@ -267,9 +265,9 @@ mappings:
       - p: a
         o: aq:WindCharacterstic
       - p: aq:windDirection
-        o: $(WD (degree\))
+        o: $(WD)
       - p: aq:windSpeed
-        o: $(WS (m/s\))
+        o: $(WS)
       - p: aq:hasObservation
         o: aq:ooc_obs__locname$(To Date)
   owc:

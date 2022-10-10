@@ -40,7 +40,7 @@
 :pm_001 rr:constant aq:particulateMatter10Concentration.
 :pom_001 rr:objectMap :om_001.
 :om_001 a rr:ObjectMap;
-    rml:reference "PM10 (ug/m3)";
+    rml:reference "PM10";
     rr:termType rr:Literal.
 :pom_002 a rr:PredicateObjectMap.
 :map_pm_000 rr:predicateObjectMap :pom_002.
@@ -49,7 +49,7 @@
 :pm_002 rr:constant aq:particulateMatter2_5Concentration.
 :pom_002 rr:objectMap :om_002.
 :om_002 a rr:ObjectMap;
-    rml:reference "PM2.5 (ug/m3)";
+    rml:reference "PM2.5";
     rr:termType rr:Literal.
 :pom_003 a rr:PredicateObjectMap.
 :map_pm_000 rr:predicateObjectMap :pom_003.
@@ -133,7 +133,7 @@
 :pm_009 rr:constant aq:nitrogenDiOxideConcentration.
 :pom_009 rr:objectMap :om_009.
 :om_009 a rr:ObjectMap;
-    rml:reference "NO2 (ug/m3)";
+    rml:reference "NO2";
     rr:termType rr:Literal.
 :pom_010 a rr:PredicateObjectMap.
 :map_oon_000 rr:predicateObjectMap :pom_010.
@@ -142,7 +142,7 @@
 :pm_010 rr:constant aq:nitrogenMonoOxideConcentration.
 :pom_010 rr:objectMap :om_010.
 :om_010 a rr:ObjectMap;
-    rml:reference "NO (ug/m3)";
+    rml:reference "NO";
     rr:termType rr:Literal.
 :pom_011 a rr:PredicateObjectMap.
 :map_oon_000 rr:predicateObjectMap :pom_011.
@@ -151,7 +151,7 @@
 :pm_011 rr:constant aq:nitrogentOxideConcentration.
 :pom_011 rr:objectMap :om_011.
 :om_011 a rr:ObjectMap;
-    rml:reference "NOx (ppb)";
+    rml:reference "NOx";
     rr:termType rr:Literal.
 :pom_012 a rr:PredicateObjectMap.
 :map_oon_000 rr:predicateObjectMap :pom_012.
@@ -235,7 +235,7 @@
 :pm_018 rr:constant aq:carbonMonoOxideConcentration.
 :pom_018 rr:objectMap :om_018.
 :om_018 a rr:ObjectMap;
-    rml:reference "CO (mg/m3)";
+    rml:reference "CO";
     rr:termType rr:Literal.
 :pom_019 a rr:PredicateObjectMap.
 :map_ooc_000 rr:predicateObjectMap :pom_019.
@@ -319,7 +319,7 @@
 :pm_025 rr:constant aq:sulphurDiOxideConcentration.
 :pom_025 rr:objectMap :om_025.
 :om_025 a rr:ObjectMap;
-    rml:reference "SO2 (ug/m3)";
+    rml:reference "SO2";
     rr:termType rr:Literal.
 :pom_026 a rr:PredicateObjectMap.
 :map_oos_000 rr:predicateObjectMap :pom_026.
@@ -403,7 +403,7 @@
 :pm_032 rr:constant aq:ammoniaConcentration.
 :pom_032 rr:objectMap :om_032.
 :om_032 a rr:ObjectMap;
-    rml:reference "NH3 (ug/m3)";
+    rml:reference "NH3";
     rr:termType rr:Literal.
 :pom_033 a rr:PredicateObjectMap.
 :map_gp_000 rr:predicateObjectMap :pom_033.
@@ -487,7 +487,7 @@
 :pm_039 rr:constant aq:ozoneConcentration.
 :pom_039 rr:objectMap :om_039.
 :om_039 a rr:ObjectMap;
-    rml:reference "Ozone (ug/m3)";
+    rml:reference "Ozone";
     rr:termType rr:Literal.
 :pom_040 a rr:PredicateObjectMap.
 :map_sp_000 rr:predicateObjectMap :pom_040.
@@ -571,7 +571,7 @@
 :pm_046 rr:constant aq:benzeneConcentration.
 :pom_046 rr:objectMap :om_046.
 :om_046 a rr:ObjectMap;
-    rml:reference "Benzene (ug/m3)";
+    rml:reference "Benzene";
     rr:termType rr:Literal.
 :pom_047 a rr:PredicateObjectMap.
 :map_hc_000 rr:predicateObjectMap :pom_047.
@@ -580,7 +580,7 @@
 :pm_047 rr:constant aq:tolueneConcentration.
 :pom_047 rr:objectMap :om_047.
 :om_047 a rr:ObjectMap;
-    rml:reference "Toluene (ug/m3)";
+    rml:reference "Toluene";
     rr:termType rr:Literal.
 :pom_048 a rr:PredicateObjectMap.
 :map_hc_000 rr:predicateObjectMap :pom_048.
@@ -661,54 +661,45 @@
 :map_mc_000 rr:predicateObjectMap :pom_054.
 :pm_054 a rr:PredicateMap.
 :pom_054 rr:predicateMap :pm_054.
-:pm_054 rr:constant aq:ambientTemperature.
+:pm_054 rr:constant aq:bPressure.
 :pom_054 rr:objectMap :om_054.
 :om_054 a rr:ObjectMap;
-    rml:reference "Temp (degree C)";
+    rml:reference "BP";
     rr:termType rr:Literal.
 :pom_055 a rr:PredicateObjectMap.
 :map_mc_000 rr:predicateObjectMap :pom_055.
 :pm_055 a rr:PredicateMap.
 :pom_055 rr:predicateMap :pm_055.
-:pm_055 rr:constant aq:bPressure.
+:pm_055 rr:constant aq:precipitation.
 :pom_055 rr:objectMap :om_055.
 :om_055 a rr:ObjectMap;
-    rml:reference "BP (mmHg)";
+    rml:reference "BP";
     rr:termType rr:Literal.
 :pom_056 a rr:PredicateObjectMap.
 :map_mc_000 rr:predicateObjectMap :pom_056.
 :pm_056 a rr:PredicateMap.
 :pom_056 rr:predicateMap :pm_056.
-:pm_056 rr:constant aq:precipitation.
+:pm_056 rr:constant aq:relativeHumidity.
 :pom_056 rr:objectMap :om_056.
 :om_056 a rr:ObjectMap;
-    rml:reference "BP (mmHg)";
+    rml:reference "RH";
     rr:termType rr:Literal.
 :pom_057 a rr:PredicateObjectMap.
 :map_mc_000 rr:predicateObjectMap :pom_057.
 :pm_057 a rr:PredicateMap.
 :pom_057 rr:predicateMap :pm_057.
-:pm_057 rr:constant aq:relativeHumidity.
+:pm_057 rr:constant aq:solarRadiation.
 :pom_057 rr:objectMap :om_057.
 :om_057 a rr:ObjectMap;
-    rml:reference "RH (%)";
+    rml:reference "SR";
     rr:termType rr:Literal.
 :pom_058 a rr:PredicateObjectMap.
 :map_mc_000 rr:predicateObjectMap :pom_058.
 :pm_058 a rr:PredicateMap.
 :pom_058 rr:predicateMap :pm_058.
-:pm_058 rr:constant aq:solarRadiation.
+:pm_058 rr:constant aq:hasObservation.
 :pom_058 rr:objectMap :om_058.
 :om_058 a rr:ObjectMap;
-    rml:reference "SR (W/mt2)";
-    rr:termType rr:Literal.
-:pom_059 a rr:PredicateObjectMap.
-:map_mc_000 rr:predicateObjectMap :pom_059.
-:pm_059 a rr:PredicateMap.
-:pom_059 rr:predicateMap :pm_059.
-:pm_059 rr:constant aq:hasObservation.
-:pom_059 rr:objectMap :om_059.
-:om_059 a rr:ObjectMap;
     rr:template "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs__locname{To Date}";
     rr:termType rr:Literal.
 :rules_000 void:exampleResource :map_omc_000.
@@ -721,40 +712,40 @@
 :s_015 a rr:SubjectMap.
 :map_omc_000 rr:subjectMap :s_015.
 :s_015 rr:template "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs__locname{To Date}".
+:pom_059 a rr:PredicateObjectMap.
+:map_omc_000 rr:predicateObjectMap :pom_059.
+:pm_059 a rr:PredicateMap.
+:pom_059 rr:predicateMap :pm_059.
+:pm_059 rr:constant rdf:type.
+:pom_059 rr:objectMap :om_059.
+:om_059 a rr:ObjectMap;
+    rr:constant "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Observation";
+    rr:termType rr:IRI.
 :pom_060 a rr:PredicateObjectMap.
 :map_omc_000 rr:predicateObjectMap :pom_060.
 :pm_060 a rr:PredicateMap.
 :pom_060 rr:predicateMap :pm_060.
-:pm_060 rr:constant rdf:type.
+:pm_060 rr:constant aq:atPlace.
 :pom_060 rr:objectMap :om_060.
 :om_060 a rr:ObjectMap;
-    rr:constant "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Observation";
-    rr:termType rr:IRI.
+    rr:constant "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#_locname";
+    rr:termType rr:Literal.
 :pom_061 a rr:PredicateObjectMap.
 :map_omc_000 rr:predicateObjectMap :pom_061.
 :pm_061 a rr:PredicateMap.
 :pom_061 rr:predicateMap :pm_061.
-:pm_061 rr:constant aq:atPlace.
+:pm_061 rr:constant aq:atTime.
 :pom_061 rr:objectMap :om_061.
 :om_061 a rr:ObjectMap;
-    rr:constant "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#_locname";
+    rml:reference "To Date";
     rr:termType rr:Literal.
 :pom_062 a rr:PredicateObjectMap.
 :map_omc_000 rr:predicateObjectMap :pom_062.
 :pm_062 a rr:PredicateMap.
 :pom_062 rr:predicateMap :pm_062.
-:pm_062 rr:constant aq:atTime.
+:pm_062 rr:constant aq:dataSource.
 :pom_062 rr:objectMap :om_062.
 :om_062 a rr:ObjectMap;
-    rml:reference "To Date";
-    rr:termType rr:Literal.
-:pom_063 a rr:PredicateObjectMap.
-:map_omc_000 rr:predicateObjectMap :pom_063.
-:pm_063 a rr:PredicateMap.
-:pom_063 rr:predicateMap :pm_063.
-:pm_063 rr:constant aq:dataSource.
-:pom_063 rr:objectMap :om_063.
-:om_063 a rr:ObjectMap;
     rr:constant "Central Pollution Control Board";
     rr:termType rr:Literal;
     rr:datatype rdfs:Literal.
@@ -768,40 +759,40 @@
 :s_016 a rr:SubjectMap.
 :map_wc_000 rr:subjectMap :s_016.
 :s_016 rr:template "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#wc__locname{To Date}".
+:pom_063 a rr:PredicateObjectMap.
+:map_wc_000 rr:predicateObjectMap :pom_063.
+:pm_063 a rr:PredicateMap.
+:pom_063 rr:predicateMap :pm_063.
+:pm_063 rr:constant rdf:type.
+:pom_063 rr:objectMap :om_063.
+:om_063 a rr:ObjectMap;
+    rr:constant "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#WindCharacterstic";
+    rr:termType rr:IRI.
 :pom_064 a rr:PredicateObjectMap.
 :map_wc_000 rr:predicateObjectMap :pom_064.
 :pm_064 a rr:PredicateMap.
 :pom_064 rr:predicateMap :pm_064.
-:pm_064 rr:constant rdf:type.
+:pm_064 rr:constant aq:windDirection.
 :pom_064 rr:objectMap :om_064.
 :om_064 a rr:ObjectMap;
-    rr:constant "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#WindCharacterstic";
-    rr:termType rr:IRI.
+    rml:reference "WD";
+    rr:termType rr:Literal.
 :pom_065 a rr:PredicateObjectMap.
 :map_wc_000 rr:predicateObjectMap :pom_065.
 :pm_065 a rr:PredicateMap.
 :pom_065 rr:predicateMap :pm_065.
-:pm_065 rr:constant aq:windDirection.
+:pm_065 rr:constant aq:windSpeed.
 :pom_065 rr:objectMap :om_065.
 :om_065 a rr:ObjectMap;
-    rml:reference "WD (degree)";
+    rml:reference "WS";
     rr:termType rr:Literal.
 :pom_066 a rr:PredicateObjectMap.
 :map_wc_000 rr:predicateObjectMap :pom_066.
 :pm_066 a rr:PredicateMap.
 :pom_066 rr:predicateMap :pm_066.
-:pm_066 rr:constant aq:windSpeed.
+:pm_066 rr:constant aq:hasObservation.
 :pom_066 rr:objectMap :om_066.
 :om_066 a rr:ObjectMap;
-    rml:reference "WS (m/s)";
-    rr:termType rr:Literal.
-:pom_067 a rr:PredicateObjectMap.
-:map_wc_000 rr:predicateObjectMap :pom_067.
-:pm_067 a rr:PredicateMap.
-:pom_067 rr:predicateMap :pm_067.
-:pm_067 rr:constant aq:hasObservation.
-:pom_067 rr:objectMap :om_067.
-:om_067 a rr:ObjectMap;
     rr:template "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs__locname{To Date}";
     rr:termType rr:Literal.
 :rules_000 void:exampleResource :map_owc_000.
@@ -814,40 +805,40 @@
 :s_017 a rr:SubjectMap.
 :map_owc_000 rr:subjectMap :s_017.
 :s_017 rr:template "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#ooc_obs__locname{To Date}".
+:pom_067 a rr:PredicateObjectMap.
+:map_owc_000 rr:predicateObjectMap :pom_067.
+:pm_067 a rr:PredicateMap.
+:pom_067 rr:predicateMap :pm_067.
+:pm_067 rr:constant rdf:type.
+:pom_067 rr:objectMap :om_067.
+:om_067 a rr:ObjectMap;
+    rr:constant "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Observation";
+    rr:termType rr:IRI.
 :pom_068 a rr:PredicateObjectMap.
 :map_owc_000 rr:predicateObjectMap :pom_068.
 :pm_068 a rr:PredicateMap.
 :pom_068 rr:predicateMap :pm_068.
-:pm_068 rr:constant rdf:type.
+:pm_068 rr:constant aq:atPlace.
 :pom_068 rr:objectMap :om_068.
 :om_068 a rr:ObjectMap;
-    rr:constant "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#Observation";
-    rr:termType rr:IRI.
+    rr:constant "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#_locname";
+    rr:termType rr:Literal.
 :pom_069 a rr:PredicateObjectMap.
 :map_owc_000 rr:predicateObjectMap :pom_069.
 :pm_069 a rr:PredicateMap.
 :pom_069 rr:predicateMap :pm_069.
-:pm_069 rr:constant aq:atPlace.
+:pm_069 rr:constant aq:atTime.
 :pom_069 rr:objectMap :om_069.
 :om_069 a rr:ObjectMap;
-    rr:constant "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#_locname";
+    rml:reference "To Date";
     rr:termType rr:Literal.
 :pom_070 a rr:PredicateObjectMap.
 :map_owc_000 rr:predicateObjectMap :pom_070.
 :pm_070 a rr:PredicateMap.
 :pom_070 rr:predicateMap :pm_070.
-:pm_070 rr:constant aq:atTime.
+:pm_070 rr:constant aq:dataSource.
 :pom_070 rr:objectMap :om_070.
 :om_070 a rr:ObjectMap;
-    rml:reference "To Date";
-    rr:termType rr:Literal.
-:pom_071 a rr:PredicateObjectMap.
-:map_owc_000 rr:predicateObjectMap :pom_071.
-:pm_071 a rr:PredicateMap.
-:pom_071 rr:predicateMap :pm_071.
-:pm_071 rr:constant aq:dataSource.
-:pom_071 rr:objectMap :om_071.
-:om_071 a rr:ObjectMap;
     rr:constant "Central Pollution Control Board";
     rr:termType rr:Literal;
     rr:datatype rdfs:Literal.

@@ -85,6 +85,54 @@ def upload_saqi_sensors_data():
                 raise Exception("Zero triples uploaded to graph")
 
 
+def upload_cpcb_sensors_data():
+    temp_dir = create_temp_dir()
+    cpcb_data_path = base_dir / "cpcb_data"
+    cpcb_csv_files = [os.path.splitext(file)[0] for file in os.listdir(cpcb_data_path)]
+
+    cpcb_map_file = mapping_dir / "cpcb.rml"
+
+    for file in cpcb_csv_files:
+        original_file_path = cpcb_data_path / f"{file}.csv"
+        copied_file_path = temp_dir / f"{file}.csv"
+        cmd = subprocess.Popen(["cp","-f",original_file_path,copied_file_path], stdout=subprocess.PIPE)
+        print(cmd.communicate()[0])
+        
+        with open(cpcb_map_file) as f:
+            mapping_text=f.read().replace('_locname',file)
+            mapping_text=mapping_text.replace('_filename',str(copied_file_path))
+
+        copied_map_file = temp_dir / f"map_{file}.rml"
+
+        with open(copied_map_file, "w") as f:
+            f.write(mapping_text)
+
+        rdf_output_path = temp_dir/ f"map_{file}.turtle"
+
+        print("Starting RML mapper for mapping :",copied_map_file,copied_file_path)
+        java_mapper_path = base_dir / "rmlmapper-4.15.0-r361-all.jar"
+        cmd = subprocess.Popen(["java","-jar",java_mapper_path,"-s","turtle","-m",copied_map_file,"-o",rdf_output_path], stdout=subprocess.PIPE)
+        print(cmd.communicate()[0])
+
+        print("RML Mapper completed :",copied_map_file,copied_file_path)
+
+
+        rdf_store_url = 'http://localhost:3030/aq-store/data?default'
+
+        with open(rdf_output_path) as f:
+            turtle_data=f.read()
+            headers = {
+            "Content-Type": "text/turtle;charset=utf-8"
+            }
+            print("Sending turtle payload")
+            response = requests.request("POST",rdf_store_url,headers=headers, data=turtle_data)
+            response_json = json.loads(response.text)
+            print("Response from RDF store",response.text)
+            if(response_json is not None and response_json["count"]>0):
+                print("Upload to RDF store is successful, Triples uploaded :",response_json["count"])
+            else:
+                raise Exception("Zero triples uploaded to graph")
 
 create_temp_dir()
 # upload_saqi_sensors_data()
+upload_cpcb_sensors_data() 
