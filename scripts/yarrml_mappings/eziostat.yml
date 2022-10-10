@@ -1,0 +1,69 @@
+prefixes:
+  aq: "http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#"
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+mappings:
+  # Particulate Matter
+  pm:
+    sources:
+      - access: _filename
+        referenceFormulation: csv
+    s: aq:pm__locname$(localtime)
+    po:
+      - p: a
+        o: aq:ParticulateMatter
+      - p: aq:particulateMatter10Concentration
+        o: $(pm10)
+      - p: aq:particulateMatter2_5Concentration
+        o: $(pm2_5)
+      - p: aq:hasObservation
+        o: aq:pm_obs__locname$(localtime)
+  obspm:
+    sources:
+      - access: _filename
+        referenceFormulation: csv
+    s: aq:pm_obs__locname$(localtime)
+    po:
+      - p: a
+        o: aq:Observation
+      - p: aq:atTime
+        o: $(localtime)
+      - p: aq:atPlace
+        o: aq:_locname
+      - p: aq:dataSource
+        o: 
+          value: SAQI Local Sensors
+          datatype: rdfs:Literal
+
+
+  # Meterological Characteristics
+  mc:
+    sources:
+      - access: _filename
+        referenceFormulation: csv
+    s: aq:mc__locname$(localtime)
+    po:
+      - p: a
+        o: aq:MeteorologicalCharacterstic
+      - p: aq:ambientTemperature
+        o: $(temp)
+      - p: aq:relativeHumidity
+        o: $(humid)
+      - p: aq:hasObservation
+        o: aq:ooc_obs__locname$(localtime)
+  omc:
+    sources:
+      - access: _filename
+        referenceFormulation: csv
+    s: aq:ooc_obs__locname$(localtime)
+    po:
+      - p: a
+        o: aq:Observation
+      - p: aq:atPlace
+        o: aq:_locname
+      - p: aq:atTime
+        o: $(localtime)
+      - p: aq:dataSource
+        o: 
+          value: SAQI Local Sensors
+          datatype: rdfs:Literal
+

@@ -1,0 +1,1587 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://kracr.iiitd.edu.in/ontology/SAQIOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://kracr.iiitd.edu.in/ontology/SAQIOntology">
+    <Prefix name="" IRI="https://kracr.iiitd.edu.in/ontology/SAQIOntology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="PollutionODP" IRI="https://kracr.iiitd.edu.in/ontology/PollutionODP#"/>
+    <Prefix name="SAQIOntology" IRI="https://kracr.iiitd.edu.in/ontology/SAQIOntology#"/>
+    <Prefix name="AirQualityOntology" IRI="https://kracr.iiitd.edu.in/ontology/AirQualityOntology#"/>
+    <Prefix name="cpannotationschema" IRI="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#"/>
+    <Import>http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:contributor"/>
+        <Literal>Saad Ahmad, Sudhir Attri, Raghava Mutharaju; (https://kracr.iiitd.edu.in/)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:license"/>
+        <Literal>https://www.apache.org/licenses/LICENSE-2.0</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>Ontology to model Social Air Quality</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <Literal>https://kracr.iiitd.edu.in/ontology/AirQualityOntology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.0</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="#Authors"/>
+        <Literal>Saad Ahmad, Sudhir Attri, Raghava Mutharaju</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AirPollution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirPollutionLiteracy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carrier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CentralGovernment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoalBasedPowerPlant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Combustion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contributor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CropBurning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Demographic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DieselBasedPowerPlant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DirectContributor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Election"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EndingPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GasBasedPowerPlant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GaseousPollutant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Government"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydrocarbon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndirectContributor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustrialArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Institution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstitutionAgainstAirPollution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocalGovernment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeteorologicalCharacterstic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MunicipalGovernment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OxideOfCarbon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OxideOfNitrogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OxideOfSulphur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParticulateMatter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pollutant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PollutantGenerator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PowerPlant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrescribedStandardForPollutant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimaryPollutant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Schemes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecondaryPollutant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StartingPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThermalPowerPlant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trajectory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrajectoryPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrajectorySegment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WasteBurning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WindCharacterstic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#actsFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#actsThrough"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atPlace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#carriesPollutant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#endsAt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#givesInformationTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAirPollutionLiteracy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContributor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDemographic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasElection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGovernment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIndividualPerception"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIndustrialArea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInstitutionAgainstAirPollution"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIssues"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasObservation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrescribedStandard"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSchemes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSegment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTrajectory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#informationAboutSchemes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOfDemographic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#livesIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nearby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nextPoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#responsibleForPollution"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sourceResponsibleForLocalPollution"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#startsFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#takesActionAgainst"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#airPollutionIssuesRaised"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#airQualityImproved"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ambientTemperature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ammoniaConcentration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#atHeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#atTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#bPressure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#benzeneConcentration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#carbonMonoOxideConcentration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#comparisionOfLocalPollution"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#confidence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dataSource"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#followsGuidelines"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#frequencyToCheckAQI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#getsNoticeAndContinues"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAQIColorLiteracy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAQILiteracy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAirPollutionGraphicLiteracy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasParticulateMatterLiteracy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPrescribedStandard"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isRegularized"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#latitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#longitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nitrogenDiOxideConcentration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nitrogenMonoOxideConcentration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nitrogenOxideConcentration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#noNoticeOrIntervention"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ozoneConcentration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#particulateMatter10Concentration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#particulateMatter2_5Concentration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#peopleVotedOnAirPollutionIssues"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#plantCapacity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#precipitation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ratingForLocalAirQuality"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#relativeHumidity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#satisfiedWithPerformance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#solarRadiation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sourceName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sulphurDioxideConcentration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tolueneConcentration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#totalPopulation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#usesAirPurifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wearsMask"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#windDirection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#windSpeed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#worksFromHome"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#zipCode"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:created"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:license"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Authors"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#EndingPoint"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#TrajectoryPoint"/>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectInverseOf>
+                        <ObjectProperty IRI="#startsFrom"/>
+                    </ObjectInverseOf>
+                    <Class IRI="#TrajectorySegment"/>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#StartingPoint"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#TrajectoryPoint"/>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectInverseOf>
+                        <ObjectProperty IRI="#endsAt"/>
+                    </ObjectInverseOf>
+                    <Class IRI="#TrajectorySegment"/>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AirPollution"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasContributor"/>
+            <Class IRI="#Contributor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AirPollution"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasContributor"/>
+            <Class IRI="#Contributor"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrier"/>
+        <Class IRI="#IndirectContributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrier"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTrajectory"/>
+            <Class IRI="#Trajectory"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carrier"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#carriesPollutant"/>
+            <Class IRI="#Pollutant"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentralGovernment"/>
+        <Class IRI="#Government"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoalBasedPowerPlant"/>
+        <Class IRI="#ThermalPowerPlant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Combustion"/>
+        <Class IRI="#PollutantGenerator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Combustion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasObservation"/>
+            <Class IRI="#Observation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contributor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#hasContributor"/>
+            </ObjectInverseOf>
+            <Class IRI="#AirPollution"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CropBurning"/>
+        <Class IRI="#Combustion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DieselBasedPowerPlant"/>
+        <Class IRI="#ThermalPowerPlant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DirectContributor"/>
+        <Class IRI="#Contributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dust"/>
+        <Class IRI="#PollutantGenerator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EndingPoint"/>
+        <Class IRI="#TrajectoryPoint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GasBasedPowerPlant"/>
+        <Class IRI="#ThermalPowerPlant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GaseousPollutant"/>
+        <Class IRI="#PrimaryPollutant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydrocarbon"/>
+        <Class IRI="#SecondaryPollutant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndirectContributor"/>
+        <Class IRI="#Contributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InstitutionAgainstAirPollution"/>
+        <Class IRI="#Institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocalGovernment"/>
+        <Class IRI="#Government"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeteorologicalCharacterstic"/>
+        <Class IRI="#IndirectContributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MunicipalGovernment"/>
+        <Class IRI="#Government"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#atPlace"/>
+            <Class IRI="#Place"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#atPlace"/>
+            <Class IRI="#Place"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OxideOfCarbon"/>
+        <Class IRI="#GaseousPollutant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OxideOfNitrogen"/>
+        <Class IRI="#GaseousPollutant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OxideOfSulphur"/>
+        <Class IRI="#GaseousPollutant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParticulateMatter"/>
+        <Class IRI="#PrimaryPollutant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pollutant"/>
+        <Class IRI="#DirectContributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pollutant"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasObservation"/>
+            <Class IRI="#Observation"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pollutant"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPrescribedStandard"/>
+            <Class IRI="#PrescribedStandardForPollutant"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PollutantGenerator"/>
+        <Class IRI="#DirectContributor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PowerPlant"/>
+        <Class IRI="#PollutantGenerator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PowerPlant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#atPlace"/>
+            <Class IRI="#Place"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PowerPlant"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#atPlace"/>
+            <Class IRI="#Place"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrescribedStandardForPollutant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasObservation"/>
+            <Class IRI="#Observation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrescribedStandardForPollutant"/>
+        <ObjectAllValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#hasPrescribedStandard"/>
+            </ObjectInverseOf>
+            <Class IRI="#Pollutant"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimaryPollutant"/>
+        <Class IRI="#Pollutant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecondaryPollutant"/>
+        <Class IRI="#Pollutant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StartingPoint"/>
+        <Class IRI="#TrajectoryPoint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThermalPowerPlant"/>
+        <Class IRI="#PowerPlant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trajectory"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSegment"/>
+            <Class IRI="#TrajectorySegment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trajectory"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPoint"/>
+            <Class IRI="#TrajectoryPoint"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trajectory"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasSegment"/>
+            <Class IRI="#TrajectorySegment"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrajectoryPoint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#atPlace"/>
+            <Class IRI="#Place"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrajectoryPoint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#hasPoint"/>
+            </ObjectInverseOf>
+            <Class IRI="#Trajectory"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrajectoryPoint"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#nextPoint"/>
+            <Class IRI="#TrajectoryPoint"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrajectorySegment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#endsAt"/>
+            <Class IRI="#TrajectoryPoint"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrajectorySegment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#startsFrom"/>
+            <Class IRI="#TrajectoryPoint"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrajectorySegment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#hasSegment"/>
+            </ObjectInverseOf>
+            <Class IRI="#Trajectory"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrajectorySegment"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#endsAt"/>
+            <Class IRI="#TrajectoryPoint"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrajectorySegment"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#startsFrom"/>
+            <Class IRI="#TrajectoryPoint"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WasteBurning"/>
+        <Class IRI="#Combustion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WindCharacterstic"/>
+        <Class IRI="#MeteorologicalCharacterstic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#endsAt"/>
+            <Class IRI="#TrajectoryPoint"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#TrajectorySegment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPoint"/>
+            <Class IRI="#TrajectoryPoint"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#Trajectory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSegment"/>
+            <Class IRI="#TrajectorySegment"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#Trajectory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#nextPoint"/>
+            <Class IRI="#TrajectoryPoint"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#TrajectoryPoint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#startsFrom"/>
+            <Class IRI="#TrajectoryPoint"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#TrajectorySegment"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#EndingPoint"/>
+        <Class IRI="#StartingPoint"/>
+    </DisjointClasses>
+    <DisjointUnion>
+        <Class IRI="#Contributor"/>
+        <Class IRI="#DirectContributor"/>
+        <Class IRI="#IndirectContributor"/>
+    </DisjointUnion>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#atPlace"/>
+        <ObjectProperty IRI="#livesIn"/>
+    </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#carriesPollutant"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#atPlace"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#endsAt"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#startsFrom"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#nearby"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#inRegion"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#actsFor"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#actsThrough"/>
+        <Class IRI="#Institution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#carriesPollutant"/>
+        <Class IRI="#Carrier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#endsAt"/>
+        <Class IRI="#TrajectorySegment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#givesInformationTo"/>
+        <ObjectUnionOf>
+            <Class IRI="#Government"/>
+            <Class IRI="#Institution"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAirPollutionLiteracy"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasContributor"/>
+        <Class IRI="#AirPollution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasElection"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGovernment"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIndividualPerception"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIndustrialArea"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInstitutionAgainstAirPollution"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIssues"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasObservation"/>
+        <ObjectUnionOf>
+            <Class IRI="#Pollutant"/>
+            <Class IRI="#PrescribedStandardForPollutant"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPoint"/>
+        <Class IRI="#Trajectory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrescribedStandard"/>
+        <Class IRI="#Pollutant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrescribedStandard"/>
+        <Class IRI="#PrescribedStandardForPollutant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSchemes"/>
+        <Class IRI="#Government"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSegment"/>
+        <Class IRI="#Trajectory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTrajectory"/>
+        <Class IRI="#Carrier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inRegion"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#informationAboutSchemes"/>
+        <Class IRI="#AirPollutionLiteracy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOfDemographic"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#livesIn"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nearby"/>
+        <ObjectUnionOf>
+            <Class IRI="#TrajectoryPoint"/>
+            <Class IRI="#TrajectorySegment"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nextPoint"/>
+        <Class IRI="#TrajectoryPoint"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#responsibleForPollution"/>
+        <Class IRI="#Perception"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sourceResponsibleForLocalPollution"/>
+        <Class IRI="#Perception"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#startsFrom"/>
+        <Class IRI="#TrajectorySegment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#takesActionAgainst"/>
+        <ObjectUnionOf>
+            <Class IRI="#Government"/>
+            <Class IRI="#InstitutionAgainstAirPollution"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#actsFor"/>
+        <Class IRI="#Institution"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#actsThrough"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atPlace"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#carriesPollutant"/>
+        <Class IRI="#Pollutant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#endsAt"/>
+        <Class IRI="#TrajectoryPoint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#givesInformationTo"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAirPollutionLiteracy"/>
+        <Class IRI="#AirPollutionLiteracy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasContributor"/>
+        <Class IRI="#Contributor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDemographic"/>
+        <Class IRI="#Demographic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasElection"/>
+        <Class IRI="#Election"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGovernment"/>
+        <Class IRI="#Government"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIndividualPerception"/>
+        <Class IRI="#Perception"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIndustrialArea"/>
+        <Class IRI="#IndustrialArea"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInstitutionAgainstAirPollution"/>
+        <Class IRI="#InstitutionAgainstAirPollution"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasObservation"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPoint"/>
+        <Class IRI="#TrajectoryPoint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrescribedStandard"/>
+        <Class IRI="#PrescribedStandardForPollutant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSchemes"/>
+        <Class IRI="#Schemes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSegment"/>
+        <Class IRI="#TrajectorySegment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTrajectory"/>
+        <Class IRI="#Trajectory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inRegion"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#informationAboutSchemes"/>
+        <Class IRI="#Schemes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOfDemographic"/>
+        <Class IRI="#Demographic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#livesIn"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nearby"/>
+        <Class IRI="#PollutantGenerator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nextPoint"/>
+        <Class IRI="#TrajectoryPoint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#responsibleForPollution"/>
+        <Class IRI="#Government"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sourceResponsibleForLocalPollution"/>
+        <Class IRI="#PollutantGenerator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#startsFrom"/>
+        <Class IRI="#TrajectoryPoint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#takesActionAgainst"/>
+        <Class IRI="#AirPollution"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#hasSegment"/>
+            <ObjectProperty IRI="#endsAt"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#hasPoint"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#hasSegment"/>
+            <ObjectProperty IRI="#startsFrom"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#hasPoint"/>
+    </SubObjectPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasAQIColorLiteracy"/>
+        <DataProperty IRI="#hasAQILiteracy"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#atTime"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#airPollutionIssuesRaised"/>
+        <Class IRI="#Election"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#airQualityImproved"/>
+        <Class IRI="#Perception"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ambientTemperature"/>
+        <Class IRI="#MeteorologicalCharacterstic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ammoniaConcentration"/>
+        <Class IRI="#GaseousPollutant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atHeight"/>
+        <Class IRI="#TrajectoryPoint"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#atTime"/>
+        <ObjectUnionOf>
+            <Class IRI="#Election"/>
+            <Class IRI="#Observation"/>
+            <Class IRI="#Perception"/>
+            <Class IRI="#TrajectoryPoint"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#bPressure"/>
+        <Class IRI="#MeteorologicalCharacterstic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#benzeneConcentration"/>
+        <Class IRI="#Hydrocarbon"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#carbonMonoOxideConcentration"/>
+        <Class IRI="#OxideOfCarbon"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#comparisionOfLocalPollution"/>
+        <Class IRI="#Perception"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#confidence"/>
+        <Class IRI="#Combustion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dataSource"/>
+        <Class IRI="#Observation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#followsGuidelines"/>
+        <Class IRI="#IndustrialArea"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#frequencyToCheckAQI"/>
+        <Class IRI="#AirPollutionLiteracy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#getsNoticeAndContinues"/>
+        <Class IRI="#IndustrialArea"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAQILiteracy"/>
+        <Class IRI="#AirPollutionLiteracy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAirPollutionGraphicLiteracy"/>
+        <Class IRI="#AirPollutionLiteracy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <ObjectUnionOf>
+            <Class IRI="#Government"/>
+            <Class IRI="#Institution"/>
+            <Class IRI="#Person"/>
+            <Class IRI="#Place"/>
+            <Class IRI="#Region"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasParticulateMatterLiteracy"/>
+        <Class IRI="#AirPollutionLiteracy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isRegularized"/>
+        <Class IRI="#IndustrialArea"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#latitude"/>
+        <Class IRI="#Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#longitude"/>
+        <Class IRI="#Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nitrogenDiOxideConcentration"/>
+        <Class IRI="#OxideOfNitrogen"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nitrogenMonoOxideConcentration"/>
+        <Class IRI="#OxideOfNitrogen"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nitrogenOxideConcentration"/>
+        <Class IRI="#OxideOfNitrogen"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#noNoticeOrIntervention"/>
+        <Class IRI="#IndustrialArea"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ozoneConcentration"/>
+        <Class IRI="#SecondaryPollutant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#particulateMatter10Concentration"/>
+        <Class IRI="#ParticulateMatter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#particulateMatter2_5Concentration"/>
+        <Class IRI="#ParticulateMatter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#peopleVotedOnAirPollutionIssues"/>
+        <Class IRI="#Perception"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#plantCapacity"/>
+        <Class IRI="#PowerPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#precipitation"/>
+        <Class IRI="#MeteorologicalCharacterstic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ratingForLocalAirQuality"/>
+        <Class IRI="#Perception"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#relativeHumidity"/>
+        <Class IRI="#MeteorologicalCharacterstic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#satisfiedWithPerformance"/>
+        <Class IRI="#Perception"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#solarRadiation"/>
+        <Class IRI="#MeteorologicalCharacterstic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sulphurDioxideConcentration"/>
+        <Class IRI="#OxideOfSulphur"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tolueneConcentration"/>
+        <Class IRI="#Hydrocarbon"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#totalPopulation"/>
+        <Class IRI="#Demographic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#usesAirPurifier"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wearsMask"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#windDirection"/>
+        <Class IRI="#WindCharacterstic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#windSpeed"/>
+        <Class IRI="#WindCharacterstic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#worksFromHome"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#zipCode"/>
+        <Class IRI="#Place"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ambientTemperature"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ammoniaConcentration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#atHeight"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#atTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#bPressure"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#benzeneConcentration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#carbonMonoOxideConcentration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#confidence"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dataSource"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPrescribedStandard"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#latitude"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#longitude"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nitrogenDiOxideConcentration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nitrogenMonoOxideConcentration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nitrogenOxideConcentration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ozoneConcentration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#particulateMatter10Concentration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#particulateMatter2_5Concentration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#plantCapacity"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#precipitation"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#relativeHumidity"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#solarRadiation"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sulphurDioxideConcentration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tolueneConcentration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#totalPopulation"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#windDirection"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#windSpeed"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#zipCode"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AirPollution</IRI>
+        <Literal>Represnents the notion of Pollution which includes observation of pollutants at spatio-temporal points or the contributors to the pollution which may be spatio-temporal in nature.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Carrier</IRI>
+        <Literal>Represents streams which carry pollutants to a particular place.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Demographic</IRI>
+        <Literal>Can also include things like awareness about air quality, most common mode of transportation, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Demographic</IRI>
+        <Literal>Will capture things like education level, majority types of jobs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DirectContributor</IRI>
+        <Literal>Represents concepts which directly represent pollution. For example the concentration of pollutants at a particular spatio-temporal point.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IndirectContributor</IRI>
+        <Literal>Represents concepts which indirectly contribute to pollution of a place. These do not directly represent pollution but have properties which can affect the pollution, for example by changing the concentration of pollutants at a spatio-temporal point.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cpannotationschema:reengineeredFrom"/>
+        <IRI>#Observation</IRI>
+        <Literal>Observation ODP - http://ontologydesignpatterns.org/wiki/Submissions:Observation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Observation</IRI>
+        <Literal>Observation represents a spatio-temporal observation of pollutants under time and place parameters.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal>Can be someone or a group who receoves fundings to manage air pollution, or works on behalf of organizations to tackle air pollution.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pollutant</IRI>
+        <Literal>Represents various pollutants which contaminate the environment and directly represnt/contribute to pollution. Additionally a carrier&apos;s trajecectory point may pick up pollutants from a spatio-temporal point, in which case, it is represented by the sub-property carriesPollutant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cpannotationschema:reengineeredFrom"/>
+        <IRI>#PrescribedStandardForPollutant</IRI>
+        <Literal>Stub Metapattern - http://ontologydesignpatterns.org/wiki/Submissions:Stub_Metapattern</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cpannotationschema:reengineeredFrom"/>
+        <IRI>#Trajectory</IRI>
+        <Literal>Trajectory ODP - http://ontologydesignpatterns.org/wiki/Submissions:Trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Trajectory</IRI>
+        <Literal>Represents a trajectory of points. Examples include drainage/sewage trajectory or air stream trajectory.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cpannotationschema:reengineeredFrom"/>
+        <IRI>#TrajectoryPoint</IRI>
+        <Literal>Trajectory ODP - http://ontologydesignpatterns.org/wiki/Submissions:Trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TrajectoryPoint</IRI>
+        <Literal>A collection of spatio-temporal points represents a trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cpannotationschema:reengineeredFrom"/>
+        <IRI>#TrajectorySegment</IRI>
+        <Literal>Trajectory ODP - http://ontologydesignpatterns.org/wiki/Submissions:Trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TrajectorySegment</IRI>
+        <Literal>A subset of spatio-temporal trajectory points represent a TrajectorySegment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cpannotationschema:reengineeredFrom"/>
+        <IRI>#carriesPollutant</IRI>
+        <Literal>Trajectory ODP - http://ontologydesignpatterns.org/wiki/Submissions:Trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cpannotationschema:reengineeredFrom"/>
+        <IRI>#endsAt</IRI>
+        <Literal>Trajectory ODP - http://ontologydesignpatterns.org/wiki/Submissions:Trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#endsAt</IRI>
+        <Literal>Connects a segment to the point it ends at.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cpannotationschema:reengineeredFrom"/>
+        <IRI>#hasObservation</IRI>
+        <Literal>Observation ODP - http://ontologydesignpatterns.org/wiki/Submissions:Observation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cpannotationschema:reengineeredFrom"/>
+        <IRI>#hasPoint</IRI>
+        <Literal>Trajectory ODP - http://ontologydesignpatterns.org/wiki/Submissions:Trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPoint</IRI>
+        <Literal>Relating the trajectory to each of its points.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cpannotationschema:reengineeredFrom"/>
+        <IRI>#hasSegment</IRI>
+        <Literal>Trajectory ODP - http://ontologydesignpatterns.org/wiki/Submissions:Trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSegment</IRI>
+        <Literal>Relating the trajectory to each of its segments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cpannotationschema:reengineeredFrom"/>
+        <IRI>#hasTrajectory</IRI>
+        <Literal>Trajectory ODP - http://ontologydesignpatterns.org/wiki/Submissions:Trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTrajectory</IRI>
+        <Literal>Anything that has a trajectory can use this property to connect it to the trajectory instance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cpannotationschema:reengineeredFrom"/>
+        <IRI>#nextPoint</IRI>
+        <Literal>Trajectory ODP - http://ontologydesignpatterns.org/wiki/Submissions:Trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#nextPoint</IRI>
+        <Literal>Relates one point to the immediately following point in the sequence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="cpannotationschema:reengineeredFrom"/>
+        <IRI>#startsFrom</IRI>
+        <Literal>Trajectory ODP - http://ontologydesignpatterns.org/wiki/Submissions:Trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#startsFrom</IRI>
+        <Literal>Connects a segment to the point it starts from.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
