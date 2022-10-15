@@ -1,0 +1,1616 @@
+@prefix ns0: <https://kracr.iiitd.edu.in/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyaccessibilityOfAQData
+ns0:SAQIOntologyaccessibilityOfAQData rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyairQualityChangeIn3Years
+ns0:SAQIOntologyairQualityChangeIn3Years rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologydelhiGovtWorkPerception
+ns0:SAQIOntologydelhiGovtWorkPerception rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyfrequencyToCheckAQI
+ns0:SAQIOntologyfrequencyToCheckAQI rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhasAQIColorLiteracy
+ns0:SAQIOntologyhasAQIColorLiteracy rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhasAQILiteracy
+ns0:SAQIOntologyhasAQILiteracy rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhasAirPollutionGraphicLiteracy
+ns0:SAQIOntologyhasAirPollutionGraphicLiteracy rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhasAirPollutionLiteracy
+ns0:SAQIOntologyhasAirPollutionLiteracy rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhasIndividualPerception
+ns0:SAQIOntologyhasIndividualPerception rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhasParticulateMatterLiteracy
+ns0:SAQIOntologyhasParticulateMatterLiteracy rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhowIsYourLocalityComparedToOtherAreas
+ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyisPartOfSocialCohort
+ns0:SAQIOntologyisPartOfSocialCohort rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologylocalAirQualityRating
+ns0:SAQIOntologylocalAirQualityRating rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologypeopleVotedOnAirPollutionIssues
+ns0:SAQIOntologypeopleVotedOnAirPollutionIssues rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections
+ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologytalkAboutAirQualityWithOtherPeople
+ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyusesAirPurifier
+ns0:SAQIOntologyusesAirPurifier rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologywearsMask
+ns0:SAQIOntologywearsMask rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologywhenDoYouTalkAboutAirQuality
+ns0:SAQIOntologywhenDoYouTalkAboutAirQuality rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyworkplaceUpdatesAboutPollution
+ns0:SAQIOntologyworkplaceUpdatesAboutPollution rdf:type owl:AnnotationProperty .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyworksFromHome
+ns0:SAQIOntologyworksFromHome rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyPerson
+ns0:SAQIOntologyPerson rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_1
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_1 rdf:type owl:NamedIndividual ,
+                                                    ns0:SAQIOntologyPerson ;
+                                           ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_1" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_1" ;
+                                           ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
+                                           ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                           ns0:SAQIOntologyusesAirPurifier "Yes" ;
+                                           ns0:SAQIOntologywearsMask "Yes" ;
+                                           ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months, When there’s an awareness programme" ;
+                                           ns0:SAQIOntologyworksFromHome "Yes" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_10
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_10 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Slightly accessible" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_10" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_10" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "On regular basis" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_11
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_11 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_11" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_11" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_12
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_12 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_12" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_12" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_13
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_13 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_13" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_13" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_14
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_14 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_14" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_14" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_15
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_15 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_15" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_15" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_16
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_16 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_16" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_16" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_17
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_17 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_17" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_17" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_18
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_18 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_18" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_18" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "On regular basis" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_19
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_19 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_19" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_19" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "On regular basis" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_2
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_2 rdf:type owl:NamedIndividual ,
+                                                    ns0:SAQIOntologyPerson ;
+                                           ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_2" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_2" ;
+                                           ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
+                                           ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                           ns0:SAQIOntologyusesAirPurifier "No" ;
+                                           ns0:SAQIOntologywearsMask "Yes" ;
+                                           ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "On regular basis" ;
+                                           ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_20
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_20 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_20" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_20" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "On regular basis" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_21
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_21 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_21" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_21" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "On regular basis" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_22
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_22 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_22" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_22" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_23
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_23 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_23" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_23" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "No" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "On regular basis" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_24
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_24 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_24" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_24" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months, When there’s an awareness programme" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_25
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_25 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_25" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_25" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_26
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_26 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_26" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_26" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_27
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_27 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_27" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_27" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_28
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_28 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_28" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_28" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_29
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_29 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_29" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_29" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "No" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_3
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_3 rdf:type owl:NamedIndividual ,
+                                                    ns0:SAQIOntologyPerson ;
+                                           ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_3" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_3" ;
+                                           ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
+                                           ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "No" ;
+                                           ns0:SAQIOntologyusesAirPurifier "No" ;
+                                           ns0:SAQIOntologywearsMask "Yes" ;
+                                           ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                           ns0:SAQIOntologyworksFromHome "Yes" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_30
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_30 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_30" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_30" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "On regular basis" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_31
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_31 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_31" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_31" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_32
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_32 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_32" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_32" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_33
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_33 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_33" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_33" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_34
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_34 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_34" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_34" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "No" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_35
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_35 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_35" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_35" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "No" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_36
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_36 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_36" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_36" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_37
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_37 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_37" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_37" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_38
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_38 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_38" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_38" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_39
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_39 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_39" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_39" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_4
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_4 rdf:type owl:NamedIndividual ,
+                                                    ns0:SAQIOntologyPerson ;
+                                           ns0:SAQIOntologyaccessibilityOfAQData "Slightly accessible" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_4" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_4" ;
+                                           ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
+                                           ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                           ns0:SAQIOntologyusesAirPurifier "Yes" ;
+                                           ns0:SAQIOntologywearsMask "Yes" ;
+                                           ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "On regular basis" ;
+                                           ns0:SAQIOntologyworksFromHome "Yes" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_40
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_40 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_40" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_40" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_41
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_41 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_41" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_41" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_42
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_42 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_42" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_42" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_43
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_43 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_43" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_43" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_44
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_44 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_44" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_44" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "No" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_45
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_45 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_45" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_45" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "No" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_46
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_46 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_46" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_46" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "No" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_47
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_47 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_47" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_47" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_48
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_48 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_48" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_48" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_49
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_49 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_49" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_49" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_5
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_5 rdf:type owl:NamedIndividual ,
+                                                    ns0:SAQIOntologyPerson ;
+                                           ns0:SAQIOntologyaccessibilityOfAQData "Slightly accessible" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_5" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_5" ;
+                                           ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
+                                           ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Maybe" ;
+                                           ns0:SAQIOntologyusesAirPurifier "No" ;
+                                           ns0:SAQIOntologywearsMask "Yes" ;
+                                           ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, When there’s an awareness programme" ;
+                                           ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_50
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_50 rdf:type owl:NamedIndividual ,
+                                                     ns0:SAQIOntologyPerson ;
+                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_50" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_50" ;
+                                            ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
+                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                            ns0:SAQIOntologyusesAirPurifier "No" ;
+                                            ns0:SAQIOntologywearsMask "Yes" ;
+                                            ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "There is intense media coverage, When we feel,During the peak winter months" ;
+                                            ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_6
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_6 rdf:type owl:NamedIndividual ,
+                                                    ns0:SAQIOntologyPerson ;
+                                           ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_6" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_6" ;
+                                           ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
+                                           ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                           ns0:SAQIOntologyusesAirPurifier "Yes" ;
+                                           ns0:SAQIOntologywearsMask "No" ;
+                                           ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "When there’s an awareness programme" ;
+                                           ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_7
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_7 rdf:type owl:NamedIndividual ,
+                                                    ns0:SAQIOntologyPerson ;
+                                           ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_7" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_7" ;
+                                           ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
+                                           ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                           ns0:SAQIOntologyusesAirPurifier "No" ;
+                                           ns0:SAQIOntologywearsMask "Yes" ;
+                                           ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "On regular basis" ;
+                                           ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_8
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_8 rdf:type owl:NamedIndividual ,
+                                                    ns0:SAQIOntologyPerson ;
+                                           ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_8" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_8" ;
+                                           ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
+                                           ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                           ns0:SAQIOntologyusesAirPurifier "No" ;
+                                           ns0:SAQIOntologywearsMask "Yes" ;
+                                           ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "During the peak winter months" ;
+                                           ns0:SAQIOntologyworksFromHome "No" .
+
+
+###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_9
+ns0:SAQIOntologyperson_OkhlaOkhla_Person_9 rdf:type owl:NamedIndividual ,
+                                                    ns0:SAQIOntologyPerson ;
+                                           ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_9" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_9" ;
+                                           ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
+                                           ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
+                                           ns0:SAQIOntologyusesAirPurifier "No" ;
+                                           ns0:SAQIOntologywearsMask "Yes" ;
+                                           ns0:SAQIOntologywhenDoYouTalkAboutAirQuality "On regular basis" ;
+                                           ns0:SAQIOntologyworksFromHome "No" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_1 ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                  ns0:SAQIOntologylocalAirQualityRating "Very Bad" ;
+                                                  ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                  ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                  ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                  ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                  ns0:SAQIOntologyworkplaceUpdatesAboutPollution "Yes" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_10 ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "Yes" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has improved" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Less Polluted" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_11 ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Fair" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_12 ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Fair" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_13 ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Fair" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_14 ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Fair" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "There are no adequate measures taken" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_15 ns0:SAQIOntologylocalAirQualityRating "Fair" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_16 ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Fair" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_17 ns0:SAQIOntologydelhiGovtWorkPerception "There are no adequate measures taken" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Fair" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_18 ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "There are no adequate measures taken" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Fair" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_19 ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Very Bad" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "Yes" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_2 ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                  ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                  ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                  ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                  ns0:SAQIOntologyworkplaceUpdatesAboutPollution "Yes" ;
+                                                  ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "No" ;
+                                                  ns0:SAQIOntologylocalAirQualityRating "Bad" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_20 ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Fair" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_21 ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "No change" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Fair" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_22 ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Very Bad" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Maybe" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has improved" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_23 ns0:SAQIOntologyairQualityChangeIn3Years "No change" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "There are no adequate measures taken" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_24 ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has improved" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_25 ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has improved" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_26 ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "Yes" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Fair" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "There are adequate measures taken" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_27 ns0:SAQIOntologylocalAirQualityRating "Fair" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "Yes" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "There are adequate measures taken" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_28 ns0:SAQIOntologydelhiGovtWorkPerception "There are adequate measures taken" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Good" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "No change" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_29 ns0:SAQIOntologydelhiGovtWorkPerception "There are adequate measures taken" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "Yes, the issue was highlighted and people voted on it" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Maybe" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has improved" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Good" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_3 ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                  ns0:SAQIOntologydelhiGovtWorkPerception "There are no adequate measures taken" ;
+                                                  ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                  ns0:SAQIOntologylocalAirQualityRating "Good" ;
+                                                  ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                  ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                  ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Less Polluted" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_30 ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Very Bad" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "Yes" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_31 ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_32 ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "There are no adequate measures taken" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_33 ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Very Bad" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_34 ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Less Polluted" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has improved" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Very Good" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "No" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "There are adequate measures taken" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_35 ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Less Polluted" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Very Good" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "There are adequate measures taken" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has improved" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "No" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_36 ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "No change" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Moderately Polluted" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_37 ns0:SAQIOntologyairQualityChangeIn3Years "No change" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Fair" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Moderately Polluted" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_38 ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Fair" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Moderately Polluted" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_39 ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_4 ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                  ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                  ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                  ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "No" ;
+                                                  ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                  ns0:SAQIOntologyworkplaceUpdatesAboutPollution "Yes" ;
+                                                  ns0:SAQIOntologylocalAirQualityRating "Fair" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_40 ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_41 ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Maybe" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "No change" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_42 ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Maybe" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "No change" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_43 ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_44 ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Very Bad" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "No" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_45 ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_46 ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "No" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_47 ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Maybe" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "There are no adequate measures taken" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_48 ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "There are no adequate measures taken" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Maybe" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_49 ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "There are adequate measures taken" ;
+                                                   ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Very Bad" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_5 ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                  ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                  ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                  ns0:SAQIOntologyworkplaceUpdatesAboutPollution "Maybe" ;
+                                                  ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                  ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                  ns0:SAQIOntologydelhiGovtWorkPerception "There are no adequate measures taken" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_50 ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                   ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "More Polluted" ;
+                                                   ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                   ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                   ns0:SAQIOntologylocalAirQualityRating "Very Bad" ;
+                                                   ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" ;
+                                                   ns0:SAQIOntologydelhiGovtWorkPerception "There are no adequate measures taken" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_6 ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                  ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Maybe" ;
+                                                  ns0:SAQIOntologyairQualityChangeIn3Years "No change" ;
+                                                  ns0:SAQIOntologylocalAirQualityRating "Bad" ;
+                                                  ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                  ns0:SAQIOntologyworkplaceUpdatesAboutPollution "Yes" ;
+                                                  ns0:SAQIOntologydelhiGovtWorkPerception "There are no adequate measures taken" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_7 ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                  ns0:SAQIOntologyairQualityChangeIn3Years "No change" ;
+                                                  ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                  ns0:SAQIOntologylocalAirQualityRating "Very Bad" ;
+                                                  ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                  ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                  ns0:SAQIOntologyworkplaceUpdatesAboutPollution "No" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_8 ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Equally Polluted" ;
+                                                  ns0:SAQIOntologylocalAirQualityRating "Very Bad" ;
+                                                  ns0:SAQIOntologyworkplaceUpdatesAboutPollution "Maybe" ;
+                                                  ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                  ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                  ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "No, there was no such conversation around" ;
+                                                  ns0:SAQIOntologydelhiGovtWorkPerception "There are adequate measures taken" .
+
+
+ns0:SAQIOntologyaq_Perception_OkhlaOkhla_Person_9 ns0:SAQIOntologylocalAirQualityRating "Fair" ;
+                                                  ns0:SAQIOntologyairQualityChangeIn3Years "Air quality has worsened" ;
+                                                  ns0:SAQIOntologyworkplaceUpdatesAboutPollution "Yes" ;
+                                                  ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections "Yes" ;
+                                                  ns0:SAQIOntologydelhiGovtWorkPerception "Interested, but more can be done" ;
+                                                  ns0:SAQIOntologypeopleVotedOnAirPollutionIssues "Yes, the issue was highlighted and people voted on it" ;
+                                                  ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas "Less Polluted" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_1 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                 ns0:SAQIOntologyfrequencyToCheckAQI "Often" ;
+                                                 ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                 ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                 ns0:SAQIOntologyhasAQIColorLiteracy "Severe" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_10 ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Daily" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_11 ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_12 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_13 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_14 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_15 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_16 ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_17 ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_18 ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Often" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_19 ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Often" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_2 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                 ns0:SAQIOntologyfrequencyToCheckAQI "Weekly" ;
+                                                 ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                 ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                 ns0:SAQIOntologyhasAQIColorLiteracy "Poor" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_20 ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Often" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_21 ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Often" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_22 ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Often" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_23 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_24 ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Daily" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_25 ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_26 ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_27 ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_28 ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_29 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_3 ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                 ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                 ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                 ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_30 ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Often" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_31 ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_32 ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_33 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_34 ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_35 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_36 ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_37 ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_38 ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_39 ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_4 ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                 ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                 ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                 ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_40 ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_41 ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_42 ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_43 ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Poor" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_44 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_45 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_46 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_47 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_48 ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_49 ns0:SAQIOntologyfrequencyToCheckAQI "Often" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyhasAQIColorLiteracy "Poor" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "No" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_5 ns0:SAQIOntologyhasAQIColorLiteracy "Poor" ;
+                                                 ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                 ns0:SAQIOntologyhasParticulateMatterLiteracy "No" ;
+                                                 ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_50 ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                  ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                  ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                  ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                  ns0:SAQIOntologyfrequencyToCheckAQI "Often" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_6 ns0:SAQIOntologyhasAQILiteracy "No" ;
+                                                 ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                 ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                 ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_7 ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                 ns0:SAQIOntologyhasAQIColorLiteracy "Severe" ;
+                                                 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, and understand the graphics" ;
+                                                 ns0:SAQIOntologyfrequencyToCheckAQI "Don’t check" ;
+                                                 ns0:SAQIOntologyhasParticulateMatterLiteracy "No" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_8 ns0:SAQIOntologyfrequencyToCheckAQI "Rarely" ;
+                                                 ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                 ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Never seen any such boards" ;
+                                                 ns0:SAQIOntologyhasAQIColorLiteracy "Don't Know" .
+
+
+ns0:SAQIOntologyaqi_literacy_OkhlaOkhla_Person_9 ns0:SAQIOntologyhasAQIColorLiteracy "Poor" ;
+                                                 ns0:SAQIOntologyfrequencyToCheckAQI "Daily" ;
+                                                 ns0:SAQIOntologyhasAQILiteracy "Yes" ;
+                                                 ns0:SAQIOntologyhasParticulateMatterLiteracy "Yes" ;
+                                                 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy "Seen, but don't understand the graphics" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

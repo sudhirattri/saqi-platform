@@ -4,7 +4,13 @@ import subprocess
 import shutil
 import requests
 import json
+import sys
 
+RDF_STORE_URL = "http://localhost:3030/"
+if len(sys.argv) > 1:
+    RDF_STORE_URL = sys.argv[1]
+
+print(RDF_STORE_URL)
 base_dir = pathlib.Path(__file__).parent.resolve()
 mapping_dir = base_dir / "mappings"
 
@@ -19,16 +25,15 @@ def upload_static_rdf_data():
     static_turtle_path = base_dir / "static_turtle"
 
     turtle_files = [file for file in os.listdir(static_turtle_path)]
-    for file in sensor_csv_files:
-        rdf_store_url = 'http://localhost:3030/aq-store/data?default'
+    for file in turtle_files:
         turtle_path = static_turtle_path / file
         with open(turtle_path) as f:
             turtle_data=f.read()
             headers = {
             "Content-Type": "text/turtle;charset=utf-8"
             }
-            print("Sending turtle payload")
-            response = requests.request("POST",rdf_store_url,headers=headers, data=turtle_data)
+            print("Sending turtle payload for file: ",file)
+            response = requests.request("POST",f"{RDF_STORE_URL}aq-store/data?default",headers=headers, data=turtle_data.encode('utf-8'))
             response_json = json.loads(response.text)
             print("Response from RDF store",response.text)
             if(response_json is not None and response_json["count"]>0):
@@ -76,7 +81,7 @@ def upload_saqi_sensors_data():
             "Content-Type": "text/turtle;charset=utf-8"
             }
             print("Sending turtle payload")
-            response = requests.request("POST",rdf_store_url,headers=headers, data=turtle_data)
+            response = requests.request("POST",f"{RDF_STORE_URL}aq-store/data?default",headers=headers, data=turtle_data)
             response_json = json.loads(response.text)
             print("Response from RDF store",response.text)
             if(response_json is not None and response_json["count"]>0):
@@ -117,15 +122,13 @@ def upload_cpcb_sensors_data():
         print("RML Mapper completed :",copied_map_file,copied_file_path)
 
 
-        rdf_store_url = 'http://localhost:3030/aq-store/data?default'
-
         with open(rdf_output_path) as f:
             turtle_data=f.read()
             headers = {
             "Content-Type": "text/turtle;charset=utf-8"
             }
             print("Sending turtle payload")
-            response = requests.request("POST",rdf_store_url,headers=headers, data=turtle_data)
+            response = requests.request("POST",f"{RDF_STORE_URL}aq-store/data?default",headers=headers, data=turtle_data)
             response_json = json.loads(response.text)
             print("Response from RDF store",response.text)
             if(response_json is not None and response_json["count"]>0):
@@ -133,6 +136,7 @@ def upload_cpcb_sensors_data():
             else:
                 raise Exception("Zero triples uploaded to graph")
 
-create_temp_dir()
-# upload_saqi_sensors_data()
+# create_temp_dir()
+upload_static_rdf_data()
+upload_saqi_sensors_data()
 upload_cpcb_sensors_data() 
