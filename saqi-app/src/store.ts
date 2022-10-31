@@ -49,9 +49,16 @@ const eng = {
 
     recommendation: "More recommendations",
     question_recommendation: "What should I do?",
-    GoBack: "Go back to start"
+    GoBack: "Go back to start",
+    SelectDateRange: "Select date range",
+    Good: "Good: Minimal impact",
+    Satisfactory: "Satisfactory: Minor breathing discomfort to sensitive people",
+    Moderate: "Moderate: Breathing discomfort to the people with lungs, asthma and heart diseases",
+    Poor: "Poor: Breathing discomfort to most people on prolonged exposure",
+    VeryPoor: "Very Poor: Respiratory illness on prolonged exposure",
+    Severe: "Severe: Affects healthy people and seriously impacts those with existing diseases",
 
-
+    Inference: "Deduction"
 };
 const hin = {
     NextPage: "अगले पेज पर जाएं",
@@ -99,7 +106,17 @@ const hin = {
     SplashMessage: "नमस्कार",
     ChooseLanguage: "भाषा चुनें",
 
-    GoBack: "दोबारा शुरू करें"
+    GoBack: "दोबारा शुरू करें",
+    SelectDateRange: "अवधि सीमा का चयन करें",
+
+    Good: "अच्छा: न्यूनतम प्रभाव, बाहर जाने पर स्वास्थ्य पर कोई प्रभाव नहीं पड़ेगा",
+    Satisfactory: "संतोषजनक: संवेदनशील लोगों को सांस लेने में थोड़ी तकलीफ हो सकती है।",
+    Moderate: "संतुलित: फेफड़े, अस्थमा और हृदय रोग से पीड़ित लोगों को सांस लेने में तकलीफ हो सकती है।",
+    Poor: "गंभीर: लंबे समय तक एक्सपोजर पर ज्यादातर लोगों को सांस लेने में तकलीफ हो सकती है।",
+    VeryPoor: "बहुत गंभीर : लंबे समय तक संपर्क में रहने पर सांस की बीमारी ठीक हो सकती है।",
+    Severe: "बहुत गंभीर : इतना प्रदूषण स्वस्थ लोगों को प्रभावित कर सकता है और मौजूदा बीमारियों वाले लोगों को गंभीर रूप से प्रभावित कर सकता है",
+
+    Inference: "निष्कर्ष"
 };
 
 export const Constants = derived(
@@ -108,3 +125,5 @@ export const Constants = derived(
         return $GlobalLanguage == "Eng" ? eng : hin
     }
 )
+
+export const SpeechVoices = writable(null)

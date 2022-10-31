@@ -3,6 +3,13 @@
     import { SocialCohort, Constants } from "../store";
     import { scale } from "svelte/transition";
     import { cubicOut } from "svelte/easing";
+    import { onMount } from "svelte";
+    import { SpeakText } from "../utils";
+
+    onMount(async () => {
+        console.log("Loaded Language Selection");
+        SpeakText("AskCohort");
+    });
     function classNames(...classes: (string | false | null | undefined)[]) {
         return classes.filter(Boolean).join(" ");
     }
@@ -56,6 +63,7 @@
                 active = event.detail;
                 SocialCohort.set(event.detail);
                 console.log("Setting Cohort", active);
+                SpeakText(event.detail);
             }}
         >
             <fieldset class="space-y-4 content-center">

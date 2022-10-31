@@ -7,7 +7,7 @@
         ListboxOption,
         ListboxOptions,
     } from "@rgossiaux/svelte-headlessui";
-
+    import { SpeakText } from "../utils";
     function classNames(
         ...classes: (false | null | undefined | string)[]
     ): string {
@@ -25,6 +25,7 @@
                 on:change={(event) => {
                     GlobalLanguage.set(event.detail);
                     console.log(GlobalLanguage);
+                    SpeakText("lang");
                 }}
             >
                 <!-- <ListboxLabel
@@ -126,7 +127,7 @@
 <style>
     .lang-selector {
         position: fixed;
-        top: 20px;
+        top: 25px;
         right: 20px;
         font-size: 1.3rem !important;
     }

@@ -7,19 +7,19 @@
 </script>
 
 <div class="flex justify-center  bg-gray-50 mute-selector">
-    {#if $IsMuted}
-        <Button
-            outline
+    {#if !$IsMuted}
+        <button
+            class="mute-button"
             on:click={() => {
                 IsMuted.update((current) => !current);
                 console.log("Is muted", $IsMuted);
             }}
         >
             <Icon src={SpeakerWave} theme="outline" class="icon-small" />
-        </Button>
+        </button>
     {:else}
-        <Button
-            outline
+        <button
+            class="mute-button"
             on:click={() => {
                 IsMuted.update((current) => !current);
                 console.log("Is muted", $IsMuted);
@@ -30,7 +30,7 @@
                 theme="outline"
                 class="icon-small text-sky-900"
             />
-        </Button>
+        </button>
     {/if}
 </div>
 
@@ -39,6 +39,11 @@
         position: fixed;
         top: 20px;
         left: 20px;
+    }
+    .mute-button {
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid gray;
     }
     :global(.icon-small) {
         width: 1.6rem;

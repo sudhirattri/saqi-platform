@@ -3,6 +3,14 @@
     import { GlobalLanguage, Constants } from "../store";
     import { fade, scale } from "svelte/transition";
     import { cubicOut } from "svelte/easing";
+    import { onMount } from "svelte";
+    import { SpeakText } from "../utils";
+
+    onMount(async () => {
+        console.log("Loaded Language Selection");
+        SpeakText("ChooseLanguage");
+    });
+
     function classNames(...classes: (string | false | null | undefined)[]) {
         return classes.filter(Boolean).join(" ");
     }
@@ -39,7 +47,8 @@
             on:change={(event) => {
                 active = event.detail;
                 GlobalLanguage.set(event.detail);
-                console.log("Setting Location", active);
+                SpeakText("lang");
+                console.log("Setting Language", active);
             }}
         >
             <fieldset class="space-y-4 content-center">

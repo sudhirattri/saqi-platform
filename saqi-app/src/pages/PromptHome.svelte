@@ -2,54 +2,40 @@
     import { scale } from "svelte/transition";
     import { cubicOut } from "svelte/easing";
     import { link } from "svelte-spa-router";
-    import { Constants } from "../store";
+    import { Constants, GlobalLanguage } from "../store";
+    import {
+        faq_prompt_data,
+        aqi_prompt_data,
+        sparql_prompt_data,
+    } from "../data/prompts";
+    import type { Prompt } from "../data/prompts";
+    import { onMount } from "svelte";
+    import { SpeakText, getRandomInt, stripHtml } from "../utils";
+
+    onMount(async () => {
+        console.log("Loaded Language Selection");
+        SpeakText("nextPromptTitle");
+    });
     let nextLink = "/prompt";
     let homeLink = "/";
 
+    let faq_choice_1 = getRandomInt(faq_prompt_data.length);
+    let faq_choice_2 = getRandomInt(faq_prompt_data.length);
+    while (faq_choice_2 == faq_choice_1)
+        faq_choice_2 = getRandomInt(faq_prompt_data.length);
+    console.log("generated FAQs: ", faq_choice_1, faq_choice_2);
+    let current_prompts: Prompt[] = [
+        faq_prompt_data[faq_choice_1],
+        faq_prompt_data[faq_choice_2],
+        aqi_prompt_data,
+        sparql_prompt_data,
+    ];
     type PromptData = {
         id: string;
-        tilte: string;
+        title: string;
         description: string;
         url: string;
     };
-
-    let prompts: PromptData[] = [
-        {
-            id: "WhatAirPollution",
-            tilte: "Air pollution",
-            description:
-                "What is air pollution? full description of this prompt",
-            url: "/prompt/faq/WhatAirPollution",
-        },
-        {
-            id: "HowToReadAQI",
-            tilte: "Air Quality Index",
-            description:
-                "How to understand AQI measurement? full description of this prompt",
-            url: "/prompt/faq/HowToReadAQI",
-        },
-        {
-            id: "WhatSourcesSpatial",
-            tilte: "Pollution Sources",
-            description:
-                "What are the sources of pollution in your locality? full description of this prompt",
-            url: "/prompt/faq/WhatSourcesSpatial",
-        },
-        {
-            id: "WhatArePolluters",
-            tilte: "Pollutants",
-            description:
-                "What are these particulate matter and polluting gases? full description of this prompt",
-            url: "/prompt/faq/WhatArePolluters",
-        },
-        {
-            id: "AQINearMe",
-            tilte: "Find AQI Near me",
-            description:
-                "What is the AQI near me? full description of this prompt",
-            url: "/prompt/aqi",
-        },
-    ];
 </script>
 
 <div
@@ -75,7 +61,7 @@
                         {$Constants["nextPromptTitle"]}
                     </h2>
                 </li> -->
-                {#each prompts as { id, tilte, description, url }, index (id)}
+                {#each current_prompts as { id, title, description, url }}
                     <li class="text-xl text-left py-3 sm:py-4">
                         <!-- svelte-ignore a11y-missing-attribute -->
                         <a
@@ -87,12 +73,14 @@
                                     <p
                                         class="text-xl text-gray-900 truncate dark:text-white"
                                     >
-                                        {tilte}
+                                        {title[$GlobalLanguage]}
                                     </p>
                                     <p
                                         class="text-xl text-gray-500 truncate dark:text-gray-400"
                                     >
-                                        {description}
+                                        {stripHtml(
+                                            description[$GlobalLanguage]
+                                        )}
                                     </p>
                                 </div>
                             </div>

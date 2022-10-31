@@ -3,6 +3,14 @@
     let nextLink = "/options/lang";
     import { fade, scale } from "svelte/transition";
     import { cubicOut } from "svelte/easing";
+    import { onMount } from "svelte";
+    import { SpeakText, sleep } from "../utils";
+
+    onMount(async () => {
+        console.log("Loaded greetings");
+        // await sleep(1000);
+        // SpeakText("SplashMessage");
+    });
 </script>
 
 <div
