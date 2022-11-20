@@ -1,2 +1,5 @@
-yarrrml-parser -i eziostat.yml -o eziostat.rml
-yarrrml-parser -i cpcb.yml -o cpcb.rml
+# npm i -g @rmlio/yarrrml-parser
+rm ./mappings/eziostat.rml
+yarrrml-parser -i ./yarrml_mappings/eziostat.yml -o ./mappings/eziostat.rml
+rm ./mappings/cpcb.rml
+yarrrml-parser -i ./yarrml_mappings/cpcb.yml -o ./mappings/cpcb.rml

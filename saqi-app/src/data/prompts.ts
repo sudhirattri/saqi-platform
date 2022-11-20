@@ -405,5 +405,5 @@ export const sparql_prompt_data: Prompt =
         Eng: "Get pollution sources from your nighbourhood",
         Hin: "अपने आस-पड़ोस से प्रदूषण के स्रोत प्राप्त करें"
     },
-    url: "/prompt/faq/HowToUseApp"
+    url: "/prompt/sparql/HowToUseApp"
 }

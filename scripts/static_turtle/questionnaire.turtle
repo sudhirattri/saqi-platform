@@ -13,87 +13,87 @@
 #    Annotation properties
 #################################################################
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyaccessibilityOfAQData
+###  https://kracr.iiitd.edu.in/ontology/saqi#accessibilityOfAQData
 ns0:SAQIOntologyaccessibilityOfAQData rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyairQualityChangeIn3Years
+###  https://kracr.iiitd.edu.in/ontology/saqi#airQualityChangeIn3Years
 ns0:SAQIOntologyairQualityChangeIn3Years rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologydelhiGovtWorkPerception
+###  https://kracr.iiitd.edu.in/ontology/saqi#delhiGovtWorkPerception
 ns0:SAQIOntologydelhiGovtWorkPerception rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyfrequencyToCheckAQI
+###  https://kracr.iiitd.edu.in/ontology/saqi#frequencyToCheckAQI
 ns0:SAQIOntologyfrequencyToCheckAQI rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhasAQIColorLiteracy
+###  https://kracr.iiitd.edu.in/ontology/saqi#hasAQIColorLiteracy
 ns0:SAQIOntologyhasAQIColorLiteracy rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhasAQILiteracy
+###  https://kracr.iiitd.edu.in/ontology/saqi#hasAQILiteracy
 ns0:SAQIOntologyhasAQILiteracy rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhasAirPollutionGraphicLiteracy
+###  https://kracr.iiitd.edu.in/ontology/saqi#hasAirPollutionGraphicLiteracy
 ns0:SAQIOntologyhasAirPollutionGraphicLiteracy rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhasAirPollutionLiteracy
+###  https://kracr.iiitd.edu.in/ontology/saqi#hasAirPollutionLiteracy
 ns0:SAQIOntologyhasAirPollutionLiteracy rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhasIndividualPerception
+###  https://kracr.iiitd.edu.in/ontology/saqi#hasIndividualPerception
 ns0:SAQIOntologyhasIndividualPerception rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhasParticulateMatterLiteracy
+###  https://kracr.iiitd.edu.in/ontology/saqi#hasParticulateMatterLiteracy
 ns0:SAQIOntologyhasParticulateMatterLiteracy rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyhowIsYourLocalityComparedToOtherAreas
+###  https://kracr.iiitd.edu.in/ontology/saqi#howIsYourLocalityComparedToOtherAreas
 ns0:SAQIOntologyhowIsYourLocalityComparedToOtherAreas rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyisPartOfSocialCohort
+###  https://kracr.iiitd.edu.in/ontology/saqi#isPartOfSocialCohort
 ns0:SAQIOntologyisPartOfSocialCohort rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologylocalAirQualityRating
+###  https://kracr.iiitd.edu.in/ontology/saqi#localAirQualityRating
 ns0:SAQIOntologylocalAirQualityRating rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologypeopleVotedOnAirPollutionIssues
+###  https://kracr.iiitd.edu.in/ontology/saqi#peopleVotedOnAirPollutionIssues
 ns0:SAQIOntologypeopleVotedOnAirPollutionIssues rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections
+###  https://kracr.iiitd.edu.in/ontology/saqi#shouldPollutionIssuesBeRaisedInMCDElections
 ns0:SAQIOntologyshouldPollutionIssuesBeRaisedInMCDElections rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologytalkAboutAirQualityWithOtherPeople
+###  https://kracr.iiitd.edu.in/ontology/saqi#talkAboutAirQualityWithOtherPeople
 ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyusesAirPurifier
+###  https://kracr.iiitd.edu.in/ontology/saqi#usesAirPurifier
 ns0:SAQIOntologyusesAirPurifier rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologywearsMask
+###  https://kracr.iiitd.edu.in/ontology/saqi#wearsMask
 ns0:SAQIOntologywearsMask rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologywhenDoYouTalkAboutAirQuality
+###  https://kracr.iiitd.edu.in/ontology/saqi#whenDoYouTalkAboutAirQuality
 ns0:SAQIOntologywhenDoYouTalkAboutAirQuality rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyworkplaceUpdatesAboutPollution
+###  https://kracr.iiitd.edu.in/ontology/saqi#workplaceUpdatesAboutPollution
 ns0:SAQIOntologyworkplaceUpdatesAboutPollution rdf:type owl:AnnotationProperty .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyworksFromHome
+###  https://kracr.iiitd.edu.in/ontology/saqi#worksFromHome
 ns0:SAQIOntologyworksFromHome rdf:type owl:AnnotationProperty .
 
 
@@ -101,7 +101,7 @@ ns0:SAQIOntologyworksFromHome rdf:type owl:AnnotationProperty .
 #    Classes
 #################################################################
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyPerson
+###  https://kracr.iiitd.edu.in/ontology/saqi#Person
 ns0:SAQIOntologyPerson rdf:type owl:Class .
 
 
@@ -109,12 +109,12 @@ ns0:SAQIOntologyPerson rdf:type owl:Class .
 #    Individuals
 #################################################################
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_1
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_1
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_1 rdf:type owl:NamedIndividual ,
                                                     ns0:SAQIOntologyPerson ;
                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_1" ;
-                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_1" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_1" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_1" ;
                                            ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                            ns0:SAQIOntologyusesAirPurifier "Yes" ;
@@ -123,12 +123,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_1 rdf:type owl:NamedIndividual ,
                                            ns0:SAQIOntologyworksFromHome "Yes" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_10
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_10
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_10 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Slightly accessible" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_10" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_10" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_10" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_10" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -137,12 +137,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_10 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_11
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_11
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_11 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_11" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_11" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_11" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_11" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -151,12 +151,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_11 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_12
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_12
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_12 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_12" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_12" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_12" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_12" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -165,12 +165,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_12 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_13
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_13
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_13 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_13" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_13" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_13" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_13" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -179,12 +179,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_13 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_14
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_14
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_14 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_14" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_14" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_14" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_14" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -193,12 +193,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_14 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_15
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_15
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_15 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_15" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_15" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_15" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_15" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -207,12 +207,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_15 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_16
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_16
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_16 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_16" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_16" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_16" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_16" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -221,12 +221,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_16 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_17
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_17
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_17 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_17" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_17" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_17" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_17" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -235,12 +235,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_17 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_18
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_18
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_18 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_18" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_18" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_18" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_18" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -249,12 +249,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_18 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_19
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_19
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_19 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_19" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_19" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_19" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_19" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -263,12 +263,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_19 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_2
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_2
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_2 rdf:type owl:NamedIndividual ,
                                                     ns0:SAQIOntologyPerson ;
                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_2" ;
-                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_2" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_2" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_2" ;
                                            ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                            ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -277,12 +277,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_2 rdf:type owl:NamedIndividual ,
                                            ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_20
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_20
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_20 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_20" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_20" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_20" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_20" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Teacher " ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -291,12 +291,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_20 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_21
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_21
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_21 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_21" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_21" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_21" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_21" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -305,12 +305,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_21 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_22
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_22
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_22 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_22" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_22" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_22" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_22" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -319,12 +319,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_22 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_23
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_23
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_23 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_23" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_23" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_23" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_23" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -333,12 +333,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_23 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_24
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_24
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_24 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_24" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_24" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_24" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_24" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -347,12 +347,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_24 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_25
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_25
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_25 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_25" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_25" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_25" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_25" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -361,12 +361,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_25 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_26
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_26
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_26 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_26" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_26" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_26" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_26" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -375,12 +375,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_26 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_27
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_27
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_27 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_27" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_27" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_27" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_27" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -389,12 +389,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_27 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_28
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_28
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_28 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_28" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_28" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_28" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_28" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -403,12 +403,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_28 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_29
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_29
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_29 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_29" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_29" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_29" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_29" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -417,12 +417,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_29 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_3
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_3
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_3 rdf:type owl:NamedIndividual ,
                                                     ns0:SAQIOntologyPerson ;
                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_3" ;
-                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_3" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_3" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_3" ;
                                            ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "No" ;
                                            ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -431,12 +431,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_3 rdf:type owl:NamedIndividual ,
                                            ns0:SAQIOntologyworksFromHome "Yes" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_30
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_30
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_30 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_30" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_30" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_30" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_30" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Social worker" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -445,12 +445,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_30 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_31
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_31
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_31 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_31" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_31" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_31" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_31" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -459,12 +459,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_31 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_32
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_32
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_32 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_32" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_32" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_32" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_32" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -473,12 +473,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_32 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_33
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_33
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_33 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_33" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_33" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_33" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_33" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -487,12 +487,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_33 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_34
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_34
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_34 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_34" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_34" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_34" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_34" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "No" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -501,12 +501,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_34 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_35
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_35
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_35 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_35" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_35" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_35" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_35" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "No" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -515,12 +515,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_35 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_36
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_36
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_36 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_36" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_36" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_36" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_36" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -529,12 +529,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_36 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_37
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_37
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_37 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_37" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_37" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_37" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_37" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -543,12 +543,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_37 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_38
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_38
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_38 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_38" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_38" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_38" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_38" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -557,12 +557,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_38 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_39
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_39
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_39 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_39" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_39" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_39" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_39" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -571,12 +571,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_39 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_4
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_4
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_4 rdf:type owl:NamedIndividual ,
                                                     ns0:SAQIOntologyPerson ;
                                            ns0:SAQIOntologyaccessibilityOfAQData "Slightly accessible" ;
-                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_4" ;
-                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_4" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_4" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_4" ;
                                            ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                            ns0:SAQIOntologyusesAirPurifier "Yes" ;
@@ -585,12 +585,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_4 rdf:type owl:NamedIndividual ,
                                            ns0:SAQIOntologyworksFromHome "Yes" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_40
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_40
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_40 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_40" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_40" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_40" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_40" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "Mother of Young Kids" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -599,12 +599,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_40 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_41
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_41
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_41 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_41" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_41" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_41" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_41" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -613,12 +613,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_41 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_42
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_42
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_42 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_42" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_42" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_42" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_42" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -627,12 +627,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_42 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_43
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_43
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_43 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_43" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_43" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_43" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_43" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -641,12 +641,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_43 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_44
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_44
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_44 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_44" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_44" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_44" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_44" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "No" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -655,12 +655,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_44 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_45
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_45
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_45 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_45" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_45" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_45" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_45" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "No" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -669,12 +669,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_45 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_46
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_46
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_46 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_46" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_46" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_46" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_46" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "No" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -683,12 +683,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_46 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_47
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_47
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_47 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_47" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_47" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_47" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_47" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -697,12 +697,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_47 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_48
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_48
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_48 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_48" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_48" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_48" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_48" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -711,12 +711,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_48 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_49
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_49
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_49 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_49" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_49" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_49" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_49" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -725,12 +725,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_49 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_5
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_5
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_5 rdf:type owl:NamedIndividual ,
                                                     ns0:SAQIOntologyPerson ;
                                            ns0:SAQIOntologyaccessibilityOfAQData "Slightly accessible" ;
-                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_5" ;
-                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_5" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_5" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_5" ;
                                            ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Maybe" ;
                                            ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -739,12 +739,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_5 rdf:type owl:NamedIndividual ,
                                            ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_50
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_50
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_50 rdf:type owl:NamedIndividual ,
                                                      ns0:SAQIOntologyPerson ;
                                             ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_50" ;
-                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_50" ;
+                                            ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_50" ;
+                                            ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_50" ;
                                             ns0:SAQIOntologyisPartOfSocialCohort "local Shopkeepers and vendors" ;
                                             ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                             ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -753,12 +753,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_50 rdf:type owl:NamedIndividual ,
                                             ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_6
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_6
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_6 rdf:type owl:NamedIndividual ,
                                                     ns0:SAQIOntologyPerson ;
                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_6" ;
-                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_6" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_6" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_6" ;
                                            ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                            ns0:SAQIOntologyusesAirPurifier "Yes" ;
@@ -767,12 +767,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_6 rdf:type owl:NamedIndividual ,
                                            ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_7
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_7
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_7 rdf:type owl:NamedIndividual ,
                                                     ns0:SAQIOntologyPerson ;
                                            ns0:SAQIOntologyaccessibilityOfAQData "Not accessible at all" ;
-                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_7" ;
-                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_7" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_7" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_7" ;
                                            ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                            ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -781,12 +781,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_7 rdf:type owl:NamedIndividual ,
                                            ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_8
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_8
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_8 rdf:type owl:NamedIndividual ,
                                                     ns0:SAQIOntologyPerson ;
                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_8" ;
-                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_8" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_8" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_8" ;
                                            ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                            ns0:SAQIOntologyusesAirPurifier "No" ;
@@ -795,12 +795,12 @@ ns0:SAQIOntologyperson_OkhlaOkhla_Person_8 rdf:type owl:NamedIndividual ,
                                            ns0:SAQIOntologyworksFromHome "No" .
 
 
-###  https://kracr.iiitd.edu.in/ontology/SAQIOntologyperson_OkhlaOkhla_Person_9
+###  https://kracr.iiitd.edu.in/ontology/saqi#person_OkhlaOkhla_Person_9
 ns0:SAQIOntologyperson_OkhlaOkhla_Person_9 rdf:type owl:NamedIndividual ,
                                                     ns0:SAQIOntologyPerson ;
                                            ns0:SAQIOntologyaccessibilityOfAQData "Very accessible" ;
-                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaqi_literacy_OkhlaOkhla_Person_9" ;
-                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/SAQIOntologyaq_Perception_OkhlaOkhla_Person_9" ;
+                                           ns0:SAQIOntologyhasAirPollutionLiteracy "https://kracr.iiitd.edu.in/ontology/saqi#aqi_literacy_OkhlaOkhla_Person_9" ;
+                                           ns0:SAQIOntologyhasIndividualPerception "https://kracr.iiitd.edu.in/ontology/saqi#aq_Perception_OkhlaOkhla_Person_9" ;
                                            ns0:SAQIOntologyisPartOfSocialCohort "Student" ;
                                            ns0:SAQIOntologytalkAboutAirQualityWithOtherPeople "Yes" ;
                                            ns0:SAQIOntologyusesAirPurifier "No" ;

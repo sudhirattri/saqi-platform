@@ -425,6 +425,30 @@
         <DataProperty IRI="#zipCode"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#DTCBusTerminal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JharodhaKalan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NangliDairy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SanjayColony"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ShaheenBagh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tekhand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#najafgarh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#okhla"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:contributor"/>
     </Declaration>
     <Declaration>

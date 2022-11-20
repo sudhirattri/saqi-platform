@@ -3,3 +3,5 @@ __pycache__/
 *$py.class
 scraping-server/logs
 logs
+apache-jena-fuseki-4.6.1
+scripts/.ipynb_checkpoints

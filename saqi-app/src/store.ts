@@ -4,6 +4,7 @@ export const GlobalLanguage = writable('Eng')
 export const SpatialLocation = writable('JarodhaKalan')
 export const SocialCohort = writable('Academy')
 export const IsMuted = writable(false)
+export const SPARQL_ENDPOINT = "http://localhost:3030/aq-store/sparql"
 
 const eng = {
     NextPage: "Go to next page",

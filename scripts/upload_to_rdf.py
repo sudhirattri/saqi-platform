@@ -5,6 +5,7 @@ import shutil
 import requests
 import json
 import sys
+from urllib.parse import unquote
 
 RDF_STORE_URL = "http://localhost:3030/"
 if len(sys.argv) > 1:
@@ -34,8 +35,8 @@ def upload_static_rdf_data():
             }
             print("Sending turtle payload for file: ",file)
             response = requests.request("POST",f"{RDF_STORE_URL}aq-store/data?default",headers=headers, data=turtle_data.encode('utf-8'))
+            
             response_json = json.loads(response.text)
-            print("Response from RDF store",response.text)
             if(response_json is not None and response_json["count"]>0):
                 print("Upload to RDF store is successful, Triples uploaded :",response_json["count"])
             else:
@@ -138,5 +139,5 @@ def upload_cpcb_sensors_data():
 
 # create_temp_dir()
 upload_static_rdf_data()
-upload_saqi_sensors_data()
+# upload_saqi_sensors_data()
 upload_cpcb_sensors_data() 
