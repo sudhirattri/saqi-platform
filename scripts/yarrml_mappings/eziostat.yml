@@ -14,7 +14,7 @@ mappings:
       - p: a
         o: saqi:Place
       - p: saqi:hasName
-        o: 
+        o:
           value: _locname
           datatype: rdfs:Literal
   # Particulate Matter
@@ -27,30 +27,29 @@ mappings:
       - p: a
         o: saqi:ParticulateMatter
       - p: saqi:particulateMatter10Concentration
-        o: 
+        o:
           value: $(pm10)
           datatype: xsd:float
         condition:
-            function: idlab-fn:notEqual
-            parameters:
-              - [grel:valueParameter, $(pm10)]
-              - [grel:valueParameter2, "null"]
+          function: idlab-fn:notEqual
+          parameters:
+            - [grel:valueParameter, $(pm10)]
+            - [grel:valueParameter2, "null"]
 
       - p: saqi:particulateMatter2_5Concentration
         o:
           value: $(pm2_5)
           datatype: xsd:float
         condition:
-            function: idlab-fn:notEqual
-            parameters:
-              - [grel:valueParameter, $(pm2_5)]
-              - [grel:valueParameter2, "null"]
+          function: idlab-fn:notEqual
+          parameters:
+            - [grel:valueParameter, $(pm2_5)]
+            - [grel:valueParameter2, "null"]
       - p: saqi:hasObservation
-        o: 
+        o:
           value: saqi:pm_obs__locname$(createdAt)
           type: iri
 
-        
   obspm:
     sources:
       - access: _filename
@@ -68,10 +67,9 @@ mappings:
           value: saqi:_locname
           type: iri
       - p: saqi:dataSource
-        o: 
+        o:
           value: SAQI Local Sensors
           datatype: rdfs:Literal
-
 
   # Meterological Characteristics
   mc:
@@ -87,21 +85,21 @@ mappings:
           value: $(temp)
           datatype: xsd:float
         condition:
-            function: idlab-fn:notEqual
-            parameters:
-              - [grel:valueParameter, $(pm10)]
-              - [grel:valueParameter2, "null"]
+          function: idlab-fn:notEqual
+          parameters:
+            - [grel:valueParameter, $(pm10)]
+            - [grel:valueParameter2, "null"]
       - p: saqi:relativeHumidity
         o:
           value: $(humid)
           datatype: xsd:float
         condition:
-            function: idlab-fn:notEqual
-            parameters:
-              - [grel:valueParameter, $(pm10)]
-              - [grel:valueParameter2, "null"]
+          function: idlab-fn:notEqual
+          parameters:
+            - [grel:valueParameter, $(pm10)]
+            - [grel:valueParameter2, "null"]
       - p: saqi:hasObservation
-        o: 
+        o:
           value: saqi:mc_obs__locname$(createdAt)
           type: iri
   omc:
@@ -121,7 +119,6 @@ mappings:
           value: $(localtime)
           datatype: xsd:dateTime
       - p: saqi:dataSource
-        o: 
+        o:
           value: SAQI Local Sensors
           datatype: rdfs:Literal
-

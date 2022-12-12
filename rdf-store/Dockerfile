@@ -1,0 +1,5 @@
+FROM stain/jena-fuseki
+ENV ADMIN_PASSWORD=123
+ENV FUSEKI_DATASET_1=aq-store
+
+EXPOSE 3030/tcp

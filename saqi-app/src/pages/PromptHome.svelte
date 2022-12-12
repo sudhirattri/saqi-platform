@@ -11,6 +11,7 @@
     import type { Prompt } from "../data/prompts";
     import { onMount } from "svelte";
     import { SpeakText, getRandomInt, stripHtml } from "../utils";
+    import SparqlEndpointButton from "../components/SparqlEndpointButton.svelte";
 
     onMount(async () => {
         console.log("Loaded Language Selection");
@@ -21,14 +22,22 @@
 
     let faq_choice_1 = getRandomInt(faq_prompt_data.length);
     let faq_choice_2 = getRandomInt(faq_prompt_data.length);
+    let faq_choice_3 = getRandomInt(faq_prompt_data.length);
+
+    let sparql_choice = getRandomInt(sparql_prompt_data.length);
+
+    let aqi_choice = getRandomInt(aqi_prompt_data.length);
     while (faq_choice_2 == faq_choice_1)
         faq_choice_2 = getRandomInt(faq_prompt_data.length);
-    console.log("generated FAQs: ", faq_choice_1, faq_choice_2);
+    while (faq_choice_3 == faq_choice_2 && faq_choice_3 == faq_choice_1)
+        faq_choice_3 = getRandomInt(faq_prompt_data.length);
+
     let current_prompts: Prompt[] = [
         faq_prompt_data[faq_choice_1],
         faq_prompt_data[faq_choice_2],
-        aqi_prompt_data,
-        sparql_prompt_data,
+        faq_prompt_data[faq_choice_3],
+        aqi_prompt_data[aqi_choice],
+        // sparql_prompt_data[sparql_choice],
     ];
     type PromptData = {
         id: string;
@@ -42,6 +51,7 @@
     transition:scale={{ delay: 50, duration: 200, easing: cubicOut }}
     class="flex h-screen w-screen "
 >
+    <SparqlEndpointButton />
     <div class="w-3/4 m-auto flex flex-col mt-32 mb-32 ">
         <!-- svelte-ignore a11y-missing-attribute -->
         <a

@@ -36,7 +36,24 @@ type AQIData = {
     o3: number;
     nh3: number;
 };
+export async function runSPARQL(query: string) {
+    console.log(query)
+    // let response = await fetch('http://localhost:3030/#/dataset/aq-store/query?query=' + encodeURIComponent(query))
 
+    let response = await fetch("http://localhost:3030/aq-store/query",
+        {
+            method: "POST",
+            headers:
+            {
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: "query=" + encodeURIComponent(query)
+        })
+    console.log(response);
+    let data = await response.json()
+    console.log(data);
+    return data
+}
 export function getAQIIndex(aqi_data: AQIData) {
     let pm25_index = get_PM25_subindex(aqi_data.pm25);
     let pm10_index = get_PM10_subindex(aqi_data.pm10);

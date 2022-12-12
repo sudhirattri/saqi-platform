@@ -1,0 +1,20 @@
+# The query returns average grouped rating groups across different social cohorts
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX aq: <http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#>
+PREFIX saqi: <https://kracr.iiitd.edu.in/ontology/saqi#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ns0: <https://kracr.iiitd.edu.in/ontology/>
+SELECT  ?cohort ?rating (COUNT( ?rating) as ?count_rating) WHERE {
+  ?person rdf:type saqi:Person ;
+  saqi:hasIndividualPerception ?perception ;
+  saqi:isPartOfSocialCohort ?cohort ;
+  saqi:hasAirPollutionLiteracy ?literacy .
+  ?perception saqi:localAirQualityRating ?rating .
+  ?literacy saqi:hasAQILiteracy ?hasliteracy .
+} 
+GROUP BY ?cohort ?rating
+ORDER BY ?cohort ?rating
+
+

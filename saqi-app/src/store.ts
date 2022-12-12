@@ -3,7 +3,8 @@ import { writable, derived } from 'svelte/store'
 export const GlobalLanguage = writable('Eng')
 export const SpatialLocation = writable('JarodhaKalan')
 export const SocialCohort = writable('Academy')
-export const IsMuted = writable(false)
+export const IsMuted = writable(true)
+export const IsSparql = writable(false)
 export const SPARQL_ENDPOINT = "http://localhost:3030/aq-store/sparql"
 
 const eng = {
@@ -59,7 +60,16 @@ const eng = {
     VeryPoor: "Very Poor: Respiratory illness on prolonged exposure",
     Severe: "Severe: Affects healthy people and seriously impacts those with existing diseases",
 
-    Inference: "Deduction"
+    Inference: "Deduction",
+    SplashText: "Click anywhere to continue",
+
+    Morning: "Morning",
+    Afternoon: "Afternoon",
+    Evening: "Evening",
+    Night: "Night",
+
+    MaxPollutionIn: "Maximum pollution is observed at ",
+    MinPollutionIn: "Maximum pollution is observed at ",
 };
 const hin = {
     NextPage: "अगले पेज पर जाएं",
@@ -117,7 +127,16 @@ const hin = {
     VeryPoor: "बहुत गंभीर : लंबे समय तक संपर्क में रहने पर सांस की बीमारी ठीक हो सकती है।",
     Severe: "बहुत गंभीर : इतना प्रदूषण स्वस्थ लोगों को प्रभावित कर सकता है और मौजूदा बीमारियों वाले लोगों को गंभीर रूप से प्रभावित कर सकता है",
 
-    Inference: "निष्कर्ष"
+    Inference: "निष्कर्ष",
+    SplashText: "जारी रखें",
+
+    Morning: "सुबह",
+    Afternoon: "दोपहर",
+    Evening: "शाम",
+    Night: "रात",
+
+    MaxPollutionIn: " के समय सबसे ज्यादा प्रदूषण देखा जाता है",
+    MinPollutionIn: " के समय सबसे सबसे कम प्रदूषण देखा जाता है",
 };
 
 export const Constants = derived(

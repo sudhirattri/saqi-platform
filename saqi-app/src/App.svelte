@@ -8,16 +8,19 @@
   import LocationSelection from "./pages/LocationSelection.svelte";
   import CohortSelection from "./pages/CohortSelection.svelte";
 
-  import AqiViewer from "./pages/AqiViewer.svelte";
+  import AqiViewerAverageMetrics from "./pages/AqiViewerAverageMetrics.svelte";
+  import AqiViewerDayMetrics from "./pages/AqiViewerDayMetrics.svelte";
   import FaqPage from "./pages/FaqPage.svelte";
+  import SPARQLViewer from "./pages/SPARQLViewer.svelte";
 
   import BaseLayout from "./components/BaseLayout.svelte";
   import LanguageSelector from "./components/LanguageSelector.svelte";
   import Particles from "./components/Particles.svelte";
   import MuteSelector from "./components/MuteSelector.svelte";
   import FullScreenLoader from "./components/FullScreenLoader.svelte";
+  import SparqlViewer from "./pages/SPARQLViewer.svelte";
 
-  import { SpeechVoices } from "./store";
+  import { SpeechVoices, IsSparql } from "./store";
   import { sleep } from "./utils";
 
   const routes = {
@@ -27,7 +30,10 @@
     "/options/cohort": CohortSelection,
     "/prompt": PromptHome,
     "/prompt/faq/:id": FaqPage,
-    "/prompt/aqi": AqiViewer,
+    "/prompt/sparql/:id": SPARQLViewer,
+    "/prompt/aqi/avg": AqiViewerAverageMetrics,
+    "/prompt/aqi/day": AqiViewerDayMetrics,
+    "/sparql": SparqlViewer,
     "*": NotFound,
   };
 
@@ -50,13 +56,33 @@
     await sleep(1000);
     isSpeechLoaded = true;
   };
+
+  function routeLoaded(event) {
+    if (event.detail.location == "/sparql") {
+      IsSparql.set(true);
+    } else {
+      IsSparql.set(false);
+    }
+    console.log("routeLoaded event", IsSparql);
+    // The first 5 properties are the same as for the routeLoading event
+    // console.log("Route", event.detail.route);
+    console.log("Location", event.detail.location);
+    // console.log("Querystring", event.detail.querystring);
+    // console.log("Params", event.detail.params);
+    // console.log("User data", event.detail.userData);
+    // The last two properties are unique to routeLoaded
+    // console.log("Component", event.detail.component); // This is a Svelte component, so a function
+    // console.log("Name", event.detail.name);
+  }
 </script>
 
-<main>
-  <LanguageSelector />
-  <MuteSelector />
-  <Particles />
-  <Router {routes} />
+<main class="h-screen w-screen">
+  {#if !IsSparql}
+    <LanguageSelector />
+    <MuteSelector />
+    <Particles />
+  {/if}
+  <Router {routes} on:routeLoaded={routeLoaded} />
   {#if !isSpeechLoaded}
     <FullScreenLoader />
   {/if}

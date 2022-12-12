@@ -1,0 +1,71 @@
+# The query returns average grouped rating groups across different spatial locations
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX aq: <http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#>
+PREFIX saqi: <https://kracr.iiitd.edu.in/ontology/saqi#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ns0: <https://kracr.iiitd.edu.in/ontology/>
+SELECT * {
+  {
+    SELECT ?rating ?placeName (COUNT( ?rating) as ?count) 
+      WHERE {
+      ?person rdf:type saqi:Person ;
+      saqi:hasIndividualPerception ?perception ;
+      saqi:isPartOfSocialCohort ?cohort ;
+      saqi:livesIn ?place ;
+      saqi:hasAirPollutionLiteracy ?literacy .
+      ?perception saqi:localAirQualityRating ?rating .
+      ?literacy saqi:hasAQILiteracy ?hasliteracy .
+
+      ?place saqi:hasName ?placeName .
+
+    } 
+    GROUP BY ?rating ?placeName
+    ORDER BY ?rating ?placeName
+  } 
+}
+
+
+
+
+# The query returns average grouped rating groups across different spatial locations
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX aq: <http://www.semanticweb.org/saadf/ontologies/2021/2/AirQualityOntology#>
+PREFIX saqi: <https://kracr.iiitd.edu.in/ontology/saqi#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ns0: <https://kracr.iiitd.edu.in/ontology/>
+    SELECT ?rating ?placeName (COUNT( ?rating) as ?count) ?count2
+      WHERE {
+      ?person rdf:type saqi:Person ;
+      saqi:hasIndividualPerception ?perception ;
+      saqi:isPartOfSocialCohort ?cohort ;
+      saqi:livesIn ?place ;
+      saqi:hasAirPollutionLiteracy ?literacy .
+      ?perception saqi:localAirQualityRating ?rating .
+      ?literacy saqi:hasAQILiteracy ?hasliteracy .
+
+      ?place saqi:hasName ?placeName .
+  		{
+    		SELECT (COUNT( ?placeName) as ?count2)
+    		WHERE {
+                ?person rdf:type saqi:Person ;
+                saqi:hasIndividualPerception ?perception ;
+                saqi:isPartOfSocialCohort ?cohort ;
+                saqi:livesIn ?place ;
+                saqi:hasAirPollutionLiteracy ?literacy .
+                ?perception saqi:localAirQualityRating ?rating .
+                ?literacy saqi:hasAQILiteracy ?hasliteracy .
+    		}
+    		GROUP BY ?placeName
+  		}	
+
+    } 
+    GROUP BY ?rating ?placeName ?count2
+    ORDER BY ?rating ?placeName
+
+
+
+    
